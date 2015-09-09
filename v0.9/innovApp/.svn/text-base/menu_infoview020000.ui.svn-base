@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ResultInfoMenu</class>
+ <widget class="QWidget" name="ResultInfoMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>504</width>
+    <height>387</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="UIPicture" name="pic_bg">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>504</width>
+     <height>387</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>big_bg.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_bar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>504</width>
+     <height>54</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>head-bg.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_title">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>168</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>详细信息</string>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>h1_bg.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>5</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>160</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_back">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>10</y>
+     <width>51</width>
+     <height>44</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>back.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>back_hover.png</string>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_map">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>10</y>
+     <width>70</width>
+     <height>43</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>map_text_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>map_text_hover.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_line">
+   <property name="geometry">
+    <rect>
+     <x>425</x>
+     <y>6</y>
+     <width>2</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>xian.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_mainbg">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>53</y>
+     <width>377</width>
+     <height>335</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>details-bg.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_info">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>330</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>上海南开物业管理公司</string>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>details_h3_bg.png</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>330</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>41</red>
+     <green>150</green>
+     <blue>185</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_name">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>140</y>
+     <width>330</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>地址：</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>330</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>102</red>
+     <green>102</green>
+     <blue>102</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_tel">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>170</y>
+     <width>330</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>电话：</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>330</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>102</red>
+     <green>102</green>
+     <blue>102</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_state">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>200</y>
+     <width>330</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>区域：</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>330</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>102</red>
+     <green>102</green>
+     <blue>102</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_guide">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>83</y>
+     <width>100</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>导航</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>details_bg_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>details_bg_hover.png</string>
+   </property>
+   <property name="disablebackimage" stdset="0">
+    <string>details_bg_disable.png</string>
+   </property>
+   <property name="normaliconimage" stdset="0">
+    <string>navigation_deful.png</string>
+   </property>
+   <property name="disableiconimage" stdset="0">
+    <string>navigation_disable.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>15</x>
+     <y>20</y>
+     <width>26</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>50</x>
+     <y>0</y>
+     <width>100</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_view">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>169</y>
+     <width>100</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>显示</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>details_bg_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>details_bg_hover.png</string>
+   </property>
+   <property name="disablebackimage" stdset="0">
+    <string>details_bg_disable.png</string>
+   </property>
+   <property name="normaliconimage" stdset="0">
+    <string>show_deful.png</string>
+   </property>
+   <property name="disableiconimage" stdset="0">
+    <string>show_disable.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>15</x>
+     <y>20</y>
+     <width>25</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>50</x>
+     <y>0</y>
+     <width>100</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_mark">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>254</y>
+     <width>100</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>收藏</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>details_bg_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>details_bg_hover.png</string>
+   </property>
+   <property name="disablebackimage" stdset="0">
+    <string>details_bg_disable.png</string>
+   </property>
+   <property name="normaliconimage" stdset="0">
+    <string>collection_deful.png</string>
+   </property>
+   <property name="disableiconimage" stdset="0">
+    <string>collection_disable.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>15</x>
+     <y>20</y>
+     <width>29</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>50</x>
+     <y>0</y>
+     <width>100</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignVCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>UIButton</class>
+   <extends>QWidget</extends>
+   <header>uibutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>UIPicture</class>
+   <extends>QWidget</extends>
+   <header>uipicture.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

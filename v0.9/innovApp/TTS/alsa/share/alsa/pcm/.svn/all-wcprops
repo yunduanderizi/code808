@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/pcm
+END
+modem.conf
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/pcm/modem.conf
+END
+dmix.conf
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/pcm/dmix.conf
+END
+dsnoop.conf
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/pcm/dsnoop.conf
+END
+iec958.conf
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/pcm/iec958.conf
+END
+center_lfe.conf
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/pcm/center_lfe.conf
+END
+dpl.conf
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/pcm/dpl.conf
+END
+hdmi.conf
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/pcm/hdmi.conf
+END
+side.conf
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/pcm/side.conf
+END
+default.conf
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/pcm/default.conf
+END
+surround40.conf
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/pcm/surround40.conf
+END
+surround50.conf
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/pcm/surround50.conf
+END
+surround41.conf
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/pcm/surround41.conf
+END
+surround51.conf
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/pcm/surround51.conf
+END
+front.conf
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/pcm/front.conf
+END
+surround71.conf
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/pcm/surround71.conf
+END
+rear.conf
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/pcm/rear.conf
+END

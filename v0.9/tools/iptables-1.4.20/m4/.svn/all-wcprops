@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/m4
+END
+lt~obsolete.m4
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/m4/lt~obsolete.m4
+END
+ltoptions.m4
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/m4/ltoptions.m4
+END
+ltsugar.m4
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/m4/ltsugar.m4
+END
+libtool.m4
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/m4/libtool.m4
+END
+ax_check_linker_flags.m4
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/m4/ax_check_linker_flags.m4
+END
+ltversion.m4
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/m4/ltversion.m4
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/m4/.gitignore
+END

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>versionmenu</class>
+ <widget class="QWidget" name="versionmenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>504</width>
+    <height>387</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="UIPicture" name="pic_bg">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>504</width>
+     <height>387</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>big_bg.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_headpg_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>504</width>
+     <height>54</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>head-bg.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_headbg_1">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>168</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>版本信息</string>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>h1_bg.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>5</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>160</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_back">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>10</y>
+     <width>51</width>
+     <height>44</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>back.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>back_hover.png</string>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_map">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>10</y>
+     <width>70</width>
+     <height>43</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>map_text_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>map_text_hover.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_septalline">
+   <property name="geometry">
+    <rect>
+     <x>425</x>
+     <y>6</y>
+     <width>2</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>xian.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_versioninfo">
+   <property name="geometry">
+    <rect>
+     <x>28</x>
+     <y>81</y>
+     <width>447</width>
+     <height>274</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>main_VersionInformation.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>437</width>
+     <height>274</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>23</x>
+     <y>33</y>
+     <width>409</width>
+     <height>228</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="wordwrap" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>UIButton</class>
+   <extends>QWidget</extends>
+   <header>uibutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>UIPicture</class>
+   <extends>QWidget</extends>
+   <header>uipicture.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

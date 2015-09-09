@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/classic/attribute
+END
+typeof.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/classic/attribute/typeof.hpp
+END
+parametric.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/classic/attribute/parametric.hpp
+END
+closure.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/classic/attribute/closure.hpp
+END
+closure_fwd.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/classic/attribute/closure_fwd.hpp
+END
+closure_context.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/classic/attribute/closure_context.hpp
+END

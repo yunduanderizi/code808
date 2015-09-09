@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/bsManager/json
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/bsManager/json/config.h
+END
+json.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/bsManager/json/json.h
+END
+json_valueiterator.inl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/bsManager/json/json_valueiterator.inl
+END
+json_batchallocator.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/bsManager/json/json_batchallocator.h
+END
+value.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/bsManager/json/value.h
+END
+writer.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/bsManager/json/writer.h
+END
+features.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/bsManager/json/features.h
+END
+json_reader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/bsManager/json/json_reader.cpp
+END
+autolink.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/bsManager/json/autolink.h
+END
+forwards.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/bsManager/json/forwards.h
+END
+json_internalmap.inl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/bsManager/json/json_internalmap.inl
+END
+parsejson.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/bsManager/json/parsejson.cpp
+END
+json_internalarray.inl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/bsManager/json/json_internalarray.inl
+END
+json_writer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/bsManager/json/json_writer.cpp
+END
+json_value.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/bsManager/json/json_value.cpp
+END
+sconscript
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/bsManager/json/sconscript
+END
+reader.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/bsManager/json/reader.h
+END
+parsejson.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/bsManager/json/parsejson.h
+END

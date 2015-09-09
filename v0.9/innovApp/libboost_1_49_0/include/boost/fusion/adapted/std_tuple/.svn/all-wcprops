@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/adapted/std_tuple
+END
+std_tuple_iterator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/adapted/std_tuple/std_tuple_iterator.hpp
+END
+tag_of.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/adapted/std_tuple/tag_of.hpp
+END

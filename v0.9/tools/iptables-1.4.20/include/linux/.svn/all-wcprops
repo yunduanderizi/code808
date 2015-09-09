@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/include/linux
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/include/linux/types.h
+END
+netfilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/include/linux/netfilter.h
+END
+netfilter_ipv4.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/include/linux/netfilter_ipv4.h
+END
+kernel.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/include/linux/kernel.h
+END
+netfilter_ipv6.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/include/linux/netfilter_ipv6.h
+END

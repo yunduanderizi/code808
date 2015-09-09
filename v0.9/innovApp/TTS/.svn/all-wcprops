@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/tcc892x_common/!svn/ver/451/trunk/innovbox/v0.9/innovApp/TTS
+END
+platformTTS.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/platformTTS.cpp
+END
+read_Information.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/read_Information.cpp
+END
+platformTTS.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/platformTTS.h
+END
+read_Information.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/read_Information.h
+END
+read_news.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/read_news.cpp
+END
+ttssample.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/ttssample.txt
+END
+read_news.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/read_news.h
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/io/wkt
+END
+wkt.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/io/wkt/wkt.hpp
+END
+write.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/io/wkt/write.hpp
+END
+read.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/io/wkt/read.hpp
+END
+stream.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/io/wkt/stream.hpp
+END

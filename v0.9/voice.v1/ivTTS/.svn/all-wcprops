@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v1/ivTTS
+END
+AisoundTTS.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v1/ivTTS/AisoundTTS.h
+END
+iv_TTS.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v1/ivTTS/iv_TTS.cpp
+END
+AisoundTTS.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v1/ivTTS/AisoundTTS.cpp
+END
+iv_TTS.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v1/ivTTS/iv_TTS.h
+END

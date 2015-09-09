@@ -1,0 +1,5 @@
+#!/bin/sh
+
+./dbus-daemon --config-file=./system.conf 
+
+

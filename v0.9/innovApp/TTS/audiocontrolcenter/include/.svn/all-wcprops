@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/audiocontrolcenter/include
+END
+audio_control_server.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/audiocontrolcenter/include/audio_control_server.h
+END
+audio_main_volume.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/audiocontrolcenter/include/audio_main_volume.h
+END
+audio_control_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/audiocontrolcenter/include/audio_control_client.h
+END
+audio_control.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/audiocontrolcenter/include/audio_control.h
+END

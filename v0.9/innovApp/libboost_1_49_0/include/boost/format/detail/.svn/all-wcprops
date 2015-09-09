@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/format/detail
+END
+config_macros.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/format/detail/config_macros.hpp
+END
+compat_workarounds.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/format/detail/compat_workarounds.hpp
+END
+unset_macros.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/format/detail/unset_macros.hpp
+END
+workarounds_stlport.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/format/detail/workarounds_stlport.hpp
+END
+workarounds_gcc-2_95.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/format/detail/workarounds_gcc-2_95.hpp
+END
+msvc_disambiguater.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/format/detail/msvc_disambiguater.hpp
+END

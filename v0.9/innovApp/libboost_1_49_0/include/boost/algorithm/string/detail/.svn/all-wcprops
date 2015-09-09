@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/algorithm/string/detail
+END
+sequence.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/algorithm/string/detail/sequence.hpp
+END
+trim.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/algorithm/string/detail/trim.hpp
+END
+util.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/algorithm/string/detail/util.hpp
+END
+find_format_all.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/algorithm/string/detail/find_format_all.hpp
+END
+find_format.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/algorithm/string/detail/find_format.hpp
+END
+find_iterator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/algorithm/string/detail/find_iterator.hpp
+END
+classification.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/algorithm/string/detail/classification.hpp
+END
+formatter_regex.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/algorithm/string/detail/formatter_regex.hpp
+END
+replace_storage.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/algorithm/string/detail/replace_storage.hpp
+END
+predicate.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/algorithm/string/detail/predicate.hpp
+END
+case_conv.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/algorithm/string/detail/case_conv.hpp
+END
+finder_regex.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/algorithm/string/detail/finder_regex.hpp
+END
+formatter.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/algorithm/string/detail/formatter.hpp
+END
+find_format_store.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/algorithm/string/detail/find_format_store.hpp
+END
+finder.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/algorithm/string/detail/finder.hpp
+END

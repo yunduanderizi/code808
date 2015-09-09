@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>areaclosemenu</class>
+ <widget class="QWidget" name="areaclosemenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>504</width>
+    <height>387</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="UIButton" name="btn_zoomout">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>231</y>
+     <width>67</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>small_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>small_hover.png</string>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_zoomin">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>170</y>
+     <width>67</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>big_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>big2_hover.png</string>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_back">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>100</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>moni_button_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>moni_button_hover.png</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>100</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_edit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>100</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>编辑</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>moni_button_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>moni_button_hover.png</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>100</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>UIButton</class>
+   <extends>QWidget</extends>
+   <header>uibutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/views/detail
+END
+range_type.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/views/detail/range_type.hpp
+END
+points_view.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/views/detail/points_view.hpp
+END

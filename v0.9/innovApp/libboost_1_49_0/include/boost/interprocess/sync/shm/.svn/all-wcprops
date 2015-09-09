@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/interprocess/sync/shm
+END
+named_mutex.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/interprocess/sync/shm/named_mutex.hpp
+END
+named_semaphore.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/interprocess/sync/shm/named_semaphore.hpp
+END
+named_creation_functor.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/interprocess/sync/shm/named_creation_functor.hpp
+END
+named_condition.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/interprocess/sync/shm/named_condition.hpp
+END
+named_upgradable_mutex.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/interprocess/sync/shm/named_upgradable_mutex.hpp
+END
+named_recursive_mutex.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/interprocess/sync/shm/named_recursive_mutex.hpp
+END

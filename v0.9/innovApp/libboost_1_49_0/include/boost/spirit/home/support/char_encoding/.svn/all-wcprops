@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/support/char_encoding
+END
+standard.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/support/char_encoding/standard.hpp
+END
+unicode.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/support/char_encoding/unicode.hpp
+END
+ascii.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/support/char_encoding/ascii.hpp
+END
+iso8859_1.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/support/char_encoding/iso8859_1.hpp
+END
+standard_wide.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/support/char_encoding/standard_wide.hpp
+END

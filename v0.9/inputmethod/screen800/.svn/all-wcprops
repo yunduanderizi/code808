@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/inputmethod/screen800
+END
+handinput.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/inputmethod/screen800/handinput.h
+END
+characterwidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/inputmethod/screen800/characterwidget.cpp
+END
+letterwidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/inputmethod/screen800/letterwidget.cpp
+END
+inputmethod.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/inputmethod/screen800/inputmethod.qrc
+END
+digitwidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/inputmethod/screen800/digitwidget.cpp
+END
+swtichslectewidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/inputmethod/screen800/swtichslectewidget.cpp
+END
+characterwidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/inputmethod/screen800/characterwidget.h
+END
+letterwidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/inputmethod/screen800/letterwidget.h
+END
+digitwidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/inputmethod/screen800/digitwidget.h
+END
+swtichslectewidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/inputmethod/screen800/swtichslectewidget.h
+END
+fcitxMethod.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/inputmethod/screen800/fcitxMethod.cpp
+END
+fcitxMethod.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/inputmethod/screen800/fcitxMethod.h
+END
+voiceinput.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/inputmethod/screen800/voiceinput.cpp
+END
+pinyininputmethod.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/inputmethod/screen800/pinyininputmethod.cpp
+END
+editwidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/inputmethod/screen800/editwidget.cpp
+END
+handinput.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/inputmethod/screen800/handinput.cpp
+END
+voiceinput.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/inputmethod/screen800/voiceinput.h
+END
+pinyininputmethod.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/inputmethod/screen800/pinyininputmethod.h
+END
+editwidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/inputmethod/screen800/editwidget.h
+END

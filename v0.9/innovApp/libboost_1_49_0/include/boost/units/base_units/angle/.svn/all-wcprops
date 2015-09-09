@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/units/base_units/angle
+END
+gradian.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/units/base_units/angle/gradian.hpp
+END
+revolution.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/units/base_units/angle/revolution.hpp
+END
+arcminute.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/units/base_units/angle/arcminute.hpp
+END
+steradian.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/units/base_units/angle/steradian.hpp
+END
+degree.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/units/base_units/angle/degree.hpp
+END
+radian.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/units/base_units/angle/radian.hpp
+END
+arcsecond.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/units/base_units/angle/arcsecond.hpp
+END

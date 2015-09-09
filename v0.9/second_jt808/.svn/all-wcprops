@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/tcc892x_common/!svn/ver/901/trunk/innovbox/v0.9/second_jt808
+END
+McuProtocol.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/838/trunk/innovbox/v0.9/second_jt808/McuProtocol.cpp
+END
+JT808Manager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/898/trunk/innovbox/v0.9/second_jt808/JT808Manager.cpp
+END
+JT808GnssManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tcc892x_common/!svn/ver/828/trunk/innovbox/v0.9/second_jt808/JT808GnssManager.h
+END
+ConnectionManagerSTD.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/828/trunk/innovbox/v0.9/second_jt808/ConnectionManagerSTD.h
+END
+McuProtocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/838/trunk/innovbox/v0.9/second_jt808/McuProtocol.h
+END
+ConnectionManagerAT.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/898/trunk/innovbox/v0.9/second_jt808/ConnectionManagerAT.cpp
+END
+ConnectionManagerInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/828/trunk/innovbox/v0.9/second_jt808/ConnectionManagerInterface.h
+END
+JT808MessageHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/898/trunk/innovbox/v0.9/second_jt808/JT808MessageHandler.cpp
+END
+JT808MessageHelper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/901/trunk/innovbox/v0.9/second_jt808/JT808MessageHelper.cpp
+END
+ConnectionManagerAT.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/871/trunk/innovbox/v0.9/second_jt808/ConnectionManagerAT.h
+END
+JT808MessageHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/865/trunk/innovbox/v0.9/second_jt808/JT808MessageHandler.h
+END
+McuMessageHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/895/trunk/innovbox/v0.9/second_jt808/McuMessageHandler.cpp
+END
+JT808MessageHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tcc892x_common/!svn/ver/828/trunk/innovbox/v0.9/second_jt808/JT808MessageHelper.h
+END
+JT8082DbusMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tcc892x_common/!svn/ver/895/trunk/innovbox/v0.9/second_jt808/JT8082DbusMessage.h
+END
+JT808DbusMessage_older.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/828/trunk/innovbox/v0.9/second_jt808/JT808DbusMessage_older.h
+END
+jt808.pro
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/866/trunk/innovbox/v0.9/second_jt808/jt808.pro
+END
+McuMessageHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tcc892x_common/!svn/ver/838/trunk/innovbox/v0.9/second_jt808/McuMessageHandler.h
+END
+JT808DbusMessageHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tcc892x_common/!svn/ver/895/trunk/innovbox/v0.9/second_jt808/JT808DbusMessageHandler.cpp
+END
+ConnectionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tcc892x_common/!svn/ver/828/trunk/innovbox/v0.9/second_jt808/ConnectionManager.h
+END
+ConfigManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/838/trunk/innovbox/v0.9/second_jt808/ConfigManager.cpp
+END
+JT808GnssManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tcc892x_common/!svn/ver/828/trunk/innovbox/v0.9/second_jt808/JT808GnssManager.cpp
+END
+JT808DbusMessageHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tcc892x_common/!svn/ver/865/trunk/innovbox/v0.9/second_jt808/JT808DbusMessageHandler.h
+END
+ConnectionManagerSTD.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/828/trunk/innovbox/v0.9/second_jt808/ConnectionManagerSTD.cpp
+END
+ConfigManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/828/trunk/innovbox/v0.9/second_jt808/ConfigManager.h
+END

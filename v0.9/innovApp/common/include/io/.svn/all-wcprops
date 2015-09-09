@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/io
+END
+geio.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/io/geio.h
+END
+geioP.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/io/geioP.h
+END
+iocallbacks.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/io/iocallbacks.h
+END
+iocallbacksP.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/io/iocallbacksP.h
+END
+iotext.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/io/iotext.h
+END
+iotextP.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/io/iotextP.h
+END

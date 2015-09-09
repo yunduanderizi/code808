@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/geosearch
+END
+gsTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/geosearch/gsTypes.h
+END
+geosearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/geosearch/geosearch.h
+END
+geosearchP.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/geosearch/geosearchP.h
+END
+gsTuningParameters.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/geosearch/gsTuningParameters.h
+END
+gsAddressDisplay.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/geosearch/gsAddressDisplay.h
+END
+gsSearchFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/geosearch/gsSearchFilter.h
+END
+gsParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/geosearch/gsParser.h
+END
+gsClassFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/geosearch/gsClassFactory.h
+END
+userPOISearch_if.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/geosearch/userPOISearch_if.h
+END

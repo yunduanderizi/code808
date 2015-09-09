@@ -1,0 +1,323 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards
+END
+aliases.conf
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/aliases.conf
+END
+Audigy.conf
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/Audigy.conf
+END
+TRID4DWAVENX.conf
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/TRID4DWAVENX.conf
+END
+EMU10K1.conf
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/EMU10K1.conf
+END
+CMI8738-MC6.conf
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/CMI8738-MC6.conf
+END
+AU8810.conf
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/AU8810.conf
+END
+AU8820.conf
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/AU8820.conf
+END
+CMI8738-MC8.conf
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/CMI8738-MC8.conf
+END
+AU8830.conf
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/AU8830.conf
+END
+USB-Audio.conf
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/USB-Audio.conf
+END
+YMF744.conf
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/YMF744.conf
+END
+PC-Speaker.conf
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/PC-Speaker.conf
+END
+CA0106.conf
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/CA0106.conf
+END
+VXPocket440.conf
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/VXPocket440.conf
+END
+SI7018.conf
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/SI7018.conf
+END
+AACI.conf
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/AACI.conf
+END
+ATIIXP-MODEM.conf
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/ATIIXP-MODEM.conf
+END
+GUS.conf
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/GUS.conf
+END
+PMacToonie.conf
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/PMacToonie.conf
+END
+VIA8233.conf
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/VIA8233.conf
+END
+CS46xx.conf
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/CS46xx.conf
+END
+ATIIXP-SPDMA.conf
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/ATIIXP-SPDMA.conf
+END
+VIA8233A.conf
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/VIA8233A.conf
+END
+ENS1371.conf
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/ENS1371.conf
+END
+VIA8237.conf
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/VIA8237.conf
+END
+ICH.conf
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/ICH.conf
+END
+VXPocket.conf
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/VXPocket.conf
+END
+aliases.alisp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/aliases.alisp
+END
+PS3.conf
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/PS3.conf
+END
+HDA-Intel.conf
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/HDA-Intel.conf
+END
+ICE1712.conf
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/ICE1712.conf
+END
+NFORCE.conf
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/NFORCE.conf
+END
+ICE1724.conf
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/ICE1724.conf
+END
+PMac.conf
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/PMac.conf
+END
+VX222.conf
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/VX222.conf
+END
+VIA686A.conf
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/VIA686A.conf
+END
+ICH4.conf
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/ICH4.conf
+END
+SB-XFi.conf
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/SB-XFi.conf
+END
+FM801.conf
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/FM801.conf
+END
+Maestro3.conf
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/Maestro3.conf
+END
+ATIIXP.conf
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/ATIIXP.conf
+END
+CMI8338.conf
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/CMI8338.conf
+END
+ES1968.conf
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/ES1968.conf
+END
+Aureon51.conf
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/Aureon51.conf
+END
+ENS1370.conf
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/ENS1370.conf
+END
+Aureon71.conf
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/Aureon71.conf
+END
+ICH-MODEM.conf
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/ICH-MODEM.conf
+END
+Audigy2.conf
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/Audigy2.conf
+END
+CMI8338-SWIEC.conf
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/CMI8338-SWIEC.conf
+END
+CMI8788.conf
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/CMI8788.conf
+END
+RME9652.conf
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/RME9652.conf
+END
+EMU10K1X.conf
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/EMU10K1X.conf
+END
+RME9636.conf
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/cards/RME9636.conf
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators
+END
+statistics.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics.hpp
+END
+statistics_fwd.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics_fwd.hpp
+END
+accumulators.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/accumulators.hpp
+END
+accumulators_fwd.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/accumulators_fwd.hpp
+END

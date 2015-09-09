@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale
+END
+encoding_utf.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/encoding_utf.hpp
+END
+config.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/config.hpp
+END
+formatting.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/formatting.hpp
+END
+definitions.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/definitions.hpp
+END
+hold_ptr.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/hold_ptr.hpp
+END
+util.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/util.hpp
+END
+collator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/collator.hpp
+END
+encoding_errors.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/encoding_errors.hpp
+END
+boundary.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/boundary.hpp
+END
+message.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/message.hpp
+END
+conversion.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/conversion.hpp
+END
+generator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/generator.hpp
+END
+encoding.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/encoding.hpp
+END
+format.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/format.hpp
+END
+time_zone.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/time_zone.hpp
+END
+date_time.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/date_time.hpp
+END
+info.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/info.hpp
+END
+gnu_gettext.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/gnu_gettext.hpp
+END
+date_time_facet.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/date_time_facet.hpp
+END
+utf.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/utf.hpp
+END
+localization_backend.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/localization_backend.hpp
+END

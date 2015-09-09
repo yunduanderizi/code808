@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/qi/numeric
+END
+bool_policies.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/qi/numeric/bool_policies.hpp
+END
+numeric_utils.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/qi/numeric/numeric_utils.hpp
+END
+real.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/qi/numeric/real.hpp
+END
+int.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/qi/numeric/int.hpp
+END
+real_policies.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/qi/numeric/real_policies.hpp
+END
+bool.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/qi/numeric/bool.hpp
+END
+uint.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/qi/numeric/uint.hpp
+END

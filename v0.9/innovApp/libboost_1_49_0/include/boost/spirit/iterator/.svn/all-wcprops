@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/iterator
+END
+file_iterator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/iterator/file_iterator.hpp
+END
+file_iterator_fwd.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/iterator/file_iterator_fwd.hpp
+END
+fixed_size_queue.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/iterator/fixed_size_queue.hpp
+END
+position_iterator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/iterator/position_iterator.hpp
+END
+position_iterator_fwd.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/iterator/position_iterator_fwd.hpp
+END
+multi_pass.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/iterator/multi_pass.hpp
+END
+multi_pass_fwd.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/iterator/multi_pass_fwd.hpp
+END
+typeof.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/iterator/typeof.hpp
+END

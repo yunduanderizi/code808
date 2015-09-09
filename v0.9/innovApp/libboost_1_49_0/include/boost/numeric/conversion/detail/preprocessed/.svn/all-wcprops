@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/numeric/conversion/detail/preprocessed
+END
+numeric_cast_traits_common.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp
+END
+numeric_cast_traits_long_long.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp
+END

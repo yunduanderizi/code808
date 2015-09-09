@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/units/systems/angle
+END
+gradians.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/units/systems/angle/gradians.hpp
+END
+revolutions.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/units/systems/angle/revolutions.hpp
+END
+degrees.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/units/systems/angle/degrees.hpp
+END

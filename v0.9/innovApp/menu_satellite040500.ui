@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>satellitemenu</class>
+ <widget class="QWidget" name="satellitemenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>504</width>
+    <height>387</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="UIPicture" name="pic_mainbg">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>504</width>
+     <height>387</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>big_bg.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_bg">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>504</width>
+     <height>54</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>head-bg.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_title">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>168</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>星空图</string>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>h1_bg.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>5</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>160</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_back">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>10</y>
+     <width>51</width>
+     <height>44</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>back.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>back_hover.png</string>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_map">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>10</y>
+     <width>70</width>
+     <height>43</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>map_text_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>map_text_hover.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_line">
+   <property name="geometry">
+    <rect>
+     <x>425</x>
+     <y>6</y>
+     <width>2</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>xian.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_centerbg">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>51</y>
+     <width>504</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>stellar map_bg.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>504</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_graph">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>292</y>
+     <width>478</width>
+     <height>77</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>line chart.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>478</width>
+     <height>77</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>478</width>
+     <height>77</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_red">
+   <property name="geometry">
+    <rect>
+     <x>125</x>
+     <y>267</y>
+     <width>20</width>
+     <height>10</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>red.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_blue">
+   <property name="geometry">
+    <rect>
+     <x>215</x>
+     <y>267</y>
+     <width>20</width>
+     <height>10</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>blue.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_white">
+   <property name="geometry">
+    <rect>
+     <x>305</x>
+     <y>267</y>
+     <width>20</width>
+     <height>10</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>white.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_used">
+   <property name="geometry">
+    <rect>
+     <x>148</x>
+     <y>263</y>
+     <width>50</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>使用值</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>44</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>50</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_accept">
+   <property name="geometry">
+    <rect>
+     <x>238</x>
+     <y>263</y>
+     <width>50</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>按受值</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>44</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>50</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_unused">
+   <property name="geometry">
+    <rect>
+     <x>328</x>
+     <y>263</y>
+     <width>50</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>未使用</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>44</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>50</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_earth">
+   <property name="geometry">
+    <rect>
+     <x>34</x>
+     <y>65</y>
+     <width>173</width>
+     <height>155</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>longitude and latitude.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>173</width>
+     <height>155</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_date">
+   <property name="geometry">
+    <rect>
+     <x>266</x>
+     <y>60</y>
+     <width>170</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>日期：2014/07/23</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>170</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>0</red>
+     <green>89</green>
+     <blue>118</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_elevation">
+   <property name="geometry">
+    <rect>
+     <x>266</x>
+     <y>85</y>
+     <width>170</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>海拔：0（M）</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>170</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>0</red>
+     <green>89</green>
+     <blue>118</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_longitude">
+   <property name="geometry">
+    <rect>
+     <x>266</x>
+     <y>110</y>
+     <width>170</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>经度：0</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>170</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>0</red>
+     <green>89</green>
+     <blue>118</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_latitude">
+   <property name="geometry">
+    <rect>
+     <x>266</x>
+     <y>135</y>
+     <width>170</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>纬度：0</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>170</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>0</red>
+     <green>89</green>
+     <blue>118</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_time">
+   <property name="geometry">
+    <rect>
+     <x>266</x>
+     <y>160</y>
+     <width>170</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>时间：00:00:00</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>170</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>0</red>
+     <green>89</green>
+     <blue>118</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_heading">
+   <property name="geometry">
+    <rect>
+     <x>266</x>
+     <y>185</y>
+     <width>170</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>航向：0</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>170</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>0</red>
+     <green>89</green>
+     <blue>118</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_speed">
+   <property name="geometry">
+    <rect>
+     <x>266</x>
+     <y>210</y>
+     <width>170</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>速度：0（km/h）</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>170</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>0</red>
+     <green>89</green>
+     <blue>118</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_redbar1">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>311</y>
+     <width>20</width>
+     <height>54</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>red.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>20</width>
+     <height>54</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_redbar2">
+   <property name="geometry">
+    <rect>
+     <x>185</x>
+     <y>311</y>
+     <width>20</width>
+     <height>54</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>red.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>20</width>
+     <height>54</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_redbar3">
+   <property name="geometry">
+    <rect>
+     <x>305</x>
+     <y>311</y>
+     <width>20</width>
+     <height>54</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>red.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>20</width>
+     <height>54</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_bluebar1">
+   <property name="geometry">
+    <rect>
+     <x>65</x>
+     <y>326</y>
+     <width>20</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>blue.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>20</width>
+     <height>38</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_bluebar2">
+   <property name="geometry">
+    <rect>
+     <x>145</x>
+     <y>326</y>
+     <width>20</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>blue.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>20</width>
+     <height>38</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_bluebar3">
+   <property name="geometry">
+    <rect>
+     <x>265</x>
+     <y>326</y>
+     <width>20</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>blue.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>20</width>
+     <height>38</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_bluebar4">
+   <property name="geometry">
+    <rect>
+     <x>385</x>
+     <y>326</y>
+     <width>20</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>blue.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>20</width>
+     <height>38</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_redbar4">
+   <property name="geometry">
+    <rect>
+     <x>465</x>
+     <y>311</y>
+     <width>20</width>
+     <height>54</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>red.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>20</width>
+     <height>54</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_whitebar1">
+   <property name="geometry">
+    <rect>
+     <x>105</x>
+     <y>337</y>
+     <width>20</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>white.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>20</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_whitebar2">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>337</y>
+     <width>20</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>white.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>20</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_whitebar3">
+   <property name="geometry">
+    <rect>
+     <x>345</x>
+     <y>337</y>
+     <width>20</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>white.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>20</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_whitebar4">
+   <property name="geometry">
+    <rect>
+     <x>425</x>
+     <y>337</y>
+     <width>20</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>white.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>20</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>UIButton</class>
+   <extends>QWidget</extends>
+   <header>uibutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>UIPicture</class>
+   <extends>QWidget</extends>
+   <header>uipicture.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

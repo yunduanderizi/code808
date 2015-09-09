@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/locationprovider
+END
+entrip.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/locationprovider/entrip.h
+END
+entripP.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/locationprovider/entripP.h
+END
+gplocal.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/locationprovider/gplocal.h
+END
+gpparse.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/locationprovider/gpparse.h
+END
+gpparseP.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/locationprovider/gpparseP.h
+END
+lpjourneyloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/locationprovider/lpjourneyloc.h
+END
+lpjourneylocP.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/locationprovider/lpjourneylocP.h
+END
+enmlock.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/locationprovider/enmlock.h
+END
+enmlockP.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/locationprovider/enmlockP.h
+END
+gpsDecryptModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/locationprovider/gpsDecryptModule.h
+END
+ensim.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/locationprovider/ensim.h
+END
+ensimP.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/locationprovider/ensimP.h
+END

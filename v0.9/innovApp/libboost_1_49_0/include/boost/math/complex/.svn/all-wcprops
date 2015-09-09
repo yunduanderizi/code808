@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/complex
+END
+asin.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/complex/asin.hpp
+END
+atanh.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/complex/atanh.hpp
+END
+fabs.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/complex/fabs.hpp
+END
+acosh.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/complex/acosh.hpp
+END
+asinh.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/complex/asinh.hpp
+END
+atan.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/complex/atan.hpp
+END
+acos.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/complex/acos.hpp
+END
+details.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/complex/details.hpp
+END

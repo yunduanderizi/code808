@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/adapted
+END
+boost_tuple.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/adapted/boost_tuple.hpp
+END
+std_tuple.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/adapted/std_tuple.hpp
+END
+boost_array.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/adapted/boost_array.hpp
+END
+struct.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/adapted/struct.hpp
+END
+std_pair.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/adapted/std_pair.hpp
+END
+adt.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/adapted/adt.hpp
+END
+mpl.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/adapted/mpl.hpp
+END
+array.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/adapted/array.hpp
+END

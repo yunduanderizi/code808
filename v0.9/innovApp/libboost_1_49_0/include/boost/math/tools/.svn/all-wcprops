@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools
+END
+remez.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools/remez.hpp
+END
+polynomial.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools/polynomial.hpp
+END
+promotion.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools/promotion.hpp
+END
+solve.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools/solve.hpp
+END
+tuple.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools/tuple.hpp
+END
+series.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools/series.hpp
+END
+precision.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools/precision.hpp
+END
+workaround.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools/workaround.hpp
+END
+real_cast.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools/real_cast.hpp
+END
+toms748_solve.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools/toms748_solve.hpp
+END
+stats.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools/stats.hpp
+END
+config.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools/config.hpp
+END
+fraction.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools/fraction.hpp
+END
+roots.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools/roots.hpp
+END
+traits.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools/traits.hpp
+END
+test_data.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools/test_data.hpp
+END
+rational.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools/rational.hpp
+END
+big_constant.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools/big_constant.hpp
+END
+minima.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools/minima.hpp
+END
+user.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools/user.hpp
+END
+test.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/math/tools/test.hpp
+END

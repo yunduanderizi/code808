@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libiptc
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libiptc/.gitignore
+END
+libiptc.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libiptc/libiptc.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libiptc/Makefile.am
+END
+libip4tc.pc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libiptc/libip4tc.pc
+END
+libip6tc.pc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libiptc/libip6tc.pc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libiptc/Makefile
+END
+linux_stddef.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libiptc/linux_stddef.h
+END
+linux_list.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libiptc/linux_list.h
+END
+libip4tc.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libiptc/libip4tc.pc.in
+END
+libip6tc.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libiptc/libip6tc.pc.in
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libiptc/Makefile.in
+END
+libiptc.pc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libiptc/libiptc.pc
+END
+libip4tc.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libiptc/libip4tc.c
+END
+libiptc.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libiptc/libiptc.pc.in
+END
+libip6tc.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libiptc/libip6tc.c
+END

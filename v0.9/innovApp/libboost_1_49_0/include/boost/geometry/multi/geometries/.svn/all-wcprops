@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/multi/geometries
+END
+multi_point.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/multi/geometries/multi_point.hpp
+END
+multi_linestring.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/multi/geometries/multi_linestring.hpp
+END
+multi_geometries.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/multi/geometries/multi_geometries.hpp
+END
+multi_polygon.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/multi/geometries/multi_polygon.hpp
+END

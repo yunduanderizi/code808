@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/asio/ip/impl
+END
+address_v4.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/asio/ip/impl/address_v4.hpp
+END
+host_name.ipp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/asio/ip/impl/host_name.ipp
+END
+address_v4.ipp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/asio/ip/impl/address_v4.ipp
+END
+address_v6.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/asio/ip/impl/address_v6.hpp
+END
+address_v6.ipp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/asio/ip/impl/address_v6.ipp
+END
+basic_endpoint.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/asio/ip/impl/basic_endpoint.hpp
+END
+address.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/asio/ip/impl/address.hpp
+END
+address.ipp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/asio/ip/impl/address.ipp
+END

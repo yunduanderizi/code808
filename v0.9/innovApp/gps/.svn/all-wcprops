@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps
+END
+satellitemodule.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/satellitemodule.h
+END
+gps_project.WK3
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/gps_project.WK3
+END
+gn_parse.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/gn_parse.h
+END
+gps_project.IMB
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/gps_project.IMB
+END
+gps_project.IMD
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/gps_project.IMD
+END
+posix_qextserialport.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/posix_qextserialport.cpp
+END
+gps_project.PO
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/gps_project.PO
+END
+gps_project.PFI
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/gps_project.PFI
+END
+qextserialbase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/qextserialbase.cpp
+END
+posix_qextserialport.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/posix_qextserialport.h
+END
+gps_project.PR
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/gps_project.PR
+END
+gps_project.PS
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/gps_project.PS
+END
+bd_parse.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/bd_parse.cpp
+END
+qextserialbase.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/qextserialbase.h
+END
+qextserialenumerator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/qextserialenumerator.cpp
+END
+gps_parse.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/gps_parse.cpp
+END
+bd_parse.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/bd_parse.h
+END
+gps_project.PRI
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/gps_project.PRI
+END
+qextserialenumerator.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/qextserialenumerator.h
+END
+gps_parse.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/gps_parse.h
+END
+gps_project.IAB
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/gps_project.IAB
+END
+gps_project.IAD
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/gps_project.IAD
+END
+satellitemodule.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/satellitemodule.cpp
+END
+gn_parse.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/gps/gn_parse.cpp
+END

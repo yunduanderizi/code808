@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/date_time/posix_time
+END
+time_formatters_limited.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/date_time/posix_time/time_formatters_limited.hpp
+END
+ptime.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/date_time/posix_time/ptime.hpp
+END
+posix_time.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/date_time/posix_time/posix_time.hpp
+END
+date_duration_operators.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/date_time/posix_time/date_duration_operators.hpp
+END
+posix_time_system.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/date_time/posix_time/posix_time_system.hpp
+END
+posix_time_duration.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/date_time/posix_time/posix_time_duration.hpp
+END
+conversion.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/date_time/posix_time/conversion.hpp
+END
+posix_time_legacy_io.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/date_time/posix_time/posix_time_legacy_io.hpp
+END
+time_parsers.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/date_time/posix_time/time_parsers.hpp
+END
+time_period.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/date_time/posix_time/time_period.hpp
+END
+time_formatters.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/date_time/posix_time/time_formatters.hpp
+END
+posix_time_types.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/date_time/posix_time/posix_time_types.hpp
+END
+time_serialize.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/date_time/posix_time/time_serialize.hpp
+END
+posix_time_config.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/date_time/posix_time/posix_time_config.hpp
+END
+posix_time_io.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/date_time/posix_time/posix_time_io.hpp
+END

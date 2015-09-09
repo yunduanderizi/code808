@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tcc892x_common/!svn/ver/921/trunk/innovbox/v0.9/deviceManager
+END
+devicemanager.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/906/trunk/innovbox/v0.9/deviceManager/devicemanager.h
+END
+serialprotocol.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/deviceManager/serialprotocol.cpp
+END
+workq.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/deviceManager/workq.cpp
+END
+serialprotocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/deviceManager/serialprotocol.h
+END
+mcuprotocol.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/907/trunk/innovbox/v0.9/deviceManager/mcuprotocol.cpp
+END
+serialprotocol2012.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/916/trunk/innovbox/v0.9/deviceManager/serialprotocol2012.cpp
+END
+workq.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/deviceManager/workq.h
+END
+deviceManager.pro
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tcc892x_common/!svn/ver/841/trunk/innovbox/v0.9/deviceManager/deviceManager.pro
+END
+serialbase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/407/trunk/innovbox/v0.9/deviceManager/serialbase.cpp
+END
+devicemanager-8D1-freight.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tcc892x_common/!svn/ver/723/trunk/innovbox/v0.9/deviceManager/devicemanager-8D1-freight.cpp
+END
+serialprotocol2012.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/506/trunk/innovbox/v0.9/deviceManager/serialprotocol2012.h
+END
+mcuprotocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tcc892x_common/!svn/ver/907/trunk/innovbox/v0.9/deviceManager/mcuprotocol.h
+END
+serialbase.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/deviceManager/serialbase.h
+END
+errors.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/deviceManager/errors.h
+END
+devicemanager-J.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tcc892x_common/!svn/ver/408/trunk/innovbox/v0.9/deviceManager/devicemanager-J.cpp
+END
+devicemanager-J-wt-pic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tcc892x_common/!svn/ver/189/trunk/innovbox/v0.9/deviceManager/devicemanager-J-wt-pic.cpp
+END
+devicemanager-8D1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/921/trunk/innovbox/v0.9/deviceManager/devicemanager-8D1.cpp
+END
+writeloctool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/deviceManager/writeloctool.cpp
+END
+devicemanager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tcc892x_common/!svn/ver/829/trunk/innovbox/v0.9/deviceManager/devicemanager.cpp
+END

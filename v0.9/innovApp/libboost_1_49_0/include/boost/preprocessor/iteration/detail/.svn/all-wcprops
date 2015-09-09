@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/preprocessor/iteration/detail
+END
+self.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/preprocessor/iteration/detail/self.hpp
+END
+local.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/preprocessor/iteration/detail/local.hpp
+END
+rlocal.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/preprocessor/iteration/detail/rlocal.hpp
+END
+start.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/preprocessor/iteration/detail/start.hpp
+END
+finish.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/preprocessor/iteration/detail/finish.hpp
+END

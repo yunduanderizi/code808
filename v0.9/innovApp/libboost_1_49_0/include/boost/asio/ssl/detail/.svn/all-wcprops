@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/asio/ssl/detail
+END
+password_callback.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/asio/ssl/detail/password_callback.hpp
+END
+verify_callback.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/asio/ssl/detail/verify_callback.hpp
+END
+stream_core.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/asio/ssl/detail/stream_core.hpp
+END
+handshake_op.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/asio/ssl/detail/handshake_op.hpp
+END
+engine.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/asio/ssl/detail/engine.hpp
+END
+openssl_init.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/asio/ssl/detail/openssl_init.hpp
+END
+io.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/asio/ssl/detail/io.hpp
+END
+openssl_types.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/asio/ssl/detail/openssl_types.hpp
+END
+write_op.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/asio/ssl/detail/write_op.hpp
+END
+read_op.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/asio/ssl/detail/read_op.hpp
+END
+shutdown_op.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/asio/ssl/detail/shutdown_op.hpp
+END

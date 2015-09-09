@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface
+END
+interface_search.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/interface_search.h
+END
+engineinterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/engineinterface.h
+END
+interface_map.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/interface_map.cpp
+END
+navcore.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/navcore.cpp
+END
+navcore.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/navcore.h
+END
+interface_map.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/interface_map.h
+END
+navcoreFavourites.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/navcoreFavourites.cpp
+END
+navcoreJourney.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/navcoreJourney.cpp
+END
+system_param.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/system_param.h
+END
+car.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/car.h
+END
+navcoreFavourites.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/navcoreFavourites.h
+END
+filenamelist.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/filenamelist.cpp
+END
+navcoreRoute.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/navcoreRoute.cpp
+END
+interface_guide.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/interface_guide.cpp
+END
+interface_route.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/interface_route.cpp
+END
+navcoreGraphics.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/navcoreGraphics.cpp
+END
+navcoreJourney.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/navcoreJourney.h
+END
+interface_logistics.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/interface_logistics.cpp
+END
+datatype.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/datatype.h
+END
+navcoreRoute.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/navcoreRoute.h
+END
+filenamelist.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/filenamelist.h
+END
+interface_guide.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/interface_guide.h
+END
+interface_route.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/interface_route.h
+END
+navcoreDisplay.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/navcoreDisplay.cpp
+END
+navcoreGraphics.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/navcoreGraphics.h
+END
+goldstar.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/goldstar.h
+END
+interface_search.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/interface_search.cpp
+END
+interface_logistics.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/interface_logistics.h
+END
+engineinterface.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/engineinterface.cpp
+END
+navcoreDisplay.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/engineinterface/navcoreDisplay.h
+END

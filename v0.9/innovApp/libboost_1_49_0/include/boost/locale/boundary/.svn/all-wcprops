@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/boundary
+END
+boundary_point.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/boundary/boundary_point.hpp
+END
+segment.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/boundary/segment.hpp
+END
+types.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/boundary/types.hpp
+END
+facets.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/boundary/facets.hpp
+END
+index.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/locale/boundary/index.hpp
+END

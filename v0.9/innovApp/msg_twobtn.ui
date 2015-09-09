@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>msgboxtwobtn</class>
+ <widget class="QWidget" name="msgboxtwobtn">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>349</width>
+    <height>168</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="UIPicture" name="pic_bg">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>-20</y>
+     <width>388</width>
+     <height>208</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>pop_bg.png</string>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_ok">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>100</y>
+     <width>100</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>moni_button_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>moni_button_hover.png</string>
+   </property>
+   <property name="disablebackimage" stdset="0">
+    <string>moni_button_disable.png</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>100</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_cancel">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>100</y>
+     <width>100</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>moni_button_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>moni_button_hover.png</string>
+   </property>
+   <property name="disablebackimage" stdset="0">
+    <string>moni_button_disable.png</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>100</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_info">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>320</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>320</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>UIButton</class>
+   <extends>QWidget</extends>
+   <header>uibutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>UIPicture</class>
+   <extends>QWidget</extends>
+   <header>uipicture.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

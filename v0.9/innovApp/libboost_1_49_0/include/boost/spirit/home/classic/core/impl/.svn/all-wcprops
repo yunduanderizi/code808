@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/classic/core/impl
+END
+match.ipp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/classic/core/impl/match.ipp
+END
+match_attr_traits.ipp
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/classic/core/impl/match_attr_traits.ipp
+END
+parser.ipp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/classic/core/impl/parser.ipp
+END

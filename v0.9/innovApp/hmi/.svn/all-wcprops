@@ -1,0 +1,425 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi
+END
+menu_setversion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_setversion.cpp
+END
+menu_routemain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_routemain.cpp
+END
+menu_search.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_search.cpp
+END
+menu_searchcategory.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_searchcategory.h
+END
+menu_setsound.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_setsound.h
+END
+map_guide.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/map_guide.h
+END
+map_areacloseedit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/map_areacloseedit.cpp
+END
+msgbox_twobtn.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/msgbox_twobtn.h
+END
+searchthread.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/searchthread.h
+END
+menu_searcharound.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_searcharound.cpp
+END
+menu_routeconfirm.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_routeconfirm.h
+END
+menu_routestrategy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_routestrategy.cpp
+END
+navibasewnd.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/navibasewnd.h
+END
+menu_searchadminprovince.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_searchadminprovince.cpp
+END
+msgbox_onebtn.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/msgbox_onebtn.h
+END
+map_junctionview.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/map_junctionview.cpp
+END
+map_broswer.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/map_broswer.h
+END
+guidethread.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/guidethread.cpp
+END
+menu_searchresultlistcategory.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_searchresultlistcategory.h
+END
+menu_setsound.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_setsound.cpp
+END
+menu_setup.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_setup.h
+END
+menu_setversion.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_setversion.h
+END
+map_guide.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/map_guide.cpp
+END
+menu_searchadmincity.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_searchadmincity.cpp
+END
+msgbox_twobtn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/msgbox_twobtn.cpp
+END
+menu_routemain.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_routemain.h
+END
+menu_search.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_search.h
+END
+menu_routeheadclose.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_routeheadclose.h
+END
+menu_routeconfirm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_routeconfirm.cpp
+END
+menu_searchcross.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_searchcross.cpp
+END
+msgbox_onebtn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/msgbox_onebtn.cpp
+END
+map_areacloseedit.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/map_areacloseedit.h
+END
+map_mainwindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/map_mainwindow.cpp
+END
+menu_searchresultinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_searchresultinfo.h
+END
+menu_routestrategy.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_routestrategy.h
+END
+map_broswer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/map_broswer.cpp
+END
+menu_searchresultlistcategory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_searchresultlistcategory.cpp
+END
+menu_setup.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_setup.cpp
+END
+map_junctionview.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/map_junctionview.h
+END
+menu_searchresultlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_searchresultlist.h
+END
+menu_routeheadclose.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_routeheadclose.cpp
+END
+guidethread.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/guidethread.h
+END
+map_laneinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/map_laneinfo.h
+END
+msgbox_threebtn.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/msgbox_threebtn.h
+END
+menu_searchadmincity.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_searchadmincity.h
+END
+menu_searchpoiview.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_searchpoiview.h
+END
+menu_routeareaclose.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_routeareaclose.cpp
+END
+map_signpost.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/map_signpost.cpp
+END
+menu_setgpsmode.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_setgpsmode.h
+END
+menu_searchkeyword.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_searchkeyword.h
+END
+menu_searchresultinfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_searchresultinfo.cpp
+END
+menu_searchcross.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_searchcross.h
+END
+menu_routelistclose.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_routelistclose.h
+END
+map_mainwindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/map_mainwindow.h
+END
+menu_searchresultlist.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_searchresultlist.cpp
+END
+menu_searchcategory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_searchcategory.cpp
+END
+menu_setmapmode.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_setmapmode.h
+END
+map_laneinfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/map_laneinfo.cpp
+END
+msgbox_threebtn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/msgbox_threebtn.cpp
+END
+menu_searchpoiview.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_searchpoiview.cpp
+END
+searchthread.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/searchthread.cpp
+END
+menu_setgpsmode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_setgpsmode.cpp
+END
+menu_searchkeyword.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_searchkeyword.cpp
+END
+navibasewnd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/navibasewnd.cpp
+END
+menu_routelistclose.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_routelistclose.cpp
+END
+menu_routeareaclose.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_routeareaclose.h
+END
+menu_searcharound.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_searcharound.h
+END
+map_signpost.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/map_signpost.h
+END
+menu_searchadminprovince.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_searchadminprovince.h
+END
+menu_setmapmode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/hmi/menu_setmapmode.cpp
+END

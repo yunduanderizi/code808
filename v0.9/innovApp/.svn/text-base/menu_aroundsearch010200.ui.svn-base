@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AroundMenu</class>
+ <widget class="QWidget" name="AroundMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>504</width>
+    <height>387</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="UIPicture" name="pic_bg">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>504</width>
+     <height>387</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>big_bg.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_bar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>504</width>
+     <height>54</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>head-bg.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_title">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>168</width>
+     <height>50</height>
+    </rect>
+   </property>
+
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>周边搜索</string>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>h1_bg.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>5</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>160</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_back">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>10</y>
+     <width>51</width>
+     <height>44</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>back.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>back_hover.png</string>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_map">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>10</y>
+     <width>70</width>
+     <height>43</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>map_text_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>map_text_hover.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_line">
+   <property name="geometry">
+    <rect>
+     <x>425</x>
+     <y>6</y>
+     <width>2</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>xian.png</string>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_gasstation">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>96</y>
+     <width>101</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Ignored">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>加油站</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>bg_icon_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>bg-icon_hover.png</string>
+   </property>
+   <property name="disablebackimage" stdset="0">
+    <string>bg_inactive_bg.png</string>
+   </property>
+   <property name="normaliconimage" stdset="0">
+    <string>jiayou_deful.png</string>
+   </property>
+   <property name="disableiconimage" stdset="0">
+    <string>jiayou_disable.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>33</x>
+     <y>19</y>
+     <width>37</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>101</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_carservice">
+   <property name="geometry">
+    <rect>
+     <x>144</x>
+     <y>96</y>
+     <width>101</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Ignored">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>汽车服务</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>bg_icon_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>bg-icon_hover.png</string>
+   </property>
+   <property name="disablebackimage" stdset="0">
+    <string>bg_inactive_bg.png</string>
+   </property>
+   <property name="normaliconimage" stdset="0">
+    <string>qiche_deful.png</string>
+   </property>
+   <property name="disableiconimage" stdset="0">
+    <string>qiche_disable.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>33</x>
+     <y>19</y>
+     <width>37</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>101</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_carpark">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>96</y>
+     <width>101</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Ignored">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>停车场</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>bg_icon_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>bg-icon_hover.png</string>
+   </property>
+   <property name="disablebackimage" stdset="0">
+    <string>bg_inactive_bg.png</string>
+   </property>
+   <property name="normaliconimage" stdset="0">
+    <string>tiche_deful.png</string>
+   </property>
+   <property name="disableiconimage" stdset="0">
+    <string>tiche_disable.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>33</x>
+     <y>19</y>
+     <width>30</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>101</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_service">
+   <property name="geometry">
+    <rect>
+     <x>379</x>
+     <y>96</y>
+     <width>101</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Ignored">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>服务区</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>bg_icon_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>bg-icon_hover.png</string>
+   </property>
+   <property name="disablebackimage" stdset="0">
+    <string>bg_inactive_bg.png</string>
+   </property>
+   <property name="normaliconimage" stdset="0">
+    <string>fuwu_deful.png</string>
+   </property>
+   <property name="disableiconimage" stdset="0">
+    <string>fuwu_disable.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>33</x>
+     <y>19</y>
+     <width>37</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>101</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_bank">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>220</y>
+     <width>101</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Ignored">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>银行</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>bg_icon_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>bg-icon_hover.png</string>
+   </property>
+   <property name="disablebackimage" stdset="0">
+    <string>bg_inactive_bg.png</string>
+   </property>
+   <property name="normaliconimage" stdset="0">
+    <string>yinghang_deful.png</string>
+   </property>
+   <property name="disableiconimage" stdset="0">
+    <string>yinghang_disable.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>33</x>
+     <y>19</y>
+     <width>35</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>101</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_restanrant">
+   <property name="geometry">
+    <rect>
+     <x>144</x>
+     <y>220</y>
+     <width>101</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Ignored">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>餐饮</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>bg_icon_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>bg-icon_hover.png</string>
+   </property>
+   <property name="disablebackimage" stdset="0">
+    <string>bg_inactive_bg.png</string>
+   </property>
+   <property name="normaliconimage" stdset="0">
+    <string>canyin_deful.png</string>
+   </property>
+   <property name="disableiconimage" stdset="0">
+    <string>canyin_disable.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>33</x>
+     <y>19</y>
+     <width>38</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>101</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_hotel">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>220</y>
+     <width>101</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Ignored">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>住宿</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>bg_icon_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>bg-icon_hover.png</string>
+   </property>
+   <property name="disablebackimage" stdset="0">
+    <string>bg_inactive_bg.png</string>
+   </property>
+   <property name="normaliconimage" stdset="0">
+    <string>zhusu_deful.png</string>
+   </property>
+   <property name="disableiconimage" stdset="0">
+    <string>zhusu_disable.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>33</x>
+     <y>19</y>
+     <width>38</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>101</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_medic">
+   <property name="geometry">
+    <rect>
+     <x>379</x>
+     <y>220</y>
+     <width>101</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Ignored">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>医疗</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>bg_icon_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>bg-icon_hover.png</string>
+   </property>
+   <property name="disablebackimage" stdset="0">
+    <string>bg_inactive_bg.png</string>
+   </property>
+   <property name="normaliconimage" stdset="0">
+    <string>yiliao_deful.png</string>
+   </property>
+   <property name="disableiconimage" stdset="0">
+    <string>yiliao_disable.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>33</x>
+     <y>19</y>
+     <width>38</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>101</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>UIButton</class>
+   <extends>QWidget</extends>
+   <header>uibutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>UIPicture</class>
+   <extends>QWidget</extends>
+   <header>uipicture.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

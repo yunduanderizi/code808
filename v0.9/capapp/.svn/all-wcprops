@@ -1,0 +1,389 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/tcc892x_common/!svn/ver/810/trunk/innovbox/v0.9/capapp
+END
+tcc_linux_system.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/372/trunk/innovbox/v0.9/capapp/tcc_linux_system.h
+END
+pmap.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/pmap.h
+END
+tccfb_ioctrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/tccfb_ioctrl.h
+END
+TCC_TS_MUXER.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/TCC_TS_MUXER.h
+END
+TCC_VPU_CODEC.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/TCC_VPU_CODEC.h
+END
+venc_k.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/venc_k.c
+END
+tcc_cam_ioctrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/tcc_cam_ioctrl.h
+END
+av_common_mux.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/av_common_mux.h
+END
+tcc_scaler_ioctrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/tcc_scaler_ioctrl.h
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tcc892x_common/!svn/ver/810/trunk/innovbox/v0.9/capapp/main.c
+END
+main.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tcc892x_common/!svn/ver/372/trunk/innovbox/v0.9/capapp/main.h
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/readme.txt
+END
+testlayer
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/testlayer
+END
+TCC892x_VPU_CODEC.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/TCC892x_VPU_CODEC.h
+END
+scalejpeg.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/scalejpeg.h
+END
+capapp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tcc892x_common/!svn/ver/810/trunk/innovbox/v0.9/capapp/capapp.cpp
+END
+tcc_vpu_encode_interface.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/tcc_vpu_encode_interface.h
+END
+muxer.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/muxer.h
+END
+cdk.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/cdk.h
+END
+tccfb_ioctl_code.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/tccfb_ioctl_code.h
+END
+libTCC892x_MP4MUX_LINUX_V1.7.11.0.a
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tcc892x_common/!svn/ver/107/trunk/innovbox/v0.9/capapp/libTCC892x_MP4MUX_LINUX_V1.7.11.0.a
+END
+testlayer.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/testlayer.c
+END
+capapp.pro
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tcc892x_common/!svn/ver/658/trunk/innovbox/v0.9/capapp/capapp.pro
+END
+cdk_pre_define.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/cdk_pre_define.h
+END
+videodev2.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/videodev2.h
+END
+scalejpeg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tcc892x_common/!svn/ver/414/trunk/innovbox/v0.9/capapp/scalejpeg.cpp
+END
+TCC_CODA960_CODEC.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/TCC_CODA960_CODEC.h
+END
+tcc_grp_ioctrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/tcc_grp_ioctrl.h
+END
+ts_muxer.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/ts_muxer.c
+END
+av_common_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/av_common_types.h
+END
+capapp.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tcc892x_common/!svn/ver/808/trunk/innovbox/v0.9/capapp/capapp.h
+END
+cdk_port.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/cdk_port.h
+END
+ts_muxer.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/ts_muxer.h
+END
+TCCxxxx_VPU_CODEC_COMMON.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/TCCxxxx_VPU_CODEC_COMMON.h
+END
+cdk_core.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/cdk_core.h
+END
+encoder.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tcc892x_common/!svn/ver/268/trunk/innovbox/v0.9/capapp/encoder.c
+END
+encoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/encoder.h
+END
+queue.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/queue.c
+END
+tcc_image_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/tcc_image_common.h
+END
+queue.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/queue.h
+END
+tcc_overlay_interface.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/267/trunk/innovbox/v0.9/capapp/tcc_overlay_interface.c
+END
+history.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/history.txt
+END
+tcc_overlay_interface.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/267/trunk/innovbox/v0.9/capapp/tcc_overlay_interface.h
+END
+venc.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/venc.h
+END
+tcc_vpu_ioctl.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/tcc_vpu_ioctl.h
+END
+tcc_gre2d_type.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/tcc_gre2d_type.h
+END
+yuv2jpg.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/yuv2jpg.c
+END
+tcc_overlay_ioctl.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/tcc_overlay_ioctl.h
+END
+TCC_MP4_muxer.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/TCC_MP4_muxer.c
+END
+tcc_v4l2_ioctl.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/tcc_v4l2_ioctl.c
+END
+yuv2jpg.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tcc892x_common/!svn/ver/178/trunk/innovbox/v0.9/capapp/yuv2jpg.h
+END
+TCC_MP4_muxer.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/TCC_MP4_muxer.h
+END
+cdk_error.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/cdk_error.h
+END
+tcc_v4l2_ioctl.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/tcc_v4l2_ioctl.h
+END
+tcc_v4l2.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/tcc_v4l2.c
+END
+tcc_scaler_interface.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/tcc_scaler_interface.c
+END
+mp4_muxer.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/mp4_muxer.h
+END
+tcc_v4l2.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tcc892x_common/!svn/ver/440/trunk/innovbox/v0.9/capapp/tcc_v4l2.h
+END
+tcc_scaler_interface.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/tcc_scaler_interface.h
+END
+tcc_overlaymix.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/tcc_overlaymix.c
+END
+av_common_fcc_tag.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/av_common_fcc_tag.h
+END
+tcc_linux_system.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/440/trunk/innovbox/v0.9/capapp/tcc_linux_system.c
+END
+pmap.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/pmap.c
+END
+tcc_overlaymix.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/106/trunk/innovbox/v0.9/capapp/tcc_overlaymix.h
+END

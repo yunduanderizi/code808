@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MapView</class>
+ <widget class="QWidget" name="MapView">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>504</width>
+    <height>387</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="UIButton" name="btn_route">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>146</y>
+     <width>100</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>路径</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>lujing_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>lujing_hover.png</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>40</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_search">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>198</y>
+     <width>100</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>查找</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>search_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>search_hover.png</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>40</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>253</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_setting">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>250</y>
+     <width>100</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>设置</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>Set_deful .png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>Set_hover.png</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>40</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="logistics_Button">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>302</y>
+     <width>100</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>物流</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>logistics_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>logistics_hover.png</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>40</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_mapmode">
+   <property name="geometry">
+    <rect>
+     <x>438</x>
+     <y>0</y>
+     <width>66</width>
+     <height>68</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>moshi_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>moshi_hover.png</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>10</x>
+     <y>18</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_return">
+   <property name="geometry">
+    <rect>
+     <x>438</x>
+     <y>65</y>
+     <width>66</width>
+     <height>68</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>zice_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>zice_hover.png</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>13</x>
+     <y>36</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_zoomin">
+   <property name="geometry">
+    <rect>
+     <x>438</x>
+     <y>190</y>
+     <width>67</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>big_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>big2_hover.png</string>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_zoomout">
+   <property name="geometry">
+    <rect>
+     <x>438</x>
+     <y>251</y>
+     <width>67</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>small_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>small_hover.png</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>UIButton</class>
+   <extends>QWidget</extends>
+   <header>uibutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/dbus/example
+END
+testMessage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/dbus/example/testMessage.cpp
+END
+testMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/dbus/example/testMessage.h
+END
+serverMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/dbus/example/serverMain.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/dbus/example/Makefile
+END
+clientMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/dbus/example/clientMain.cpp
+END

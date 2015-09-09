@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/multi/algorithms/detail
+END
+modify.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/multi/algorithms/detail/modify.hpp
+END
+multi_sum.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/multi/algorithms/detail/multi_sum.hpp
+END
+for_each_range.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/multi/algorithms/detail/for_each_range.hpp
+END
+modify_with_predicate.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/multi/algorithms/detail/modify_with_predicate.hpp
+END
+point_on_border.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/multi/algorithms/detail/point_on_border.hpp
+END

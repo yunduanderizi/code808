@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/xpressive/detail/utility/chset
+END
+chset.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/xpressive/detail/utility/chset/chset.hpp
+END
+basic_chset.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/xpressive/detail/utility/chset/basic_chset.hpp
+END
+basic_chset.ipp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/xpressive/detail/utility/chset/basic_chset.ipp
+END
+range_run.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/xpressive/detail/utility/chset/range_run.hpp
+END
+range_run.ipp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/xpressive/detail/utility/chset/range_run.ipp
+END

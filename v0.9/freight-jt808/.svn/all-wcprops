@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tcc892x_common/!svn/ver/730/trunk/innovbox/v0.9/freight-jt808
+END
+JT808DbusMessageHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/730/trunk/innovbox/v0.9/freight-jt808/JT808DbusMessageHandler.cpp
+END
+ConnectionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tcc892x_common/!svn/ver/607/trunk/innovbox/v0.9/freight-jt808/ConnectionManager.h
+END
+ConfigManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tcc892x_common/!svn/ver/724/trunk/innovbox/v0.9/freight-jt808/ConfigManager.cpp
+END
+JT808GnssManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/724/trunk/innovbox/v0.9/freight-jt808/JT808GnssManager.cpp
+END
+JT808DbusMessageHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tcc892x_common/!svn/ver/730/trunk/innovbox/v0.9/freight-jt808/JT808DbusMessageHandler.h
+END
+JT808DbusMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tcc892x_common/!svn/ver/730/trunk/innovbox/v0.9/freight-jt808/JT808DbusMessage.h
+END
+ConfigManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/619/trunk/innovbox/v0.9/freight-jt808/ConfigManager.h
+END
+testServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/505/trunk/innovbox/v0.9/freight-jt808/testServer.cpp
+END
+Makefile.host
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tcc892x_common/!svn/ver/505/trunk/innovbox/v0.9/freight-jt808/Makefile.host
+END
+JT808Manager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/730/trunk/innovbox/v0.9/freight-jt808/JT808Manager.cpp
+END
+JT808GnssManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tcc892x_common/!svn/ver/724/trunk/innovbox/v0.9/freight-jt808/JT808GnssManager.h
+END
+test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/505/trunk/innovbox/v0.9/freight-jt808/test.cpp
+END
+JT808MessageHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/729/trunk/innovbox/v0.9/freight-jt808/JT808MessageHandler.cpp
+END
+Makefile.target
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/505/trunk/innovbox/v0.9/freight-jt808/Makefile.target
+END
+JT808MessageHelper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/730/trunk/innovbox/v0.9/freight-jt808/JT808MessageHelper.cpp
+END
+JT808详细设计文档.docx
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/tcc892x_common/!svn/ver/505/trunk/innovbox/v0.9/freight-jt808/JT808%E8%AF%A6%E7%BB%86%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3.docx
+END
+JT808MessageHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/729/trunk/innovbox/v0.9/freight-jt808/JT808MessageHandler.h
+END
+JT808MessageHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/730/trunk/innovbox/v0.9/freight-jt808/JT808MessageHelper.h
+END
+ConnectionManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/724/trunk/innovbox/v0.9/freight-jt808/ConnectionManager.cpp
+END
+jt808.pro
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/730/trunk/innovbox/v0.9/freight-jt808/jt808.pro
+END
+mangqu.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/505/trunk/innovbox/v0.9/freight-jt808/mangqu.h
+END

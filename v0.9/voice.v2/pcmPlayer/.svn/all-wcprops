@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/pcmPlayer
+END
+pcmPlayerManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/pcmPlayer/pcmPlayerManager.cpp
+END
+pcmPlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/pcmPlayer/pcmPlayer.cpp
+END
+pcmPlayerManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/pcmPlayer/pcmPlayerManager.h
+END
+pcmPlayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/pcmPlayer/pcmPlayer.h
+END

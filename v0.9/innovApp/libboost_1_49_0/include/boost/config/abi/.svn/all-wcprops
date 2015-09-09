@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/config/abi
+END
+borland_prefix.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/config/abi/borland_prefix.hpp
+END
+borland_suffix.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/config/abi/borland_suffix.hpp
+END
+msvc_prefix.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/config/abi/msvc_prefix.hpp
+END
+msvc_suffix.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/config/abi/msvc_suffix.hpp
+END

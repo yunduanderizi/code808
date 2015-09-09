@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/sound
+END
+dviadpcm.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/sound/dviadpcm.h
+END
+dviadpcmP.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/sound/dviadpcmP.h
+END
+snddatafile.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/sound/snddatafile.h
+END
+snddatafileP.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/sound/snddatafileP.h
+END

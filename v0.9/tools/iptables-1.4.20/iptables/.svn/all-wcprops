@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables
+END
+iptables.8.in
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/iptables.8.in
+END
+xshared.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/xshared.c
+END
+iptables-save.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/iptables-save.c
+END
+iptables-extensions.8.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/iptables-extensions.8.tmpl
+END
+iptables-multi.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/iptables-multi.h
+END
+xshared.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/xshared.h
+END
+iptables-extensions.8.tmpl.in
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/iptables-extensions.8.tmpl.in
+END
+iptables-apply
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/iptables-apply
+END
+ip6tables-restore.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/ip6tables-restore.c
+END
+ip6tables-save.8
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/ip6tables-save.8
+END
+ip6tables-standalone.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/ip6tables-standalone.c
+END
+iptables-restore.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/iptables-restore.c
+END
+iptables-save.8
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/iptables-save.8
+END
+iptables-extensions.8
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/iptables-extensions.8
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/Makefile.am
+END
+iptables-standalone.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/iptables-standalone.c
+END
+ip6tables.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/ip6tables.c
+END
+xtables-multi.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/xtables-multi.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/Makefile
+END
+ip6tables-restore.8
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/ip6tables-restore.8
+END
+xtables-multi.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/xtables-multi.h
+END
+iptables-xml.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/iptables-xml.c
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/Makefile.in
+END
+iptables.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/iptables.c
+END
+iptables-restore.8
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/iptables-restore.8
+END
+iptables-apply.8
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/iptables-apply.8
+END
+iptables.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/iptables.xslt
+END
+iptables-xml.1
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/iptables-xml.1
+END
+xtables.pc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/xtables.pc
+END
+ip6tables.8.in
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/ip6tables.8.in
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/.gitignore
+END
+ip6tables-save.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/ip6tables-save.c
+END
+ip6tables-multi.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/ip6tables-multi.h
+END
+xtables.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/iptables/xtables.pc.in
+END

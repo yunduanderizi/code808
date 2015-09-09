@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/numeric/ublas/traits
+END
+iterator_type.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/numeric/ublas/traits/iterator_type.hpp
+END
+c_array.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/numeric/ublas/traits/c_array.hpp
+END
+const_iterator_type.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/numeric/ublas/traits/const_iterator_type.hpp
+END

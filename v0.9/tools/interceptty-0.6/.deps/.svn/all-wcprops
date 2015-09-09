@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tools/interceptty-0.6/.deps
+END
+common.Po
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tools/interceptty-0.6/.deps/common.Po
+END
+interceptty.Po
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tools/interceptty-0.6/.deps/interceptty.Po
+END
+nmea_stdlib.Po
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tools/interceptty-0.6/.deps/nmea_stdlib.Po
+END
+sendudp.Po
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tools/interceptty-0.6/.deps/sendudp.Po
+END
+nmea_decode.Po
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tools/interceptty-0.6/.deps/nmea_decode.Po
+END
+bsd-openpty.Po
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tools/interceptty-0.6/.deps/bsd-openpty.Po
+END

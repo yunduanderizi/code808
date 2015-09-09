@@ -1,0 +1,29 @@
+#ifdef WITH_NEW_AUDIO_CONTROL_SYSTEM
+#ifdef _8925_VERSION
+#define IBAC_DEV_ID_DAI_GPS  57
+#else
+#define IBAC_DEV_ID_DAI_GPS  22
+#endif
+#else
+#define IBAC_DEV_ID_DAI_GPS  14
+#endif
+
+int ret = sp_pAudioClientCtl->openAudio(IBAC_DEV_ID_DAI_GPS, 25);
+if ( ret != 0 )
+qDebug() << "information open error: " << ret;
+        
+ReadThread_NEWS::object()->aisound_start(m_old_index,m_listNewsTitleAndContent,1);
+
+int ret = sp_pAudioClientCtl->closeAudio(IBAC_DEV_ID_DAI_NEWS);	
+        if ( ret != 0 ) 
+        {
+                qDebug() << "information close error: " << ret;
+                
+                
+                
+                
+                INCLUDEPATH += $$PUBLIC_DIR/audiocontrolcenter/include
+LIBS += -L$$PUBLIC_DIR/audiocontrolcenter/lib -laudioControl
+
+INCLUDEPATH += $$THIRD_PARTY_DIR/aiTTS/Inc
+LIBS += -L$$THIRD_PARTY_DIR/aiTTS/Lib -lAiSound5   

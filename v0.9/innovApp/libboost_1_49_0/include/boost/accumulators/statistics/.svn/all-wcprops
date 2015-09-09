@@ -1,0 +1,311 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics
+END
+sum.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/sum.hpp
+END
+tail_variate.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/tail_variate.hpp
+END
+sum_kahan.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/sum_kahan.hpp
+END
+rolling_mean.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/rolling_mean.hpp
+END
+weighted_variance.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/weighted_variance.hpp
+END
+weighted_tail_mean.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/weighted_tail_mean.hpp
+END
+covariance.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/covariance.hpp
+END
+pot_tail_mean.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/pot_tail_mean.hpp
+END
+weighted_tail_quantile.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/weighted_tail_quantile.hpp
+END
+p_square_cumulative_distribution.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/p_square_cumulative_distribution.hpp
+END
+weighted_moment.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/weighted_moment.hpp
+END
+density.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/density.hpp
+END
+weighted_skewness.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/weighted_skewness.hpp
+END
+variance.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/variance.hpp
+END
+count.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/count.hpp
+END
+tail.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/tail.hpp
+END
+tail_mean.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/tail_mean.hpp
+END
+rolling_sum.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/rolling_sum.hpp
+END
+weighted_peaks_over_threshold.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/weighted_peaks_over_threshold.hpp
+END
+tail_quantile.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/tail_quantile.hpp
+END
+moment.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/moment.hpp
+END
+weighted_mean.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/weighted_mean.hpp
+END
+weighted_p_square_quantile.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/weighted_p_square_quantile.hpp
+END
+skewness.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/skewness.hpp
+END
+weighted_kurtosis.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/weighted_kurtosis.hpp
+END
+pot_quantile.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/pot_quantile.hpp
+END
+weighted_tail_variate_means.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/weighted_tail_variate_means.hpp
+END
+peaks_over_threshold.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/peaks_over_threshold.hpp
+END
+times2_iterator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/times2_iterator.hpp
+END
+error_of.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/error_of.hpp
+END
+error_of_mean.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/error_of_mean.hpp
+END
+weighted_median.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/weighted_median.hpp
+END
+rolling_count.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/rolling_count.hpp
+END
+weighted_extended_p_square.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/weighted_extended_p_square.hpp
+END
+mean.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/mean.hpp
+END
+p_square_quantile.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/p_square_quantile.hpp
+END
+min.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/min.hpp
+END
+kurtosis.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/kurtosis.hpp
+END
+weighted_sum.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/weighted_sum.hpp
+END
+with_error.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/with_error.hpp
+END
+max.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/max.hpp
+END
+weighted_sum_kahan.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/weighted_sum_kahan.hpp
+END
+tail_variate_means.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/tail_variate_means.hpp
+END
+weighted_covariance.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/weighted_covariance.hpp
+END
+weighted_p_square_cumulative_distribution.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/weighted_p_square_cumulative_distribution.hpp
+END
+rolling_window.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/rolling_window.hpp
+END
+median.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/median.hpp
+END
+stats.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/stats.hpp
+END
+extended_p_square.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/extended_p_square.hpp
+END
+weighted_density.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/weighted_density.hpp
+END
+extended_p_square_quantile.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/accumulators/statistics/extended_p_square_quantile.hpp
+END

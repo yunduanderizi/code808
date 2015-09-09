@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa
+END
+asoundlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/asoundlib.h
+END
+timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/timer.h
+END
+mixer.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/mixer.h
+END
+conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/conf.h
+END
+version.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/version.h
+END
+audio_control_server.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/audio_control_server.h
+END
+seq.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/seq.h
+END
+ivDefine.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/ivDefine.h
+END
+seq_midi_event.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/seq_midi_event.h
+END
+rawmidi.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/rawmidi.h
+END
+audio_main_volume.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/audio_main_volume.h
+END
+mixer_abst.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/mixer_abst.h
+END
+pcm_plugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/pcm_plugin.h
+END
+pcm_ioplug.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/pcm_ioplug.h
+END
+instr.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/instr.h
+END
+global.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/global.h
+END
+conv.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/conv.h
+END
+alisp.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/alisp.h
+END
+control.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/control.h
+END
+pcm_external.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/pcm_external.h
+END
+seqmid.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/seqmid.h
+END
+control_external.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/control_external.h
+END
+ivPlatform.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/ivPlatform.h
+END
+iatomic.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/iatomic.h
+END
+pcm_extplug.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/pcm_extplug.h
+END
+ivTTSSDKID.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/ivTTSSDKID.h
+END
+error.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/error.h
+END
+seq_event.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/seq_event.h
+END
+pcm_rate.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/pcm_rate.h
+END
+audio_control_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/audio_control_client.h
+END
+input.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/input.h
+END
+output.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/output.h
+END
+audio_control.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/audio_control.h
+END
+asoundef.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/asoundef.h
+END
+hwdep.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/hwdep.h
+END
+ivTTS.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/ivTTS.h
+END
+pcm_old.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/pcm_old.h
+END
+pcm.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/pcm.h
+END

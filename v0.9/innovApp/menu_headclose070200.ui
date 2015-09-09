@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HeadCloseMenu</class>
+ <widget class="QWidget" name="HeadCloseMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>504</width>
+    <height>388</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="UIPicture" name="pic_bg">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>504</width>
+     <height>387</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>big_bg.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_bar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>504</width>
+     <height>54</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>head-bg.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_title">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>168</width>
+     <height>50</height>
+    </rect>
+   </property>
+
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>前方封闭</string>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>h1_bg.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>5</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>160</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_back">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>10</y>
+     <width>51</width>
+     <height>44</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>back.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>back_hover.png</string>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_map">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>10</y>
+     <width>70</width>
+     <height>43</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>map_text_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>map_text_hover.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_line">
+   <property name="geometry">
+    <rect>
+     <x>425</x>
+     <y>6</y>
+     <width>2</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>xian.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_centerbg">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>82</y>
+     <width>444</width>
+     <height>262</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>main_ClosedRegion.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>445</width>
+     <height>260</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_1km">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>85</y>
+     <width>200</width>
+     <height>45</height>
+    </rect>
+   </property>
+
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>1km</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>-5</x>
+     <y>5</y>
+     <width>200</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_5km">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>85</y>
+     <width>200</width>
+     <height>45</height>
+    </rect>
+   </property>
+
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>5km</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>-5</x>
+     <y>5</y>
+     <width>200</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_10km">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>135</y>
+     <width>200</width>
+     <height>45</height>
+    </rect>
+   </property>
+
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>10km</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>5</y>
+     <width>200</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_15km">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>135</y>
+     <width>200</width>
+     <height>45</height>
+    </rect>
+   </property>
+
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>15km</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>5</y>
+     <width>200</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_20km">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>187</y>
+     <width>200</width>
+     <height>45</height>
+    </rect>
+   </property>
+
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>20km</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>5</y>
+     <width>200</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_25km">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>187</y>
+     <width>200</width>
+     <height>45</height>
+    </rect>
+   </property>
+
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>25km</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>5</y>
+     <width>200</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_30km">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>238</y>
+     <width>200</width>
+     <height>45</height>
+    </rect>
+   </property>
+
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>30km</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>5</y>
+     <width>200</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_35km">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>238</y>
+     <width>200</width>
+     <height>45</height>
+    </rect>
+   </property>
+
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>35km</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>5</y>
+     <width>200</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_40km">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>290</y>
+     <width>200</width>
+     <height>45</height>
+    </rect>
+   </property>
+
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>40km</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>5</y>
+     <width>200</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_45km">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>290</y>
+     <width>200</width>
+     <height>45</height>
+    </rect>
+   </property>
+
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>45km</string>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>5</y>
+     <width>200</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>UIButton</class>
+   <extends>QWidget</extends>
+   <header>uibutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>UIPicture</class>
+   <extends>QWidget</extends>
+   <header>uipicture.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/geofuzzy
+END
+new_address.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/geofuzzy/new_address.h
+END
+geoFuzzyType.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/geofuzzy/geoFuzzyType.h
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/geofuzzy/stdafx.h
+END
+geofuzzy_api.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/common/include/geofuzzy/geofuzzy_api.h
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/geometries/adapted/boost_range
+END
+uniqued.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/geometries/adapted/boost_range/uniqued.hpp
+END
+filtered.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/geometries/adapted/boost_range/filtered.hpp
+END
+strided.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/geometries/adapted/boost_range/strided.hpp
+END
+reversed.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/geometries/adapted/boost_range/reversed.hpp
+END
+sliced.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/geometries/adapted/boost_range/sliced.hpp
+END
+adjacent_filtered.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/geometries/adapted/boost_range/adjacent_filtered.hpp
+END

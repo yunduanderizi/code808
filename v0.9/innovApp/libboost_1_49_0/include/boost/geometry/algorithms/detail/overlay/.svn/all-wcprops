@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay
+END
+get_turn_info.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/get_turn_info.hpp
+END
+get_relative_order.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/get_relative_order.hpp
+END
+copy_segment_point.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/copy_segment_point.hpp
+END
+stream_info.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/stream_info.hpp
+END
+get_turns.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/get_turns.hpp
+END
+ring_properties.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/ring_properties.hpp
+END
+backtrack_check_si.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/backtrack_check_si.hpp
+END
+traversal_info.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/traversal_info.hpp
+END
+assign_parents.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/assign_parents.hpp
+END
+select_rings.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/select_rings.hpp
+END
+calculate_distance_policy.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/calculate_distance_policy.hpp
+END
+enrich_intersection_points.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/enrich_intersection_points.hpp
+END
+intersection_insert.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/intersection_insert.hpp
+END
+add_rings.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/add_rings.hpp
+END
+handle_tangencies.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/handle_tangencies.hpp
+END
+get_ring.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/get_ring.hpp
+END
+get_intersection_points.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/get_intersection_points.hpp
+END
+follow.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/follow.hpp
+END
+turn_info.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/turn_info.hpp
+END
+segment_identifier.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/segment_identifier.hpp
+END
+check_enrich.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/check_enrich.hpp
+END
+enrichment_info.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/enrichment_info.hpp
+END
+debug_turn_info.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/debug_turn_info.hpp
+END
+visit_info.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/visit_info.hpp
+END
+copy_segments.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/copy_segments.hpp
+END
+append_no_duplicates.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/append_no_duplicates.hpp
+END
+overlay.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/overlay.hpp
+END
+overlay_type.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/overlay_type.hpp
+END
+clip_linestring.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/clip_linestring.hpp
+END
+traverse.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/traverse.hpp
+END
+self_turn_points.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/self_turn_points.hpp
+END
+convert_ring.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/algorithms/detail/overlay/convert_ring.hpp
+END

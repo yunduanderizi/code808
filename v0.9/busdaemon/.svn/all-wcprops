@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/tcc892x_common/!svn/ver/663/trunk/innovbox/v0.9/busdaemon
+END
+GpsLocationMessageHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/503/trunk/innovbox/v0.9/busdaemon/GpsLocationMessageHandler.h
+END
+SerialConnectionManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/503/trunk/innovbox/v0.9/busdaemon/SerialConnectionManager.cpp
+END
+busdaemon.pro
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/468/trunk/innovbox/v0.9/busdaemon/busdaemon.pro
+END
+GpsMessageHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tcc892x_common/!svn/ver/663/trunk/innovbox/v0.9/busdaemon/GpsMessageHandler.cpp
+END
+McuMessageHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/645/trunk/innovbox/v0.9/busdaemon/McuMessageHandler.h
+END
+busdaemon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/503/trunk/innovbox/v0.9/busdaemon/busdaemon.cpp
+END
+busmessage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tcc892x_common/!svn/ver/645/trunk/innovbox/v0.9/busdaemon/busmessage.cpp
+END
+SerialConnectionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/430/trunk/innovbox/v0.9/busdaemon/SerialConnectionManager.h
+END
+GpsMessageHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/663/trunk/innovbox/v0.9/busdaemon/GpsMessageHandler.h
+END
+busmessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/645/trunk/innovbox/v0.9/busdaemon/busmessage.h
+END
+GpsLocationMessageHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tcc892x_common/!svn/ver/645/trunk/innovbox/v0.9/busdaemon/GpsLocationMessageHandler.cpp
+END
+McuMessageHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tcc892x_common/!svn/ver/663/trunk/innovbox/v0.9/busdaemon/McuMessageHandler.cpp
+END

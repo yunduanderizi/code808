@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tcc892x_common/!svn/ver/341/trunk/innovbox/v0.9/tools/mcu_upgrade
+END
+update_mcu.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tcc892x_common/!svn/ver/341/trunk/innovbox/v0.9/tools/mcu_upgrade/update_mcu.cpp
+END
+io.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tcc892x_common/!svn/ver/335/trunk/innovbox/v0.9/tools/mcu_upgrade/io.cpp
+END
+typedefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/335/trunk/innovbox/v0.9/tools/mcu_upgrade/typedefs.h
+END
+ib_i2cctl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tcc892x_common/!svn/ver/335/trunk/innovbox/v0.9/tools/mcu_upgrade/ib_i2cctl.cpp
+END
+update_mcu.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/335/trunk/innovbox/v0.9/tools/mcu_upgrade/update_mcu.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/335/trunk/innovbox/v0.9/tools/mcu_upgrade/Makefile
+END
+io.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/335/trunk/innovbox/v0.9/tools/mcu_upgrade/io.h
+END
+readme
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tcc892x_common/!svn/ver/335/trunk/innovbox/v0.9/tools/mcu_upgrade/readme
+END
+mcuCommon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tcc892x_common/!svn/ver/335/trunk/innovbox/v0.9/tools/mcu_upgrade/mcuCommon.cpp
+END
+ib_i2cctl.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/335/trunk/innovbox/v0.9/tools/mcu_upgrade/ib_i2cctl.h
+END
+q
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tcc892x_common/!svn/ver/335/trunk/innovbox/v0.9/tools/mcu_upgrade/q
+END
+mcuCommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/335/trunk/innovbox/v0.9/tools/mcu_upgrade/mcuCommon.h
+END

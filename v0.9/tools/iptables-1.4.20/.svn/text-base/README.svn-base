@@ -1,0 +1,3 @@
+./configure --host=arm-linux --enable-share --enable-static --prefix="install dir"
+make
+make install

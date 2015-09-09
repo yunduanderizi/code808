@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tools/serial
+END
+generateserial.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tools/serial/generateserial.cpp
+END
+findduplicate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tools/serial/findduplicate.cpp
+END
+serialconvert.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tools/serial/serialconvert.cpp
+END

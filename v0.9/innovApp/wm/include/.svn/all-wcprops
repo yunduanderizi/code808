@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/wm/include
+END
+dbusClientProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/wm/include/dbusClientProxy.h
+END
+debugMonitor.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/wm/include/debugMonitor.h
+END
+i2ccontrol.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/wm/include/i2ccontrol.h
+END
+windowManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/wm/include/windowManager.h
+END
+debugMonitorMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/wm/include/debugMonitorMessage.h
+END
+windowManagerApp.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/wm/include/windowManagerApp.h
+END

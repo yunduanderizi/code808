@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/strategies/cartesian
+END
+centroid_bashein_detmer.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/strategies/cartesian/centroid_bashein_detmer.hpp
+END
+distance_projected_point.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/strategies/cartesian/distance_projected_point.hpp
+END
+side_by_triangle.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/strategies/cartesian/side_by_triangle.hpp
+END
+area_surveyor.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/strategies/cartesian/area_surveyor.hpp
+END
+box_in_box.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/strategies/cartesian/box_in_box.hpp
+END
+point_in_poly_franklin.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/strategies/cartesian/point_in_poly_franklin.hpp
+END
+point_in_box.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/strategies/cartesian/point_in_box.hpp
+END
+centroid_weighted_length.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/strategies/cartesian/centroid_weighted_length.hpp
+END
+cart_intersect.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/strategies/cartesian/cart_intersect.hpp
+END
+distance_pythagoras.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/strategies/cartesian/distance_pythagoras.hpp
+END
+point_in_poly_crossings_multiply.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/strategies/cartesian/point_in_poly_crossings_multiply.hpp
+END

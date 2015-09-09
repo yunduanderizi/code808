@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/algorithm/iteration/detail
+END
+segmented_fold.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/algorithm/iteration/detail/segmented_fold.hpp
+END
+segmented_for_each.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/algorithm/iteration/detail/segmented_for_each.hpp
+END
+fold.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/algorithm/iteration/detail/fold.hpp
+END
+for_each.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/algorithm/iteration/detail/for_each.hpp
+END

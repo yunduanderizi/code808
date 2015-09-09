@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/sound
+END
+sscape_ioctl.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/sound/sscape_ioctl.h
+END
+ainstr_simple.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/sound/ainstr_simple.h
+END
+asound_fm.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/sound/asound_fm.h
+END
+ainstr_gf1.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/sound/ainstr_gf1.h
+END
+hdsp.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/sound/hdsp.h
+END
+ainstr_iw.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/sound/ainstr_iw.h
+END
+sb16_csp.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/sound/sb16_csp.h
+END
+ainstr_fm.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/sound/ainstr_fm.h
+END
+emu10k1.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/sound/emu10k1.h
+END
+type_compat.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/alsa/sound/type_compat.h
+END

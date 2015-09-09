@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/karma/stream/detail
+END
+format_manip_auto.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/karma/stream/detail/format_manip_auto.hpp
+END
+format_manip.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/karma/stream/detail/format_manip.hpp
+END
+iterator_sink.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/karma/stream/detail/iterator_sink.hpp
+END

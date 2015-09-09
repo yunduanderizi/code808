@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/camera
+END
+rsc.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/camera/rsc.c
+END
+v4l2.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/camera/v4l2.c
+END
+rsc.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/camera/rsc.h
+END
+v4l2.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/camera/v4l2.h
+END
+Camapp.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/camera/Camapp.c
+END
+Camapp.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/camera/Camapp.h
+END
+camera.pro
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/camera/camera.pro
+END

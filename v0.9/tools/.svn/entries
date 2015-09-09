@@ -1,0 +1,73 @@
+10
+
+dir
+922
+http://192.168.0.223/svn/tcc892x_common/trunk/innovbox/v0.9/tools
+http://192.168.0.223/svn/tcc892x_common
+
+
+
+2015-09-07T10:18:36.820190Z
+918
+zhangfeng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+af535529-1d0d-4cae-b0e5-3816935fa6bc
+
+serial
+dir
+
+readsimiccid
+dir
+
+generateconfig
+dir
+
+maintenance
+dir
+
+picfb
+dir
+
+iptables-1.4.20
+dir
+
+writedata
+dir
+
+emmcstatus
+dir
+
+updatedb
+dir
+
+startui
+dir
+
+radioManager_update
+dir
+
+mcu_upgrade
+dir
+
+cvbs
+dir
+
+uploadupdateinfo
+dir
+
+interceptty-0.6
+dir
+

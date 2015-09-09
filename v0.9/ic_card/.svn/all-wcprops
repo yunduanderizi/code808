@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/tcc892x_common/!svn/ver/189/trunk/innovbox/v0.9/ic_card
+END
+writecard.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tcc892x_common/!svn/ver/189/trunk/innovbox/v0.9/ic_card/writecard.cpp
+END
+writecard.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/ic_card/writecard.h
+END
+ic_card.pro
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/ic_card/ic_card.pro
+END

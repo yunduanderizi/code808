@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/451/trunk/innovbox/v0.9/innovApp/linux/lib/rel
+END
+libinnovengine.a
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tcc892x_common/!svn/ver/451/trunk/innovbox/v0.9/innovApp/linux/lib/rel/libinnovengine.a
+END
+english_uk.so
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/450/trunk/innovbox/v0.9/innovApp/linux/lib/rel/english_uk.so
+END
+english_au.so
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/450/trunk/innovbox/v0.9/innovApp/linux/lib/rel/english_au.so
+END
+libtremor.a
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/451/trunk/innovbox/v0.9/innovApp/linux/lib/rel/libtremor.a
+END
+libz.a
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/451/trunk/innovbox/v0.9/innovApp/linux/lib/rel/libz.a
+END
+english_us.so
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/450/trunk/innovbox/v0.9/innovApp/linux/lib/rel/english_us.so
+END

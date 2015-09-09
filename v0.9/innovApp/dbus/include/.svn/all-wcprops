@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/dbus/include
+END
+dbusClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/dbus/include/dbusClient.h
+END
+dbusApplication.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/dbus/include/dbusApplication.h
+END
+dbusMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/dbus/include/dbusMessage.h
+END
+dbusDebug.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/dbus/include/dbusDebug.h
+END
+dbusServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/dbus/include/dbusServer.h
+END

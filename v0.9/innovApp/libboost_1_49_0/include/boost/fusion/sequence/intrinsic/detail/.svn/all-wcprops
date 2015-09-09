@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/sequence/intrinsic/detail
+END
+segmented_end.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/sequence/intrinsic/detail/segmented_end.hpp
+END
+segmented_end_impl.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/sequence/intrinsic/detail/segmented_end_impl.hpp
+END
+segmented_size.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/sequence/intrinsic/detail/segmented_size.hpp
+END
+segmented_begin.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/sequence/intrinsic/detail/segmented_begin.hpp
+END
+segmented_begin_impl.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/fusion/sequence/intrinsic/detail/segmented_begin_impl.hpp
+END

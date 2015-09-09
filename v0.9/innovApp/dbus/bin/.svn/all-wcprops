@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/dbus/bin
+END
+system.conf
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/dbus/bin/system.conf
+END
+dbus-daemon
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/dbus/bin/dbus-daemon
+END
+rundbus
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/dbus/bin/rundbus
+END

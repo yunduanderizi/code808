@@ -1,0 +1,353 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/tcc892x_common/!svn/ver/922/trunk/innovbox/v0.9/tables
+END
+BusRecordTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/459/trunk/innovbox/v0.9/tables/BusRecordTable.cpp
+END
+ElectronicFenceTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/ElectronicFenceTable.h
+END
+VDRContactsTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/VDRContactsTable.h
+END
+VDRPreTiredTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/509/trunk/innovbox/v0.9/tables/VDRPreTiredTable.h
+END
+BusStationTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tcc892x_common/!svn/ver/416/trunk/innovbox/v0.9/tables/BusStationTable.h
+END
+VDRTrackInfoTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/VDRTrackInfoTable.h
+END
+ConcreteTableBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/ConcreteTableBase.h
+END
+BusParaTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tcc892x_common/!svn/ver/463/trunk/innovbox/v0.9/tables/BusParaTable.h
+END
+MultiRowWithUniqueIndexTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/MultiRowWithUniqueIndexTable.h
+END
+VDRMonitorTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/197/trunk/innovbox/v0.9/tables/VDRMonitorTable.cpp
+END
+VDRUpdateTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/VDRUpdateTable.h
+END
+VDRTextRecordTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tcc892x_common/!svn/ver/365/trunk/innovbox/v0.9/tables/VDRTextRecordTable.h
+END
+VDRAccelerateTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/VDRAccelerateTable.cpp
+END
+VDRInfomationServiceTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/366/trunk/innovbox/v0.9/tables/VDRInfomationServiceTable.h
+END
+SQLiteTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tcc892x_common/!svn/ver/829/trunk/innovbox/v0.9/tables/SQLiteTable.h
+END
+DriversLoginTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/DriversLoginTable.cpp
+END
+VDRDregInfoTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tcc892x_common/!svn/ver/906/trunk/innovbox/v0.9/tables/VDRDregInfoTable.cpp
+END
+VDRBaseConfigTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/295/trunk/innovbox/v0.9/tables/VDRBaseConfigTable.cpp
+END
+VDRJT8080TextRecordTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/189/trunk/innovbox/v0.9/tables/VDRJT8080TextRecordTable.cpp
+END
+SingleRowTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/829/trunk/innovbox/v0.9/tables/SingleRowTable.h
+END
+VDREventsTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/386/trunk/innovbox/v0.9/tables/VDREventsTable.cpp
+END
+VDRDeployParaTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/VDRDeployParaTable.h
+END
+VDRStudentIdTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/VDRStudentIdTable.h
+END
+VDRInfomationTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tcc892x_common/!svn/ver/389/trunk/innovbox/v0.9/tables/VDRInfomationTable.h
+END
+VDRQuestionTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/376/trunk/innovbox/v0.9/tables/VDRQuestionTable.h
+END
+ElectronicFenceTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/ElectronicFenceTable.cpp
+END
+VDRRunParaTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tcc892x_common/!svn/ver/189/trunk/innovbox/v0.9/tables/VDRRunParaTable.h
+END
+VDRContactsTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/VDRContactsTable.cpp
+END
+LargeTableBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/LargeTableBase.h
+END
+VDRPreTiredTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tcc892x_common/!svn/ver/509/trunk/innovbox/v0.9/tables/VDRPreTiredTable.cpp
+END
+VDRPhoneTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/VDRPhoneTable.h
+END
+BusStationTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/421/trunk/innovbox/v0.9/tables/BusStationTable.cpp
+END
+VDRTrackInfoTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/VDRTrackInfoTable.cpp
+END
+BusParaTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/463/trunk/innovbox/v0.9/tables/BusParaTable.cpp
+END
+BusRecordTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/459/trunk/innovbox/v0.9/tables/BusRecordTable.h
+END
+MultiRowWithUniqueIndexTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/MultiRowWithUniqueIndexTable.cpp
+END
+ConcreteTableBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/ConcreteTableBase.cpp
+END
+VDRUpdateTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/VDRUpdateTable.cpp
+END
+VDRTextRecordTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/365/trunk/innovbox/v0.9/tables/VDRTextRecordTable.cpp
+END
+VDRInfomationServiceTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tcc892x_common/!svn/ver/366/trunk/innovbox/v0.9/tables/VDRInfomationServiceTable.cpp
+END
+SQLiteTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/352/trunk/innovbox/v0.9/tables/SQLiteTable.cpp
+END
+TableNameDef.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tcc892x_common/!svn/ver/906/trunk/innovbox/v0.9/tables/TableNameDef.h
+END
+VDRMonitorTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tcc892x_common/!svn/ver/180/trunk/innovbox/v0.9/tables/VDRMonitorTable.h
+END
+SingleRowTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/829/trunk/innovbox/v0.9/tables/SingleRowTable.cpp
+END
+VDRAccelerateTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/VDRAccelerateTable.h
+END
+VDRDeployParaTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/922/trunk/innovbox/v0.9/tables/VDRDeployParaTable.cpp
+END
+DriversLoginTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/DriversLoginTable.h
+END
+VDRDregInfoTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/906/trunk/innovbox/v0.9/tables/VDRDregInfoTable.h
+END
+VDRInfomationTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/389/trunk/innovbox/v0.9/tables/VDRInfomationTable.cpp
+END
+VDRStudentIdTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/VDRStudentIdTable.cpp
+END
+tables.pro
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tcc892x_common/!svn/ver/841/trunk/innovbox/v0.9/tables/tables.pro
+END
+VDRBaseConfigTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tcc892x_common/!svn/ver/220/trunk/innovbox/v0.9/tables/VDRBaseConfigTable.h
+END
+VDRJT8080TextRecordTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tcc892x_common/!svn/ver/189/trunk/innovbox/v0.9/tables/VDRJT8080TextRecordTable.h
+END
+VDRQuestionTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tcc892x_common/!svn/ver/376/trunk/innovbox/v0.9/tables/VDRQuestionTable.cpp
+END
+VDRRunParaTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tcc892x_common/!svn/ver/806/trunk/innovbox/v0.9/tables/VDRRunParaTable.cpp
+END
+VDRPhoneTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/tables/VDRPhoneTable.cpp
+END
+LargeTableBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/352/trunk/innovbox/v0.9/tables/LargeTableBase.cpp
+END
+VDREventsTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/386/trunk/innovbox/v0.9/tables/VDREventsTable.h
+END

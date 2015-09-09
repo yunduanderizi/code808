@@ -1,0 +1,265 @@
+10
+
+dir
+922
+http://192.168.0.223/svn/tcc892x_common/trunk/innovbox/v0.9
+http://192.168.0.223/svn/tcc892x_common
+
+
+
+2015-09-09T02:55:12.994830Z
+922
+zhangfeng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+af535529-1d0d-4cae-b0e5-3816935fa6bc
+
+wm
+dir
+
+ic_card
+dir
+
+diskManager
+dir
+
+commonUi
+dir
+
+radioManager
+dir
+
+project_config
+dir
+
+gb19056
+dir
+
+remoteupdate
+dir
+
+bsManager
+dir
+
+databaseManager
+dir
+
+inputmethod
+dir
+
+tools
+dir
+
+modem
+dir
+
+utility
+dir
+
+caraction
+dir
+
+freight-jt808
+dir
+
+audioControlCenter
+dir
+
+capapp
+dir
+
+tables
+dir
+
+appmanager
+dir
+
+busdaemon
+dir
+
+systemSetting
+dir
+
+printer
+dir
+
+diskManagerCenter
+dir
+
+deviceManager_sleep_mode
+dir
+
+dbusManager
+dir
+
+camera
+dir
+
+common
+dir
+
+voice.v1
+dir
+
+innovApp
+dir
+
+multimedia
+dir
+
+deviceManager
+dir
+
+voice.v2
+dir
+
+audioManager
+dir
+
+remotecontrol
+dir
+
+recoveryDefaultData
+dir
+
+innovbox.pro
+file
+
+
+
+
+2015-09-09T03:19:51.920793Z
+dcd41a671f7f8b0cff7dab3a7163f532
+2015-07-31T03:02:40.630901Z
+828
+feijiaqing
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4019
+
+audioControl
+dir
+
+pppd
+dir
+
+recordVoice
+dir
+
+dataManager
+dir
+
+product.conf
+file
+
+
+
+
+2015-09-09T03:19:51.920793Z
+489c98eee3485217be4f9b4ecf08a091
+2015-07-31T03:02:40.630901Z
+828
+feijiaqing
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5226
+
+second_jt808
+dir
+
+gpsinterface
+dir
+
+readme.txt
+file
+
+
+
+
+2015-09-09T03:19:51.920793Z
+a2c6efeb69af296226e54cc369ef269c
+2013-10-30T08:06:53.056381Z
+162
+zhangfeng
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+627
+
+jt808
+dir
+
+radioManager_8925
+dir
+
+schoolcustom
+dir
+

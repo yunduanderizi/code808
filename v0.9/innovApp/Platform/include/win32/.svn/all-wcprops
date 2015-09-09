@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/Platform/include/win32
+END
+salchannelimpsocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/Platform/include/win32/salchannelimpsocket.h
+END
+salchannelconfigwin.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/Platform/include/win32/salchannelconfigwin.h
+END
+salchannelimpwin.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/Platform/include/win32/salchannelimpwin.h
+END
+salchannelimpserial.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/Platform/include/win32/salchannelimpserial.h
+END

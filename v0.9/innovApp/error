@@ -1,0 +1,1611 @@
+In file included from ./engineinterface/engineinterface.h:8,
+                 from hmi/map_mainwindow.h:9,
+                 from main.cpp:1:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from hmi/map_mainwindow.h:9,
+                 from main.cpp:1:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from hmi/map_mainwindow.h:7,
+                 from main.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from hmi/map_mainwindow.h:9,
+                 from main.cpp:1:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from hmi/map_mainwindow.h:9,
+                 from main.cpp:1:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+main.cpp: In function 'int main(int, char**)':
+main.cpp:160: warning: deprecated conversion from string constant to 'char*'
+main.cpp:46: warning: unused variable 'OldTextCodec'
+main.cpp:135: warning: unused variable 'ret'
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+TTS/audiocontrolcenter/include/audio_control.h:93: warning: 'IBACDmixDev' defined but not used
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from platform.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+platform.cpp:442: warning: unused parameter 'hint'
+platform.cpp:442: warning: unused parameter 'strFile'
+platform.cpp:442: warning: unused parameter 'nLine'
+platform.cpp:449: warning: unused parameter 'strFile'
+platform.cpp:449: warning: unused parameter 'nLine'
+platform.cpp:456: warning: unused parameter 'hint'
+platform.cpp:456: warning: unused parameter 'strFile'
+platform.cpp:456: warning: unused parameter 'nLine'
+platform.cpp:551: warning: unused parameter 'tokenList'
+platform.cpp:551: warning: unused parameter 'numTokens'
+platform.cpp:551: warning: unused parameter 'priority'
+platform.cpp:554: warning: unused parameter 'maxlen'
+platform.cpp:561: warning: unused parameter 'filename'
+platform.cpp:561: warning: unused parameter 'buf'
+platform.cpp:561: warning: unused parameter 'buflen'
+platform.cpp: In function 'void gnusim_assert(const char*, INT32, const char*)':
+platform.cpp:574: warning: use of 'h' length modifier with 's' type character
+platform.cpp:574: warning: use of 'h' length modifier with 's' type character
+platform.cpp: In function 'UINT64 os_rdtsc()':
+platform.cpp:354: warning: control reaches end of non-void function
+platform.cpp: At global scope:
+platform.cpp:18: warning: 'debug' defined but not used
+platform.cpp:19: warning: 'cache' defined but not used
+csingalobject.cpp:51: warning: unused parameter 'a_ulParam1'
+csingalobject.cpp:51: warning: unused parameter 'a_ulParam2'
+In file included from engineinterface/engineinterface.h:8,
+                 from engineinterface/engineinterface.cpp:1:
+engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from engineinterface/engineinterface.h:6,
+                 from engineinterface/engineinterface.cpp:1:
+engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from engineinterface/engineinterface.h:4,
+                 from engineinterface/engineinterface.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from engineinterface/engineinterface.h:7,
+                 from engineinterface/engineinterface.cpp:1:
+engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from engineinterface/engineinterface.h:10,
+                 from engineinterface/engineinterface.cpp:1:
+engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+In file included from engineinterface/engineinterface.cpp:8:
+./engineinterface/car.h: At global scope:
+./engineinterface/car.h:832: warning: missing initializer for member 'TBitmap::storageFlag'
+./engineinterface/car.h:832: warning: missing initializer for member 'TBitmap::pixelFormat'
+In file included from engineinterface/engineinterface.cpp:14:
+engineinterface/goldstar.h:192: warning: missing initializer for member 'TBitmap::storageFlag'
+engineinterface/goldstar.h:192: warning: missing initializer for member 'TBitmap::pixelFormat'
+engineinterface/engineinterface.cpp:27: warning: unused parameter 'shortText'
+engineinterface/engineinterface.cpp:27: warning: unused parameter 'shortTextLength'
+engineinterface/engineinterface.cpp:27: warning: unused parameter 'priority'
+engineinterface/engineinterface.cpp: In function 'int engineGetPicInfo(unsigned char*, long int, long int)':
+engineinterface/engineinterface.cpp:202: warning: comparison between signed and unsigned integer expressions
+engineinterface/engineinterface.cpp: In function 'bool engineInitSystem()':
+engineinterface/engineinterface.cpp:164: warning: control reaches end of non-void function
+engineinterface/datatype.h: At global scope:
+engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+./engineinterface/car.h:821: warning: 'myCarIcon' defined but not used
+engineinterface/goldstar.h:181: warning: 'mygoldstar' defined but not used
+In file included from engineinterface/engineinterface.h:8,
+                 from engineinterface/interface_logistics.h:5,
+                 from engineinterface/navcoreFavourites.cpp:7:
+engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from engineinterface/engineinterface.h:6,
+                 from engineinterface/interface_logistics.h:5,
+                 from engineinterface/navcoreFavourites.cpp:7:
+engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/display/didebug.h:5,
+                 from common/include/innovEngine_display.h:8,
+                 from engineinterface/navcoreFavourites.h:8,
+                 from engineinterface/navcoreFavourites.cpp:3:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from engineinterface/engineinterface.h:7,
+                 from engineinterface/interface_logistics.h:5,
+                 from engineinterface/navcoreFavourites.cpp:7:
+engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from engineinterface/engineinterface.h:10,
+                 from engineinterface/interface_logistics.h:5,
+                 from engineinterface/navcoreFavourites.cpp:7:
+engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+engineinterface/navcoreFavourites.cpp: In member function 'bool navcoreFavourites::deselect(unsigned int)':
+engineinterface/navcoreFavourites.cpp:95: warning: comparison between signed and unsigned integer expressions
+engineinterface/navcoreFavourites.cpp: In member function 'void navcoreFavourites::render(TBitmap*, TViewport*)':
+engineinterface/navcoreFavourites.cpp:153: warning: comparison between signed and unsigned integer expressions
+engineinterface/navcoreFavourites.cpp:154: warning: enumeration value 'TYPE_OTHER1' not handled in switch
+engineinterface/navcoreFavourites.cpp:154: warning: enumeration value 'TYPE_OTHER2' not handled in switch
+engineinterface/navcoreFavourites.cpp:154: warning: enumeration value 'TYPE_OTHER3' not handled in switch
+engineinterface/navcoreFavourites.cpp:154: warning: enumeration value 'ICON_TYPE_SEARCH_RESULT' not handled in switch
+engineinterface/navcoreFavourites.cpp:184: warning: enumeration value 'TYPE_OTHER1' not handled in switch
+engineinterface/navcoreFavourites.cpp:184: warning: enumeration value 'TYPE_OTHER2' not handled in switch
+engineinterface/navcoreFavourites.cpp:184: warning: enumeration value 'TYPE_OTHER3' not handled in switch
+engineinterface/navcoreFavourites.cpp:146: warning: unused variable 'bitmap'
+engineinterface/navcoreGraphics.cpp:33: warning: missing initializer for member 'SDBG_TFlagRec::int_val'
+engineinterface/navcoreGraphics.cpp:33: warning: missing initializer for member 'SDBG_TFlagRec::val_begin'
+engineinterface/navcoreGraphics.cpp:33: warning: missing initializer for member 'SDBG_TFlagRec::val_end'
+engineinterface/navcoreGraphics.cpp:33: warning: missing initializer for member 'SDBG_TFlagRec::next'
+engineinterface/navcoreGraphics.cpp:35: warning: missing braces around initializer for 'RGBCOLOUR'
+engineinterface/navcoreGraphics.cpp:35: warning: missing initializer for member 'RGBCOLOUR::green'
+engineinterface/navcoreGraphics.cpp:35: warning: missing initializer for member 'RGBCOLOUR::red'
+engineinterface/navcoreGraphics.cpp:35: warning: missing initializer for member 'RGBCOLOUR::alpha'
+engineinterface/navcoreGraphics.cpp:35: warning: missing initializer for member 'TGdiPlatformGraphics::backColour'
+engineinterface/navcoreGraphics.cpp:35: warning: missing initializer for member 'TGdiPlatformGraphics::pscreen'
+engineinterface/navcoreGraphics.cpp:35: warning: missing initializer for member 'TGdiPlatformGraphics::cursor'
+engineinterface/navcoreGraphics.cpp:35: warning: missing initializer for member 'TGdiPlatformGraphics::penWidth'
+engineinterface/navcoreGraphics.cpp:35: warning: missing initializer for member 'TGdiPlatformGraphics::recordTextRect'
+engineinterface/navcoreGraphics.cpp:35: warning: missing initializer for member 'TGdiPlatformGraphics::font'
+engineinterface/navcoreGraphics.cpp:35: warning: missing initializer for member 'TGdiPlatformGraphics::prevFont'
+engineinterface/navcoreGraphics.cpp:35: warning: missing initializer for member 'TGdiPlatformGraphics::clipRect'
+engineinterface/navcoreGraphics.cpp:35: warning: missing initializer for member 'TGdiPlatformGraphics::image'
+engineinterface/navcoreGraphics.cpp:35: warning: missing initializer for member 'TGdiPlatformGraphics::qFont'
+engineinterface/navcoreGraphics.cpp:54: warning: unused parameter 'font'
+engineinterface/navcoreGraphics.cpp:107: warning: unused parameter 'pThis'
+engineinterface/navcoreGraphics.cpp:124: warning: unused parameter 'pThis'
+engineinterface/navcoreGraphics.cpp:124: warning: unused parameter 'rect'
+engineinterface/navcoreGraphics.cpp:124: warning: unused parameter 'pscreen'
+engineinterface/navcoreGraphics.cpp:129: warning: unused parameter 'ptr'
+engineinterface/navcoreGraphics.cpp:41: warning: 'BOOL8 swapFonts(TGdiPlatformGraphics*)' defined but not used
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from engineinterface/navcoreJourney.h:5,
+                 from engineinterface/navcoreJourney.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+engineinterface/navcoreJourney.h: In constructor 'navcoreJourney::navcoreJourney()':
+engineinterface/navcoreJourney.h:242: warning: 'navcoreJourney::m_isValidIntersection' will be initialized after
+engineinterface/navcoreJourney.h:222: warning:   'bool navcoreJourney::m_showOnMap'
+engineinterface/navcoreJourney.cpp:10: warning:   when initialized here
+engineinterface/navcoreJourney.h:222: warning: 'navcoreJourney::m_showOnMap' will be initialized after
+engineinterface/navcoreJourney.h:215: warning:   'bool navcoreJourney::m_changedRenderColor'
+engineinterface/navcoreJourney.cpp:10: warning:   when initialized here
+engineinterface/navcoreJourney.cpp: At global scope:
+engineinterface/navcoreJourney.cpp:963: warning: unused parameter 'instruction'
+engineinterface/navcoreJourney.cpp: In member function 'bool navcoreJourney::getGuidanceInfo(unsigned int, std::wstring&, std::wstring&, std::wstring&, std::wstring&, TSegmentID&)':
+engineinterface/navcoreJourney.cpp:1003: warning: unused variable 'instructionCString'
+In file included from engineinterface/navcore.cpp:31:
+engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from engineinterface/navcoreDisplay.h:6,
+                 from engineinterface/navcore.cpp:31:
+engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from engineinterface/navcore.cpp:25:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+engineinterface/navcore.h: In constructor 'navcore::navcore()':
+engineinterface/navcore.h:36: warning: 'navcore::screen' will be initialized after
+engineinterface/navcore.h:35: warning:   'UINT32 navcore::oldLength'
+engineinterface/navcore.cpp:97: warning:   when initialized here
+engineinterface/navcore.cpp: In member function 'void navcore::createcontext()':
+engineinterface/navcore.cpp:124: warning: unused variable 'c'
+engineinterface/navcore.cpp: In member function 'bool navcore::initViewport()':
+engineinterface/navcore.cpp:160: warning: unused variable 'width'
+engineinterface/navcore.cpp:160: warning: unused variable 'height'
+engineinterface/navcore.cpp: At global scope:
+engineinterface/navcore.cpp:71: warning: 'bmPOIType' defined but not used
+engineinterface/navcore.cpp:72: warning: 'bmPOIBrand' defined but not used
+engineinterface/navcore.cpp:73: warning: 'bmRoadShield' defined but not used
+engineinterface/navcore.cpp:74: warning: 'binCHNFilename' defined but not used
+In file included from engineinterface/navcoreDisplay.cpp:3:
+engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from engineinterface/navcoreDisplay.h:6,
+                 from engineinterface/navcoreDisplay.cpp:3:
+engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from engineinterface/navcore.h:10,
+                 from engineinterface/navcoreDisplay.h:4,
+                 from engineinterface/navcoreDisplay.cpp:3:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from engineinterface/navcoreDisplay.cpp:4:
+engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from engineinterface/navcoreDisplay.cpp:6:
+engineinterface/car.h:832: warning: missing initializer for member 'TBitmap::storageFlag'
+engineinterface/car.h:832: warning: missing initializer for member 'TBitmap::pixelFormat'
+In file included from engineinterface/navcoreDisplay.cpp:7:
+engineinterface/goldstar.h:192: warning: missing initializer for member 'TBitmap::storageFlag'
+engineinterface/goldstar.h:192: warning: missing initializer for member 'TBitmap::pixelFormat'
+In file included from engineinterface/engineinterface.h:10,
+                 from engineinterface/interface_logistics.h:5,
+                 from engineinterface/navcoreDisplay.cpp:9:
+engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+engineinterface/navcoreDisplay.cpp: At global scope:
+engineinterface/navcoreDisplay.cpp:20: warning: 'SDBGFlag_diTileDirectory' initialized and declared 'extern'
+engineinterface/navcoreDisplay.cpp:20: warning: missing initializer for member 'SDBG_TFlagRec::int_val'
+engineinterface/navcoreDisplay.cpp:20: warning: missing initializer for member 'SDBG_TFlagRec::val_begin'
+engineinterface/navcoreDisplay.cpp:20: warning: missing initializer for member 'SDBG_TFlagRec::val_end'
+engineinterface/navcoreDisplay.cpp:20: warning: missing initializer for member 'SDBG_TFlagRec::next'
+engineinterface/navcoreDisplay.cpp:22: warning: missing initializer for member 'SDBG_TFlagRec::int_val'
+engineinterface/navcoreDisplay.cpp:22: warning: missing initializer for member 'SDBG_TFlagRec::val_begin'
+engineinterface/navcoreDisplay.cpp:22: warning: missing initializer for member 'SDBG_TFlagRec::val_end'
+engineinterface/navcoreDisplay.cpp:22: warning: missing initializer for member 'SDBG_TFlagRec::next'
+engineinterface/navcoreDisplay.h: In constructor 'navcoreDisplay::navcoreDisplay()':
+engineinterface/navcoreDisplay.h:182: warning: 'navcoreDisplay::m_renderSnailTrail' will be initialized after
+engineinterface/navcoreDisplay.h:177: warning:   'UINT16* navcoreDisplay::m_pDecompBuffer'
+engineinterface/navcoreDisplay.cpp:30: warning:   when initialized here
+engineinterface/navcoreDisplay.h:177: warning: 'navcoreDisplay::m_pDecompBuffer' will be initialized after
+engineinterface/navcoreDisplay.h:168: warning:   'bool navcoreDisplay::m_bDisplayInitialised'
+engineinterface/navcoreDisplay.cpp:30: warning:   when initialized here
+engineinterface/navcoreDisplay.h:188: warning: 'navcoreDisplay::m_mapangle_flag' will be initialized after
+engineinterface/navcoreDisplay.h:187: warning:   'MAP_MODE navcoreDisplay::m_mapmode'
+engineinterface/navcoreDisplay.cpp:30: warning:   when initialized here
+engineinterface/navcoreDisplay.cpp: In member function 'bool navcoreDisplay::zoomToPoint(int, int, double)':
+engineinterface/navcoreDisplay.cpp:139: warning: unused variable 'from'
+engineinterface/navcoreDisplay.cpp: At global scope:
+engineinterface/navcoreDisplay.cpp:166: warning: unused parameter 'mapPos'
+engineinterface/navcoreDisplay.cpp:166: warning: unused parameter 'zoomFactor'
+engineinterface/navcoreDisplay.cpp:212: warning: unused parameter 'crossHair'
+engineinterface/navcoreDisplay.cpp:431: warning: unused parameter 'to'
+engineinterface/navcoreDisplay.cpp:431: warning: unused parameter 'from'
+engineinterface/navcoreDisplay.cpp:504: warning: unused parameter 'to'
+engineinterface/navcoreDisplay.cpp:504: warning: unused parameter 'from'
+engineinterface/navcoreDisplay.cpp:979: warning: unused parameter 'mapPos'
+engineinterface/navcoreDisplay.cpp: In function 'BOOL8 navcoreDisplay_renderCallback(WORLD_RENDERPARAMS*)':
+engineinterface/navcoreDisplay.cpp:343: warning: 'end' may be used uninitialized in this function
+engineinterface/navcoreDisplay.cpp:343: warning: 'start' may be used uninitialized in this function
+engineinterface/navcoreDisplay.cpp: In member function 'void navcoreDisplay::drawRuler()':
+engineinterface/navcoreDisplay.cpp:284: warning: 'distance' may be used uninitialized in this function
+engineinterface/datatype.h: At global scope:
+engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from dbus/dbusinterface.cpp:5:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from dbus/dbusinterface.cpp:5:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./gps/gn_parse.h:8,
+                 from dbus/dbusinterface.h:12,
+                 from dbus/dbusinterface.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from dbus/dbusinterface.cpp:5:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from dbus/dbusinterface.cpp:5:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+dbus/dbusinterface.cpp: In function 'void ShowMenuHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:35: warning: unused variable 'testRequest'
+dbus/dbusinterface.cpp: In function 'void CarLocationHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:47: warning: unused variable 'carRequest'
+dbus/dbusinterface.cpp: In function 'void GPSInfoReportCycleHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:64: warning: unused variable 'gpsInfoReportCycReq'
+dbus/dbusinterface.cpp: In function 'void RoadBookHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:81: warning: statement has no effect
+dbus/dbusinterface.cpp:82: warning: statement has no effect
+dbus/dbusinterface.cpp:83: warning: statement has no effect
+dbus/dbusinterface.cpp: In function 'void RoadBook2Handler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:99: warning: unused variable 'roadbook2Request'
+dbus/dbusinterface.cpp: In function 'void HospitalHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:113: warning: unused variable 'hospitalRequest'
+dbus/dbusinterface.cpp: In function 'void GPSInfoHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:126: warning: unused variable 'gpsInfoReq'
+dbus/dbusinterface.cpp: In function 'void WindowDisplayControlInfoHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:151: warning: unused variable 'windowControlReq'
+dbus/dbusinterface.cpp: In function 'void GasStationHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:163: warning: unused variable 'gasStationReq'
+dbus/dbusinterface.cpp: In function 'void ParkHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:176: warning: unused variable 'parkReq'
+dbus/dbusinterface.cpp: In function 'void LocateCarHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:188: warning: unused variable 'locateCarReq'
+dbus/dbusinterface.cpp: In function 'void LocateHomeHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:201: warning: unused variable 'locateHomeReq'
+dbus/dbusinterface.cpp: In function 'void DestinatonHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:214: warning: unused variable 'desinatonReq'
+dbus/dbusinterface.cpp: In function 'void DestinatonRecordHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:227: warning: unused variable 'desinatonRecordReq'
+dbus/dbusinterface.cpp: In function 'void NavigationHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:239: warning: unused variable 'naviGation'
+dbus/dbusinterface.cpp: In function 'void RealTimeRoadHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:252: warning: unused variable 'realTimeRoadReq'
+dbus/dbusinterface.cpp: In function 'void RoadReportHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:264: warning: unused variable 'roadReportReq'
+dbus/dbusinterface.cpp: In function 'void CommonReqHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:276: warning: unused variable 'commReq'
+dbus/dbusinterface.cpp: In function 'void AddressBookHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:288: warning: unused variable 'addressBookReq'
+dbus/dbusinterface.cpp: In function 'void SurroundingSearchHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:300: warning: unused variable 'surroundingSearchReq'
+dbus/dbusinterface.cpp: In function 'void DayNightModeHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:312: warning: unused variable 'dayNightModeReq'
+dbus/dbusinterface.cpp: In function 'void RightButtonRotateHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:324: warning: unused variable 'rightButtonRotateReq'
+dbus/dbusinterface.cpp: In function 'void MultiPointHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:336: warning: unused variable 'multiPointReq'
+dbus/dbusinterface.cpp: In function 'void SatelliteHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:348: warning: unused variable 'satelliteReq'
+dbus/dbusinterface.cpp: In function 'void ShutDownHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:360: warning: unused variable 'shutdownReq'
+dbus/dbusinterface.cpp: In function 'void GuiDayNightModeHandler(DBusRequestC*, DBusReplyC*&)':
+dbus/dbusinterface.cpp:372: warning: unused variable 'guiDayNightModeReq'
+dbus/dbusinterface.cpp: In function 'int dbus_postfence(int, float, float, INT32)':
+dbus/dbusinterface.cpp:500: warning: control reaches end of non-void function
+dbus/dbusinterface.cpp: In function 'int dbus_updategps(int, float, float)':
+dbus/dbusinterface.cpp:408: warning: control reaches end of non-void function
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+TTS/read_news.cpp:28: warning: unused parameter 'nCode'
+TTS/read_news.cpp:85: warning: unused parameter 'pParameter'
+TTS/read_news.cpp:103: warning: unused parameter 'pParameter'
+TTS/read_news.cpp:103: warning: unused parameter 'nParamID'
+TTS/read_news.cpp:103: warning: unused parameter 'nParamValue'
+TTS/read_news.cpp:112: warning: unused parameter 'pParameter'
+TTS/read_news.cpp:112: warning: unused parameter 'nProcLen'
+TTS/read_news.cpp: In member function 'void ReadThread::aisound_play()':
+TTS/read_news.cpp:283: warning: unused variable 'text_buf'
+TTS/read_news.cpp:284: warning: unused variable 'read_return_value'
+TTS/read_news.cpp: In member function 'int ReadThread::init_asound()':
+TTS/read_news.cpp:506: warning: format '%d' expects type 'int', but argument 3 has type 'snd_pcm_uframes_t'
+TTS/read_news.cpp: In member function 'int ReadThread::aisound_release()':
+TTS/read_news.cpp:431: warning: control reaches end of non-void function
+math/mathmatics.cpp: In function 'double InLine(Polyline, Location)':
+math/mathmatics.cpp:158: warning: unused variable 'd'
+math/mathmatics.cpp:159: warning: control reaches end of non-void function
+In file included from common/include/location/locmaplocation.h:6,
+                 from common/include/geosearch/geosearch.h:7,
+                 from common/include/location/locmaplocationP.h:4,
+                 from fence/fenceunit.h:4,
+                 from fence/fenceunit.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+fence/fenceunit.cpp:6: warning: integer overflow in expression
+fence/fenceunit.cpp: In member function 'virtual void RectrangeFence::removeFence(int)':
+fence/fenceunit.cpp:152: warning: statement has no effect
+fence/fenceunit.cpp: At global scope:
+fence/fenceunit.cpp:146: warning: unused parameter 'id'
+fence/fenceunit.cpp: In member function 'void RectrangeFence::init()':
+fence/fenceunit.cpp:166: warning: comparison between signed and unsigned integer expressions
+fence/fenceunit.cpp: In member function 'void CircleFence::init()':
+fence/fenceunit.cpp:238: warning: comparison between signed and unsigned integer expressions
+fence/fenceunit.cpp: In member function 'virtual void CircleFence::addFence(int)':
+fence/fenceunit.cpp:267: warning: statement has no effect
+fence/fenceunit.cpp: In member function 'virtual void CircleFence::modifyFence(int)':
+fence/fenceunit.cpp:299: warning: statement has no effect
+fence/fenceunit.cpp: In member function 'virtual void CircleFence::removeFence(int)':
+fence/fenceunit.cpp:319: warning: statement has no effect
+fence/fenceunit.cpp: At global scope:
+fence/fenceunit.cpp:314: warning: unused parameter 'id'
+fence/fenceunit.cpp: In member function 'bool CircleFence::judgpoint(float, float, UINT32, UINT32)':
+fence/fenceunit.cpp:326: warning: unused variable 'loc'
+fence/fenceunit.cpp: In member function 'void PathFence::init()':
+fence/fenceunit.cpp:395: warning: comparison between signed and unsigned integer expressions
+fence/fenceunit.cpp: In member function 'virtual void PathFence::addFence(int)':
+fence/fenceunit.cpp:419: warning: statement has no effect
+fence/fenceunit.cpp: In member function 'virtual void PathFence::removeFence(int)':
+fence/fenceunit.cpp:491: warning: statement has no effect
+fence/fenceunit.cpp: At global scope:
+fence/fenceunit.cpp:486: warning: unused parameter 'id'
+fence/fenceunit.cpp: In member function 'bool PathFence::judgpoint(float, float, UINT32, UINT32)':
+fence/fenceunit.cpp:551: warning: statement has no effect
+fence/fenceunit.cpp:564: warning: statement has no effect
+fence/fenceunit.cpp:598: warning: unused variable 'loc'
+fence/fenceunit.cpp: At global scope:
+fence/fenceunit.cpp:642: warning: unused parameter 'data'
+fence/fenceunit.cpp: In member function 'void PolygonFence::init()':
+fence/fenceunit.cpp:664: warning: comparison between signed and unsigned integer expressions
+fence/fenceunit.cpp: In member function 'virtual void PolygonFence::removeFence(int)':
+fence/fenceunit.cpp:745: warning: statement has no effect
+fence/fenceunit.cpp: At global scope:
+fence/fenceunit.cpp:740: warning: unused parameter 'id'
+fence/fenceunit.cpp: In member function 'bool Fence::inittimerange(std::vector<unsigned char, std::allocator<unsigned char> >, std::vector<unsigned char, std::allocator<unsigned char> >)':
+fence/fenceunit.cpp:44: warning: control reaches end of non-void function
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from gps/gps_parse.h:8,
+                 from gps/gps_parse.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+gps/gps_parse.cpp: In member function 'bool navcoreGPSParse::parseFile()':
+gps/gps_parse.cpp:99: warning: unused variable 'gpsLine'
+gps/gps_parse.cpp: In member function 'bool navcoreGPSParse::processGPGGA(const char*)':
+gps/gps_parse.cpp:236: warning: unused variable 'outLat'
+gps/gps_parse.cpp:237: warning: unused variable 'outLon'
+gps/gps_parse.cpp: In member function 'bool navcoreGPSParse::processGPRMC(const char*)':
+gps/gps_parse.cpp:460: warning: unused variable 'outLat'
+gps/gps_parse.cpp:461: warning: unused variable 'outLon'
+control/uiresultlist.h: In constructor 'UIResultList::UIResultList(QWidget*)':
+control/uiresultlist.h:182: warning: 'UIResultList::_viewItemCount' will be initialized after
+control/uiresultlist.h:180: warning:   'int UIResultList::_prevIndex'
+control/uiresultlist.cpp:15: warning:   when initialized here
+control/uiresultlist.h:180: warning: 'UIResultList::_prevIndex' will be initialized after
+control/uiresultlist.h:177: warning:   'bool UIResultList::_itemVisible'
+control/uiresultlist.cpp:15: warning:   when initialized here
+control/uiresultlist.h:179: warning: 'UIResultList::_scrollFlag' will be initialized after
+control/uiresultlist.h:150: warning:   'bool UIResultList::_hasCheckBox'
+control/uiresultlist.cpp:15: warning:   when initialized here
+control/uiresultlist.cpp: At global scope:
+control/uiresultlist.cpp:421: warning: unused parameter 'index'
+control/uiresultlist.cpp:782: warning: unused parameter 'event'
+control/uiresultlist.cpp:1060: warning: unused parameter 'event'
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from gps/bd_parse.h:8,
+                 from gps/bd_parse.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+gps/bd_parse.cpp: In constructor 'navcoreBDParse::navcoreBDParse()':
+gps/bd_parse.cpp:38: warning: unused variable 'successParse'
+gps/bd_parse.cpp:39: warning: unused variable 'utc'
+gps/bd_parse.cpp:40: warning: unused variable 'latitude'
+gps/bd_parse.cpp:41: warning: unused variable 'longitude'
+gps/bd_parse.cpp: In member function 'bool navcoreBDParse::parseFile()':
+gps/bd_parse.cpp:101: warning: unused variable 'gpsLine'
+gps/bd_parse.cpp: In member function 'bool navcoreBDParse::processBDGGA(const char*)':
+gps/bd_parse.cpp:235: warning: unused variable 'outLat'
+gps/bd_parse.cpp:236: warning: unused variable 'outLon'
+gps/bd_parse.cpp: In member function 'bool navcoreBDParse::processBDRMC(const char*)':
+gps/bd_parse.cpp:454: warning: unused variable 'outLat'
+gps/bd_parse.cpp:455: warning: unused variable 'outLon'
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from gps/gn_parse.h:8,
+                 from gps/gn_parse.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+gps/gn_parse.cpp: In member function 'bool navcoreGNParse::parseFile()':
+gps/gn_parse.cpp:100: warning: unused variable 'gpsLine'
+gps/gn_parse.cpp: In member function 'bool navcoreGNParse::processGNGGA(const char*)':
+gps/gn_parse.cpp:234: warning: unused variable 'outLat'
+gps/gn_parse.cpp:235: warning: unused variable 'outLon'
+gps/gn_parse.cpp: In member function 'bool navcoreGNParse::processGNRMC(const char*)':
+gps/gn_parse.cpp:448: warning: unused variable 'outLat'
+gps/gn_parse.cpp:449: warning: unused variable 'outLon'
+In file included from ./engineinterface/engineinterface.h:8,
+                 from gps/satellitemodule.cpp:7:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from gps/satellitemodule.cpp:7:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./gps/gn_parse.h:8,
+                 from ./gps/satellitemodule.h:9,
+                 from gps/satellitemodule.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from gps/satellitemodule.cpp:7:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from gps/satellitemodule.cpp:7:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+gps/satellitemodule.cpp: In member function 'void SatelliteModule::changeGPMode()':
+gps/satellitemodule.cpp:172: warning: deprecated conversion from string constant to 'char*'
+gps/satellitemodule.cpp: In member function 'void SatelliteModule::changeBDMode()':
+gps/satellitemodule.cpp:181: warning: deprecated conversion from string constant to 'char*'
+gps/satellitemodule.cpp: In member function 'void SatelliteModule::changeGNMode()':
+gps/satellitemodule.cpp:190: warning: deprecated conversion from string constant to 'char*'
+gps/satellitemodule.cpp: In member function 'float SatelliteModule::getLatitude()':
+gps/satellitemodule.cpp:266: warning: enumeration value 'NAME_NONE_MODE' not handled in switch
+gps/satellitemodule.cpp: In member function 'float SatelliteModule::getLongitude()':
+gps/satellitemodule.cpp:282: warning: enumeration value 'NAME_NONE_MODE' not handled in switch
+gps/satellitemodule.cpp: In member function 'int SatelliteModule::getHeading()':
+gps/satellitemodule.cpp:298: warning: enumeration value 'NAME_NONE_MODE' not handled in switch
+gps/satellitemodule.cpp:310: warning: control reaches end of non-void function
+gps/satellitemodule.cpp: In member function 'float SatelliteModule::getLongitude()':
+gps/satellitemodule.cpp:294: warning: control reaches end of non-void function
+gps/satellitemodule.cpp: In member function 'float SatelliteModule::getLatitude()':
+gps/satellitemodule.cpp:278: warning: control reaches end of non-void function
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from common/include/location/locmaplocation.h:6,
+                 from common/include/geosearch/geosearch.h:7,
+                 from common/include/location/locmaplocationP.h:4,
+                 from ./fence/fenceunit.h:4,
+                 from fence/fencemanager.h:9,
+                 from fence/fencemanager.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+fence/fencemanager.cpp: In member function 'bool FenceManager::checkrectarr(int, float, float, UINT32, UINT32)':
+fence/fencemanager.cpp:399: warning: comparison between signed and unsigned integer expressions
+fence/fencemanager.cpp: In member function 'bool FenceManager::checkpatharr(int, float, float, INT32, UINT32, UINT32)':
+fence/fencemanager.cpp:405: warning: comparison between signed and unsigned integer expressions
+fence/fencemanager.cpp: At global scope:
+fence/fencemanager.cpp:403: warning: unused parameter 'nhead'
+fence/fencemanager.cpp: In member function 'bool FenceManager::checkcirclearr(int, float, float, UINT32, UINT32)':
+fence/fencemanager.cpp:411: warning: comparison between signed and unsigned integer expressions
+fence/fencemanager.cpp: In member function 'bool FenceManager::checkpolygonarr(int, float, float, UINT32, UINT32)':
+fence/fencemanager.cpp:417: warning: comparison between signed and unsigned integer expressions
+In file included from ./engineinterface/engineinterface.h:8,
+                 from hmi/map_mainwindow.h:9,
+                 from windowinterface.cpp:7:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from hmi/map_mainwindow.h:9,
+                 from windowinterface.cpp:7:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/interface_search.h:4,
+                 from hmi/menu_searcharound.h:6,
+                 from windowinterface.cpp:4:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/interface_search.h:7,
+                 from hmi/menu_searcharound.h:6,
+                 from windowinterface.cpp:4:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+In file included from ./engineinterface/engineinterface.h:7,
+                 from hmi/map_mainwindow.h:9,
+                 from windowinterface.cpp:7:
+./engineinterface/navcoreRoute.h: At global scope:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+windowinterface.cpp: In function 'bool changewindow(long unsigned int)':
+windowinterface.cpp:106: warning: control reaches end of non-void function
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from TTS/platformTTS.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+TTS/platformTTS.cpp:41: warning: unused parameter 'handle'
+In file included from ./engineinterface/engineinterface.h:8,
+                 from ./engineinterface/interface_route.h:4,
+                 from hmi/menu_routemain.cpp:5:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from ./engineinterface/interface_route.h:4,
+                 from hmi/menu_routemain.cpp:5:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/engineinterface.h:4,
+                 from ./engineinterface/interface_route.h:4,
+                 from hmi/menu_routemain.cpp:5:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from ./engineinterface/interface_route.h:4,
+                 from hmi/menu_routemain.cpp:5:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from ./engineinterface/interface_route.h:4,
+                 from hmi/menu_routemain.cpp:5:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from ./engineinterface/interface_guide.h:3,
+                 from hmi/menu_routeheadclose.cpp:4:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from ./engineinterface/interface_guide.h:3,
+                 from hmi/menu_routeheadclose.cpp:4:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/engineinterface.h:4,
+                 from ./engineinterface/interface_guide.h:3,
+                 from hmi/menu_routeheadclose.cpp:4:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from ./engineinterface/interface_guide.h:3,
+                 from hmi/menu_routeheadclose.cpp:4:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from ./engineinterface/interface_guide.h:3,
+                 from hmi/menu_routeheadclose.cpp:4:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from hmi/menu_routestrategy.h:6,
+                 from hmi/menu_routestrategy.cpp:1:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from hmi/menu_routestrategy.h:6,
+                 from hmi/menu_routestrategy.cpp:1:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/engineinterface.h:4,
+                 from hmi/menu_routestrategy.h:6,
+                 from hmi/menu_routestrategy.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from hmi/menu_routestrategy.h:6,
+                 from hmi/menu_routestrategy.cpp:1:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from hmi/menu_routestrategy.h:6,
+                 from hmi/menu_routestrategy.cpp:1:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+hmi/menu_routestrategy.cpp: At global scope:
+hmi/menu_routestrategy.cpp:197: warning: unused parameter 'm_options'
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from hmi/msgbox_twobtn.cpp:3:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from hmi/msgbox_twobtn.cpp:3:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/engineinterface.h:4,
+                 from hmi/msgbox_twobtn.cpp:3:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from hmi/msgbox_twobtn.cpp:3:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from hmi/msgbox_twobtn.cpp:3:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from ./engineinterface/interface_guide.h:3,
+                 from hmi/menu_routelistclose.cpp:4:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from ./engineinterface/interface_guide.h:3,
+                 from hmi/menu_routelistclose.cpp:4:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/engineinterface.h:4,
+                 from ./engineinterface/interface_guide.h:3,
+                 from hmi/menu_routelistclose.cpp:4:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from ./engineinterface/interface_guide.h:3,
+                 from hmi/menu_routelistclose.cpp:4:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from ./engineinterface/interface_guide.h:3,
+                 from hmi/menu_routelistclose.cpp:4:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from engineinterface/interface_route.h:4,
+                 from engineinterface/interface_route.cpp:1:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from engineinterface/interface_route.h:4,
+                 from engineinterface/interface_route.cpp:1:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/engineinterface.h:4,
+                 from engineinterface/interface_route.h:4,
+                 from engineinterface/interface_route.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from engineinterface/interface_route.h:4,
+                 from engineinterface/interface_route.cpp:1:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from engineinterface/interface_route.h:4,
+                 from engineinterface/interface_route.cpp:1:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+engineinterface/interface_route.cpp: In function 'bool doRouteEnd(const TPos&, TMapLocation*)':
+engineinterface/interface_route.cpp:17: warning: missing initializer for member 'TPos::y'
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from engineinterface/interface_map.h:4,
+                 from engineinterface/interface_map.cpp:1:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from engineinterface/interface_map.h:4,
+                 from engineinterface/interface_map.cpp:1:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from /home/xiaoff/fei/armv6/codesourcery/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/../../../../arm-none-linux-gnueabi/include/c++/4.3.2/ext/hash_map:64,
+                 from engineinterface/interface_map.h:7,
+                 from engineinterface/interface_map.cpp:1:
+/home/xiaoff/fei/armv6/codesourcery/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/../../../../arm-none-linux-gnueabi/include/c++/4.3.2/backward/backward_warning.h:33:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated.
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/engineinterface.h:4,
+                 from engineinterface/interface_map.h:4,
+                 from engineinterface/interface_map.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from engineinterface/interface_map.h:4,
+                 from engineinterface/interface_map.cpp:1:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from engineinterface/interface_map.h:4,
+                 from engineinterface/interface_map.cpp:1:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+engineinterface/interface_map.cpp: In function 'void mapSetCoreColourScheme()':
+engineinterface/interface_map.cpp:176: warning: comparison between signed and unsigned integer expressions
+engineinterface/interface_map.cpp:196: warning: enumeration value 'GRADIENT_ENABLE' not handled in switch
+engineinterface/interface_map.cpp:196: warning: enumeration value 'GRADIENT_DISABLE' not handled in switch
+engineinterface/interface_map.cpp:196: warning: enumeration value 'NOT_DEFINED' not handled in switch
+engineinterface/interface_map.cpp: In function 'TPos mapSetCarIconPos(TPos, UINT8)':
+engineinterface/interface_map.cpp:298: warning: the address of 'bool routeIsManulSimulating()' will always evaluate as 'true'
+engineinterface/interface_map.cpp:300: warning: missing initializer for member 'TPos::y'
+/home/xiaoff/fei/armv6/codesourcery/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/../../../../arm-none-linux-gnueabi/include/c++/4.3.2/bits/stl_pair.h: In function 'void mapLoadDefaultColour()':
+/home/xiaoff/fei/armv6/codesourcery/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/../../../../arm-none-linux-gnueabi/include/c++/4.3.2/bits/stl_pair.h:89: warning: 'cUnit.ColourUnit::typeIndex' may be used uninitialized in this function
+engineinterface/interface_map.cpp:116: note: 'cUnit.ColourUnit::typeIndex' was declared here
+engineinterface/interface_map.cpp:116: warning: 'cUnit.ColourUnit::colour.Colour::red' may be used uninitialized in this function
+engineinterface/interface_map.cpp:116: warning: 'cUnit.ColourUnit::colour.Colour::blue' may be used uninitialized in this function
+engineinterface/interface_map.cpp:116: warning: 'cUnit.ColourUnit::colour.Colour::green' may be used uninitialized in this function
+In file included from ./engineinterface/engineinterface.h:8,
+                 from hmi/map_laneinfo.cpp:6:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from hmi/map_laneinfo.cpp:6:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/engineinterface.h:4,
+                 from hmi/map_laneinfo.cpp:6:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from hmi/map_laneinfo.cpp:6:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from hmi/map_laneinfo.cpp:6:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+hmi/map_laneinfo.cpp: At global scope:
+hmi/map_laneinfo.cpp:31: warning: unused parameter 'event'
+hmi/map_laneinfo.cpp: In member function 'void map_laneinfo::drawRoundabout()':
+hmi/map_laneinfo.cpp:225: warning: unused variable 'arcBBmaxX'
+hmi/map_laneinfo.cpp:226: warning: unused variable 'arcBBmaxY'
+hmi/map_laneinfo.cpp:238: warning: unused variable 'exitX'
+hmi/map_laneinfo.cpp:239: warning: unused variable 'exitY'
+hmi/map_laneinfo.cpp:240: warning: unused variable 'arcRC'
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from engineinterface/interface_guide.h:3,
+                 from engineinterface/interface_guide.cpp:1:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from engineinterface/interface_guide.h:3,
+                 from engineinterface/interface_guide.cpp:1:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/engineinterface.h:4,
+                 from engineinterface/interface_guide.h:3,
+                 from engineinterface/interface_guide.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from engineinterface/interface_guide.h:3,
+                 from engineinterface/interface_guide.cpp:1:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from engineinterface/interface_guide.h:3,
+                 from engineinterface/interface_guide.cpp:1:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+engineinterface/interface_guide.cpp: At global scope:
+engineinterface/interface_guide.cpp:374: warning: unused parameter 'nsegmentid'
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+engineinterface/interface_guide.cpp:21: warning: 'int getexitnumber()' defined but not used
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/interface_search.h:4,
+                 from hmi/searchthread.cpp:2:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/interface_search.h:7,
+                 from hmi/searchthread.cpp:2:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from ./engineinterface/interface_map.h:4,
+                 from hmi/map_areacloseedit.cpp:4:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from ./engineinterface/interface_map.h:4,
+                 from hmi/map_areacloseedit.cpp:4:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from /home/xiaoff/fei/armv6/codesourcery/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/../../../../arm-none-linux-gnueabi/include/c++/4.3.2/ext/hash_map:64,
+                 from ./engineinterface/interface_map.h:7,
+                 from hmi/map_areacloseedit.cpp:4:
+/home/xiaoff/fei/armv6/codesourcery/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/../../../../arm-none-linux-gnueabi/include/c++/4.3.2/backward/backward_warning.h:33:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated.
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/engineinterface.h:4,
+                 from ./engineinterface/interface_map.h:4,
+                 from hmi/map_areacloseedit.cpp:4:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from ./engineinterface/interface_map.h:4,
+                 from hmi/map_areacloseedit.cpp:4:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from ./engineinterface/interface_map.h:4,
+                 from hmi/map_areacloseedit.cpp:4:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from ./engineinterface/interface_guide.h:3,
+                 from hmi/map_junctionview.cpp:2:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from ./engineinterface/interface_guide.h:3,
+                 from hmi/map_junctionview.cpp:2:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/engineinterface.h:4,
+                 from ./engineinterface/interface_guide.h:3,
+                 from hmi/map_junctionview.cpp:2:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from ./engineinterface/interface_guide.h:3,
+                 from hmi/map_junctionview.cpp:2:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from ./engineinterface/interface_guide.h:3,
+                 from hmi/map_junctionview.cpp:2:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+hmi/map_junctionview.cpp: At global scope:
+hmi/map_junctionview.cpp:16: warning: unused parameter 'event'
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from hmi/menu_setmapmode.h:6,
+                 from hmi/menu_setmapmode.cpp:1:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from hmi/menu_setmapmode.h:6,
+                 from hmi/menu_setmapmode.cpp:1:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from /home/xiaoff/fei/armv6/codesourcery/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/../../../../arm-none-linux-gnueabi/include/c++/4.3.2/ext/hash_map:64,
+                 from ./engineinterface/interface_map.h:7,
+                 from hmi/menu_setmapmode.cpp:3:
+/home/xiaoff/fei/armv6/codesourcery/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/../../../../arm-none-linux-gnueabi/include/c++/4.3.2/backward/backward_warning.h:33:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated.
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/engineinterface.h:4,
+                 from hmi/menu_setmapmode.h:6,
+                 from hmi/menu_setmapmode.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from hmi/menu_setmapmode.h:6,
+                 from hmi/menu_setmapmode.cpp:1:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from hmi/menu_setmapmode.h:6,
+                 from hmi/menu_setmapmode.cpp:1:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from hmi/menu_setsound.h:6,
+                 from hmi/menu_setsound.cpp:1:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from hmi/menu_setsound.h:6,
+                 from hmi/menu_setsound.cpp:1:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/engineinterface.h:4,
+                 from hmi/menu_setsound.h:6,
+                 from hmi/menu_setsound.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from hmi/menu_setsound.h:6,
+                 from hmi/menu_setsound.cpp:1:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from hmi/menu_setsound.h:6,
+                 from hmi/menu_setsound.cpp:1:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from ./engineinterface/interface_guide.h:3,
+                 from hmi/map_signpost.cpp:3:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from ./engineinterface/interface_guide.h:3,
+                 from hmi/map_signpost.cpp:3:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/engineinterface.h:4,
+                 from ./engineinterface/interface_guide.h:3,
+                 from hmi/map_signpost.cpp:3:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from ./engineinterface/interface_guide.h:3,
+                 from hmi/map_signpost.cpp:3:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from ./engineinterface/interface_guide.h:3,
+                 from hmi/map_signpost.cpp:3:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+hmi/map_signpost.cpp: At global scope:
+hmi/map_signpost.cpp:19: warning: unused parameter 'event'
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from engineinterface/engineinterface.h:8,
+                 from engineinterface/interface_search.cpp:4:
+engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from engineinterface/engineinterface.h:6,
+                 from engineinterface/interface_search.cpp:4:
+engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from engineinterface/interface_search.h:4,
+                 from engineinterface/interface_search.cpp:3:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from engineinterface/interface_search.h:7,
+                 from engineinterface/interface_search.cpp:3:
+engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+In file included from engineinterface/engineinterface.h:7,
+                 from engineinterface/interface_search.cpp:4:
+engineinterface/navcoreRoute.h: At global scope:
+engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+engineinterface/interface_search.cpp: In function 'TGeosearchResultType searchGetCurrPoiInfoPoi(int, TRect*, TPos*, TMapLocation*)':
+engineinterface/interface_search.cpp:623: warning: control reaches end of non-void function
+engineinterface/datatype.h: At global scope:
+engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+engineinterface/interface_search.cpp:32: warning: 'bool IsValidForSearch(int)' defined but not used
+engineinterface/interface_search.cpp:42: warning: 'bool getSearchRetTextLocName(int, structDetailInfo*)' defined but not used
+In file included from engineinterface/engineinterface.h:8,
+                 from engineinterface/interface_logistics.h:5,
+                 from engineinterface/interface_logistics.cpp:1:
+engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from engineinterface/engineinterface.h:6,
+                 from engineinterface/interface_logistics.h:5,
+                 from engineinterface/interface_logistics.cpp:1:
+engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from engineinterface/interface_logistics.h:3,
+                 from engineinterface/interface_logistics.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from engineinterface/engineinterface.h:7,
+                 from engineinterface/interface_logistics.h:5,
+                 from engineinterface/interface_logistics.cpp:1:
+engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from engineinterface/engineinterface.h:10,
+                 from engineinterface/interface_logistics.h:5,
+                 from engineinterface/interface_logistics.cpp:1:
+engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+engineinterface/datatype.h: At global scope:
+engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from engineinterface/navcoreRoute.cpp:3:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from engineinterface/navcoreRoute.cpp:3:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/display/didebug.h:5,
+                 from common/include/innovEngine_display.h:8,
+                 from engineinterface/navcoreRoute.cpp:2:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from engineinterface/navcoreRoute.cpp:3:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from engineinterface/navcoreRoute.cpp:3:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+engineinterface/navcoreRoute.cpp: At global scope:
+engineinterface/navcoreRoute.cpp:12: warning: unused parameter 'appContext'
+./engineinterface/navcoreRoute.h: In constructor 'navcoreRoute::navcoreRoute()':
+./engineinterface/navcoreRoute.h:279: warning: 'navcoreRoute::m_simulatorRate' will be initialized after
+./engineinterface/navcoreRoute.h:269: warning:   'bool navcoreRoute::m_isSimulationFinished'
+engineinterface/navcoreRoute.cpp:30: warning:   when initialized here
+./engineinterface/navcoreRoute.h:282: warning: 'navcoreRoute::m_timeOffRoute' will be initialized after
+./engineinterface/navcoreRoute.h:271: warning:   'bool navcoreRoute::m_ismanualSimulating'
+engineinterface/navcoreRoute.cpp:30: warning:   when initialized here
+engineinterface/navcoreRoute.cpp: At global scope:
+engineinterface/navcoreRoute.cpp:269: warning: type qualifiers ignored on function return type
+engineinterface/navcoreRoute.cpp:275: warning: unused parameter 'pathName'
+engineinterface/navcoreRoute.cpp: In member function 'bool navcoreRoute::loadRoute(const std::wstring&, const std::wstring&)':
+engineinterface/navcoreRoute.cpp:293: warning: format '%s' expects type 'char*', but argument 2 has type 'const wchar_t*'
+engineinterface/navcoreRoute.cpp:308: warning: format '%s' expects type 'char*', but argument 2 has type 'const wchar_t*'
+engineinterface/navcoreRoute.cpp:314: warning: format '%s' expects type 'char*', but argument 2 has type 'const wchar_t*'
+engineinterface/navcoreRoute.cpp: At global scope:
+engineinterface/navcoreRoute.cpp:288: warning: unused parameter 'pathName'
+engineinterface/navcoreRoute.cpp:357: warning: unused parameter 'pathName'
+engineinterface/navcoreRoute.cpp: In member function 'void navcoreRoute::manualSimulate(const TPos&, INT32, INT32, UINT32)':
+engineinterface/navcoreRoute.cpp:764: warning: unused variable 'success'
+engineinterface/navcoreRoute.cpp: In member function 'bool navcoreRoute::removeRoute()':
+engineinterface/navcoreRoute.cpp:343: warning: control reaches end of non-void function
+engineinterface/navcoreRoute.cpp: In member function 'bool navcoreRoute::saveRoute(const std::wstring&)':
+engineinterface/navcoreRoute.cpp:285: warning: control reaches end of non-void function
+engineinterface/navcoreRoute.cpp: In member function 'bool navcoreRoute::endNewRoute(const TPos&, const TRoutingOptions&, TMapLocation*)':
+engineinterface/navcoreRoute.cpp:167: warning: control reaches end of non-void function
+engineinterface/navcoreRoute.cpp: In member function 'bool navcoreRoute::startNewRoute(const TPos&, TMapLocation*)':
+engineinterface/navcoreRoute.cpp:69: warning: control reaches end of non-void function
+engineinterface/navcoreRoute.cpp: In member function 'bool navcoreRoute::loadRoute(const std::wstring&, const std::wstring&)':
+engineinterface/navcoreRoute.cpp:304: warning: 'rc' may be used uninitialized in this function
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from hmi/menu_setgpsmode.cpp:4:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from hmi/menu_setgpsmode.cpp:4:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./gps/gn_parse.h:8,
+                 from ./gps/satellitemodule.h:9,
+                 from hmi/menu_setgpsmode.cpp:2:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from hmi/menu_setgpsmode.cpp:4:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from hmi/menu_setgpsmode.cpp:4:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/interface_search.h:4,
+                 from hmi/menu_searchkeyword.cpp:2:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/interface_search.h:7,
+                 from hmi/menu_searchkeyword.cpp:2:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/interface_search.h:4,
+                 from hmi/menu_searchcross.cpp:2:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/interface_search.h:7,
+                 from hmi/menu_searchcross.cpp:2:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/interface_search.h:4,
+                 from hmi/menu_searchcategory.h:6,
+                 from hmi/menu_searchcategory.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/interface_search.h:7,
+                 from hmi/menu_searchcategory.h:6,
+                 from hmi/menu_searchcategory.cpp:1:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/interface_search.h:4,
+                 from hmi/menu_searcharound.h:6,
+                 from hmi/menu_searcharound.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/interface_search.h:7,
+                 from hmi/menu_searcharound.h:6,
+                 from hmi/menu_searcharound.cpp:1:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/interface_search.h:4,
+                 from hmi/menu_searchadminprovince.cpp:2:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/interface_search.h:7,
+                 from hmi/menu_searchadminprovince.cpp:2:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/interface_search.h:4,
+                 from hmi/menu_searchadmincity.cpp:2:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/interface_search.h:7,
+                 from hmi/menu_searchadmincity.cpp:2:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/interface_search.h:4,
+                 from hmi/menu_search.cpp:2:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/interface_search.h:7,
+                 from hmi/menu_search.cpp:2:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/interface_search.h:4,
+                 from hmi/menu_searchresultlist.cpp:2:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/interface_search.h:7,
+                 from hmi/menu_searchresultlist.cpp:2:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/interface_search.h:4,
+                 from hmi/menu_searchresultlistcategory.cpp:2:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/interface_search.h:7,
+                 from hmi/menu_searchresultlistcategory.cpp:2:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from hmi/menu_searchresultinfo.cpp:3:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from hmi/menu_searchresultinfo.cpp:3:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/interface_search.h:4,
+                 from hmi/menu_searchresultinfo.cpp:2:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/interface_search.h:7,
+                 from hmi/menu_searchresultinfo.cpp:2:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+In file included from ./engineinterface/engineinterface.h:7,
+                 from hmi/menu_searchresultinfo.cpp:3:
+./engineinterface/navcoreRoute.h: At global scope:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from hmi/map_mainwindow.h:9,
+                 from hmi/msgbox_onebtn.cpp:2:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from hmi/map_mainwindow.h:9,
+                 from hmi/msgbox_onebtn.cpp:2:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from hmi/map_mainwindow.h:7,
+                 from hmi/msgbox_onebtn.cpp:2:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from hmi/map_mainwindow.h:9,
+                 from hmi/msgbox_onebtn.cpp:2:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from hmi/map_mainwindow.h:9,
+                 from hmi/msgbox_onebtn.cpp:2:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from ./engineinterface/interface_map.h:4,
+                 from hmi/menu_searchpoiview.cpp:4:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from ./engineinterface/interface_map.h:4,
+                 from hmi/menu_searchpoiview.cpp:4:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from /home/xiaoff/fei/armv6/codesourcery/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/../../../../arm-none-linux-gnueabi/include/c++/4.3.2/ext/hash_map:64,
+                 from ./engineinterface/interface_map.h:7,
+                 from hmi/menu_searchpoiview.cpp:4:
+/home/xiaoff/fei/armv6/codesourcery/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/../../../../arm-none-linux-gnueabi/include/c++/4.3.2/backward/backward_warning.h:33:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated.
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/interface_search.h:4,
+                 from hmi/menu_searchpoiview.cpp:3:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/interface_search.h:7,
+                 from hmi/menu_searchpoiview.cpp:3:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+In file included from ./engineinterface/engineinterface.h:7,
+                 from ./engineinterface/interface_map.h:4,
+                 from hmi/menu_searchpoiview.cpp:4:
+./engineinterface/navcoreRoute.h: At global scope:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from hmi/map_guide.cpp:5:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from hmi/map_guide.cpp:5:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from /home/xiaoff/fei/armv6/codesourcery/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/../../../../arm-none-linux-gnueabi/include/c++/4.3.2/ext/hash_map:64,
+                 from ./engineinterface/interface_map.h:7,
+                 from hmi/map_guide.cpp:8:
+/home/xiaoff/fei/armv6/codesourcery/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/../../../../arm-none-linux-gnueabi/include/c++/4.3.2/backward/backward_warning.h:33:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated.
+hmi/map_guide.cpp:276:2: warning: multi-line comment
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/engineinterface.h:4,
+                 from hmi/map_guide.cpp:5:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from hmi/map_guide.cpp:5:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from hmi/map_guide.cpp:5:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+hmi/map_guide.cpp: At global scope:
+hmi/map_guide.cpp:95: warning: unused parameter 'event'
+hmi/map_guide.cpp:100: warning: unused parameter 'event'
+hmi/map_guide.cpp:107: warning: unused parameter 'event'
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from hmi/map_mainwindow.h:9,
+                 from hmi/msgbox_threebtn.cpp:3:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from hmi/map_mainwindow.h:9,
+                 from hmi/msgbox_threebtn.cpp:3:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from hmi/map_mainwindow.h:7,
+                 from hmi/msgbox_threebtn.cpp:3:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from hmi/map_mainwindow.h:9,
+                 from hmi/msgbox_threebtn.cpp:3:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from hmi/map_mainwindow.h:9,
+                 from hmi/msgbox_threebtn.cpp:3:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from hmi/map_broswer.cpp:4:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from hmi/map_broswer.cpp:4:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from /home/xiaoff/fei/armv6/codesourcery/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/../../../../arm-none-linux-gnueabi/include/c++/4.3.2/ext/hash_map:64,
+                 from ./engineinterface/interface_map.h:7,
+                 from hmi/map_broswer.cpp:7:
+/home/xiaoff/fei/armv6/codesourcery/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/../../../../arm-none-linux-gnueabi/include/c++/4.3.2/backward/backward_warning.h:33:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated.
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/engineinterface.h:4,
+                 from hmi/map_broswer.cpp:4:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from hmi/map_broswer.cpp:4:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from hmi/map_broswer.cpp:4:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from hmi/map_mainwindow.h:9,
+                 from hmi/map_mainwindow.cpp:1:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from hmi/map_mainwindow.h:9,
+                 from hmi/map_mainwindow.cpp:1:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from /home/xiaoff/fei/armv6/codesourcery/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/../../../../arm-none-linux-gnueabi/include/c++/4.3.2/ext/hash_map:64,
+                 from ./engineinterface/interface_map.h:7,
+                 from hmi/map_mainwindow.cpp:2:
+/home/xiaoff/fei/armv6/codesourcery/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/../../../../arm-none-linux-gnueabi/include/c++/4.3.2/backward/backward_warning.h:33:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated.
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from hmi/map_mainwindow.h:7,
+                 from hmi/map_mainwindow.cpp:1:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from hmi/map_mainwindow.h:9,
+                 from hmi/map_mainwindow.cpp:1:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from hmi/map_mainwindow.h:9,
+                 from hmi/map_mainwindow.cpp:1:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+hmi/map_mainwindow.cpp: At global scope:
+hmi/map_mainwindow.cpp:65: warning: unused parameter 'event'
+hmi/map_mainwindow.cpp: In member function 'virtual int MapWindow::managerKey(int, int)':
+hmi/map_mainwindow.cpp:146: warning: control reaches end of non-void function
+hmi/map_mainwindow.cpp: In member function 'virtual int MapWindow::hasSubWindow()':
+hmi/map_mainwindow.cpp:141: warning: control reaches end of non-void function
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./gps/gn_parse.h:8,
+                 from gps/satellitemodule.h:9,
+                 from moc_satellitemodule.cpp:10:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:8,
+                 from hmi/menu_routestrategy.h:6,
+                 from moc_menu_routestrategy.cpp:10:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from hmi/menu_routestrategy.h:6,
+                 from moc_menu_routestrategy.cpp:10:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/engineinterface.h:4,
+                 from hmi/menu_routestrategy.h:6,
+                 from moc_menu_routestrategy.cpp:10:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from hmi/menu_routestrategy.h:6,
+                 from moc_menu_routestrategy.cpp:10:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from hmi/menu_routestrategy.h:6,
+                 from moc_menu_routestrategy.cpp:10:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from hmi/menu_setmapmode.h:6,
+                 from moc_menu_setmapmode.cpp:10:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from hmi/menu_setmapmode.h:6,
+                 from moc_menu_setmapmode.cpp:10:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/engineinterface.h:4,
+                 from hmi/menu_setmapmode.h:6,
+                 from moc_menu_setmapmode.cpp:10:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from hmi/menu_setmapmode.h:6,
+                 from moc_menu_setmapmode.cpp:10:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from hmi/menu_setmapmode.h:6,
+                 from moc_menu_setmapmode.cpp:10:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from hmi/menu_setsound.h:6,
+                 from moc_menu_setsound.cpp:10:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from hmi/menu_setsound.h:6,
+                 from moc_menu_setsound.cpp:10:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/engineinterface.h:4,
+                 from hmi/menu_setsound.h:6,
+                 from moc_menu_setsound.cpp:10:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from hmi/menu_setsound.h:6,
+                 from moc_menu_setsound.cpp:10:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from hmi/menu_setsound.h:6,
+                 from moc_menu_setsound.cpp:10:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/interface_search.h:4,
+                 from hmi/menu_searchcategory.h:6,
+                 from moc_menu_searchcategory.cpp:10:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/interface_search.h:7,
+                 from hmi/menu_searchcategory.h:6,
+                 from moc_menu_searchcategory.cpp:10:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from ./engineinterface/interface_search.h:4,
+                 from hmi/menu_searcharound.h:6,
+                 from moc_menu_searcharound.cpp:10:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/interface_search.h:7,
+                 from hmi/menu_searcharound.h:6,
+                 from moc_menu_searcharound.cpp:10:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+In file included from ./engineinterface/engineinterface.h:8,
+                 from hmi/map_mainwindow.h:9,
+                 from moc_map_mainwindow.cpp:10:
+./engineinterface/navcoreDisplay.h:8:1: warning: "BITMAP_CACHE_BUFFER_SIZE" redefined
+In file included from ./engineinterface/engineinterface.h:6,
+                 from hmi/map_mainwindow.h:9,
+                 from moc_map_mainwindow.cpp:10:
+./engineinterface/system_param.h:17:1: warning: this is the location of the previous definition
+In file included from common/include/innovEngine_mapdata.h:14,
+                 from common/include/innovEngine_sdk.h:14,
+                 from hmi/map_mainwindow.h:7,
+                 from moc_map_mainwindow.cpp:10:
+common/include/mapdata/enroad.h:234: warning: 'typedef' was ignored in this declaration
+In file included from ./engineinterface/engineinterface.h:7,
+                 from hmi/map_mainwindow.h:9,
+                 from moc_map_mainwindow.cpp:10:
+./engineinterface/navcoreRoute.h:63: warning: type qualifiers ignored on function return type
+In file included from ./engineinterface/engineinterface.h:10,
+                 from hmi/map_mainwindow.h:9,
+                 from moc_map_mainwindow.cpp:10:
+./engineinterface/datatype.h: In member function 'size_t StrCmpHash::operator()(const wchar_t*) const':
+./engineinterface/datatype.h:259: warning: suggest parentheses around assignment used as truth value
+./engineinterface/datatype.h:259: warning: suggest a space before ';' or explicit braces around empty body in 'for' statement
+./engineinterface/datatype.h: At global scope:
+./engineinterface/datatype.h:36: warning: 'g_roadColourTable' defined but not used
+./engineinterface/datatype.h:161: warning: 'g_polyColourTable' defined but not used
+./engineinterface/datatype.h:223: warning: 'STR_GRADIENT' defined but not used
+/home/xiaoff/fei/armv6/codesourcery/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/../../../../arm-none-linux-gnueabi/bin/ld: cannot find -lts
+collect2: ld returned 1 exit status
+make: *** [Navi] Error 1

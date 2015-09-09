@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/support/detail/lexer/parser/tokeniser
+END
+re_tokeniser_helper.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/support/detail/lexer/parser/tokeniser/re_tokeniser_helper.hpp
+END
+re_tokeniser.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/support/detail/lexer/parser/tokeniser/re_tokeniser.hpp
+END
+re_tokeniser_state.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/support/detail/lexer/parser/tokeniser/re_tokeniser_state.hpp
+END
+num_token.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/spirit/home/support/detail/lexer/parser/tokeniser/num_token.hpp
+END

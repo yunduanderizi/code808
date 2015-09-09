@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libipq
+END
+ipq_errstr.3
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libipq/ipq_errstr.3
+END
+ipq_message_type.3
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libipq/ipq_message_type.3
+END
+libipq.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libipq/libipq.c
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libipq/.gitignore
+END
+ipq_get_msgerr.3
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libipq/ipq_get_msgerr.3
+END
+ipq_set_mode.3
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libipq/ipq_set_mode.3
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libipq/Makefile.am
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libipq/Makefile
+END
+ipq_destroy_handle.3
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libipq/ipq_destroy_handle.3
+END
+ipq_get_packet.3
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libipq/ipq_get_packet.3
+END
+libipq.3
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libipq/libipq.3
+END
+libipq.pc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libipq/libipq.pc
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libipq/Makefile.in
+END
+ipq_perror.3
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libipq/ipq_perror.3
+END
+ipq_read.3
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libipq/ipq_read.3
+END
+ipq_set_verdict.3
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libipq/ipq_set_verdict.3
+END
+libipq.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libipq/libipq.pc.in
+END
+ipq_create_handle.3
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tcc892x_common/!svn/ver/223/trunk/innovbox/v0.9/tools/iptables-1.4.20/libipq/ipq_create_handle.3
+END

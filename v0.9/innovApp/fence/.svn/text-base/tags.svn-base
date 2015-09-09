@@ -1,0 +1,120 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CircleFence	fenceunit.cpp	/^CircleFence::CircleFence():Fence()$/;"	f	class:CircleFence
+CircleFence	fenceunit.h	/^class CircleFence : public Fence$/;"	c
+FENCEMANAGER_H	fencemanager.h	2;"	d
+FENCEUNIT_H	fenceunit.h	2;"	d
+Fence	fenceunit.cpp	/^Fence::Fence()$/;"	f	class:Fence
+Fence	fenceunit.h	/^class Fence$/;"	c
+FenceManager	fencemanager.cpp	/^FenceManager::FenceManager()$/;"	f	class:FenceManager
+FenceManager	fencemanager.h	/^class FenceManager$/;"	c
+FenceStateInfo	fenceunit.h	/^struct FenceStateInfo$/;"	s
+FenceStatus	fenceunit.h	/^struct FenceStatus$/;"	s
+MAXFENCE	fencemanager.h	11;"	d
+PathFence	fenceunit.cpp	/^PathFence::PathFence():Fence()$/;"	f	class:PathFence
+PathFence	fenceunit.h	/^class PathFence : public Fence$/;"	c
+PolygonFence	fenceunit.cpp	/^PolygonFence::PolygonFence():Fence()$/;"	f	class:PolygonFence
+PolygonFence	fenceunit.h	/^class PolygonFence : public Fence$/;"	c
+RectrangeFence	fenceunit.cpp	/^RectrangeFence::RectrangeFence():Fence()$/;"	f	class:RectrangeFence
+RectrangeFence	fenceunit.h	/^class RectrangeFence : public Fence$/;"	c
+addFence	fencemanager.cpp	/^void FenceManager::addFence(int type,int id)$/;"	f	class:FenceManager
+addFence	fenceunit.cpp	/^void CircleFence::addFence(int id)$/;"	f	class:CircleFence
+addFence	fenceunit.cpp	/^void PathFence::addFence(int id)$/;"	f	class:PathFence
+addFence	fenceunit.cpp	/^void PolygonFence::addFence(int id)$/;"	f	class:PolygonFence
+addFence	fenceunit.cpp	/^void RectrangeFence::addFence(int id)$/;"	f	class:RectrangeFence
+checkcirclearr	fencemanager.cpp	/^bool FenceManager::checkcirclearr(int i,float x,float y,UINT32 utc,UINT32 date)$/;"	f	class:FenceManager
+checkpatharr	fencemanager.cpp	/^bool FenceManager::checkpatharr(int i,float x,float y,INT32 nhead,UINT32 utc,UINT32 date)$/;"	f	class:FenceManager
+checkpolygonarr	fencemanager.cpp	/^bool FenceManager::checkpolygonarr(int i,float x,float y,UINT32 utc,UINT32 date)$/;"	f	class:FenceManager
+checkrectarr	fencemanager.cpp	/^bool FenceManager::checkrectarr(int i,float x,float y,UINT32 utc,UINT32 date)$/;"	f	class:FenceManager
+daysecond	fenceunit.cpp	/^const int daysecond = (24*60*60) * 1000;$/;"	v
+deleteFence	fencemanager.cpp	/^void FenceManager::deleteFence(int type, int id)$/;"	f	class:FenceManager
+deleteallFence	fencemanager.cpp	/^void FenceManager::deleteallFence(int type)$/;"	f	class:FenceManager
+edeviation	fenceunit.h	/^    int edeviation;   \/\/当围栏类型为线路时有效，在线路中间段  0--正常进入  1--偏离线路  2--重新返回线路$/;"	m	struct:FenceStateInfo
+eid	fenceunit.h	/^    int eid;          \/\/电子围栏信息在数据库中的存储id$/;"	m	struct:FenceStateInfo
+epoint	fenceunit.h	/^    int epoint;$/;"	m	struct:FenceStateInfo
+estate	fenceunit.h	/^    int estate;       \/\/电子围栏进入驶出状态  1--进入  0--驶出  2--keep$/;"	m	struct:FenceStateInfo
+etype	fenceunit.h	/^    int etype;        \/\/电子围栏的类型  0--圆形  1--矩形  2--多边形  3--线路$/;"	m	struct:FenceStateInfo
+getCircleFenceInfo	fencemanager.h	/^    FenceStateInfo getCircleFenceInfo(int i){return m_arrcirclefence[i].getFenceStateInfo();}$/;"	f	class:FenceManager
+getFenceStateInfo	fenceunit.h	/^    FenceStateInfo getFenceStateInfo(){return m_fenceinfo;}$/;"	f	class:CircleFence
+getFenceStateInfo	fenceunit.h	/^    FenceStateInfo getFenceStateInfo(){return m_fenceinfo;}$/;"	f	class:PathFence
+getFenceStateInfo	fenceunit.h	/^    FenceStateInfo getFenceStateInfo(){return m_fenceinfo;}$/;"	f	class:PolygonFence
+getFenceStateInfo	fenceunit.h	/^    FenceStateInfo getFenceStateInfo(){return m_fenceinfo;}$/;"	f	class:RectrangeFence
+getPathFenceInfo	fencemanager.h	/^    FenceStateInfo getPathFenceInfo(int i){return m_arrpathfence[i].getFenceStateInfo();}$/;"	f	class:FenceManager
+getPolygonFenceInfo	fencemanager.h	/^    FenceStateInfo getPolygonFenceInfo(int i){return m_arrpolygonfence[i].getFenceStateInfo();}$/;"	f	class:FenceManager
+getRectFenceInfo	fencemanager.h	/^    FenceStateInfo getRectFenceInfo(int i){return m_arrrectfence[i].getFenceStateInfo();}$/;"	f	class:FenceManager
+getfencetype	fencemanager.cpp	/^EnumFenceType FenceManager::getfencetype(int m_type)$/;"	f	class:FenceManager
+iInOut	fenceunit.h	/^    int iInOut;$/;"	m	struct:FenceStatus
+iMissed	fenceunit.h	/^    int iMissed;$/;"	m	struct:FenceStatus
+iSegment	fenceunit.h	/^    int iSegment;$/;"	m	struct:FenceStatus
+init	fencemanager.cpp	/^void FenceManager::init()$/;"	f	class:FenceManager
+init	fenceunit.cpp	/^void CircleFence::init()$/;"	f	class:CircleFence
+init	fenceunit.cpp	/^void PathFence::init()$/;"	f	class:PathFence
+init	fenceunit.cpp	/^void PolygonFence::init()$/;"	f	class:PolygonFence
+init	fenceunit.cpp	/^void RectrangeFence::init()$/;"	f	class:RectrangeFence
+initcirclefence	fencemanager.cpp	/^void FenceManager::initcirclefence()$/;"	f	class:FenceManager
+initpathfence	fencemanager.cpp	/^void FenceManager::initpathfence()$/;"	f	class:FenceManager
+initpolygonfence	fencemanager.cpp	/^void FenceManager::initpolygonfence()$/;"	f	class:FenceManager
+initrectfence	fencemanager.cpp	/^void FenceManager::initrectfence()$/;"	f	class:FenceManager
+initsharp	fenceunit.cpp	/^void PathFence::initsharp(ElectronicFenceData data)$/;"	f	class:PathFence
+initsharp	fenceunit.cpp	/^void RectrangeFence::initsharp(ElectronicFenceData data)$/;"	f	class:RectrangeFence
+inittimerange	fenceunit.cpp	/^bool Fence::inittimerange(vector<unsigned char> st,vector<unsigned char> ed)$/;"	f	class:Fence
+isavoid	fenceunit.cpp	/^bool Fence::isavoid(UINT32 date, UINT32 utc)$/;"	f	class:Fence
+judgpoint	fenceunit.cpp	/^bool CircleFence::judgpoint(float x, float y,UINT32 utc,UINT32 date)$/;"	f	class:CircleFence
+judgpoint	fenceunit.cpp	/^bool PathFence::judgpoint(float x, float y,UINT32 utc,UINT32 date)$/;"	f	class:PathFence
+judgpoint	fenceunit.cpp	/^bool PolygonFence::judgpoint(float x, float y,UINT32 utc,UINT32 date)$/;"	f	class:PolygonFence
+judgpoint	fenceunit.cpp	/^bool RectrangeFence::judgpoint(float x,float y,UINT32 utc,UINT32 date)$/;"	f	class:RectrangeFence
+m_arrcirclefence	fencemanager.h	/^    vector<CircleFence> m_arrcirclefence;$/;"	m	class:FenceManager
+m_arrpathfence	fencemanager.h	/^    vector<PathFence> m_arrpathfence;$/;"	m	class:FenceManager
+m_arrpolygonfence	fencemanager.h	/^    vector<PolygonFence> m_arrpolygonfence;$/;"	m	class:FenceManager
+m_arrrectfence	fencemanager.h	/^    vector<RectrangeFence> m_arrrectfence;$/;"	m	class:FenceManager
+m_enddate	fenceunit.h	/^    UINT32 m_enddate;$/;"	m	class:Fence
+m_endtime	fenceunit.h	/^    UINT32 m_endtime;$/;"	m	class:Fence
+m_fence	fenceunit.h	/^    ElectronicFenceData m_fence;$/;"	m	class:Fence
+m_fenceinfo	fenceunit.h	/^    FenceStateInfo m_fenceinfo;$/;"	m	class:CircleFence
+m_fenceinfo	fenceunit.h	/^    FenceStateInfo m_fenceinfo;$/;"	m	class:PathFence
+m_fenceinfo	fenceunit.h	/^    FenceStateInfo m_fenceinfo;$/;"	m	class:PolygonFence
+m_fenceinfo	fenceunit.h	/^    FenceStateInfo m_fenceinfo;$/;"	m	class:RectrangeFence
+m_id	fenceunit.h	/^    int m_id;$/;"	m	class:Fence
+m_pt	fenceunit.h	/^    Polyline m_pt;$/;"	m	class:CircleFence
+m_pt	fenceunit.h	/^    Polyline m_pt;$/;"	m	class:PathFence
+m_pt	fenceunit.h	/^    Polyline m_pt;$/;"	m	class:PolygonFence
+m_pt	fenceunit.h	/^    Polyline m_pt;$/;"	m	class:RectrangeFence
+m_radius	fenceunit.h	/^    float m_radius;$/;"	m	class:PolygonFence
+m_radius	fenceunit.h	/^    int m_radius;$/;"	m	class:CircleFence
+m_radius	fenceunit.h	/^    int m_radius;$/;"	m	class:RectrangeFence
+m_startdate	fenceunit.h	/^    UINT32 m_startdate;$/;"	m	class:Fence
+m_starttime	fenceunit.h	/^    UINT32 m_starttime;$/;"	m	class:Fence
+m_status	fenceunit.h	/^    FenceStatus m_status;$/;"	m	class:Fence
+modifyFence	fencemanager.cpp	/^void FenceManager::modifyFence(int type, int id)$/;"	f	class:FenceManager
+modifyFence	fenceunit.cpp	/^void CircleFence::modifyFence(int id)$/;"	f	class:CircleFence
+modifyFence	fenceunit.cpp	/^void PathFence::modifyFence(int id)$/;"	f	class:PathFence
+modifyFence	fenceunit.cpp	/^void PolygonFence::modifyFence(int id)$/;"	f	class:PolygonFence
+modifyFence	fenceunit.cpp	/^void RectrangeFence::modifyFence(int id)$/;"	f	class:RectrangeFence
+monthsecond	fenceunit.cpp	/^const int monthsecond = 30 * daysecond * 1000;$/;"	v
+pathcount	fenceunit.h	/^    int pathcount;$/;"	m	class:PathFence
+pathcount	fenceunit.h	/^    int pathcount;$/;"	m	class:PolygonFence
+receivenotify	fencemanager.cpp	/^void FenceManager::receivenotify(int eflag, int eid, int etype, int estate)$/;"	f	class:FenceManager
+removeFence	fenceunit.cpp	/^void CircleFence::removeFence(int id)$/;"	f	class:CircleFence
+removeFence	fenceunit.cpp	/^void PathFence::removeFence(int id)$/;"	f	class:PathFence
+removeFence	fenceunit.cpp	/^void PolygonFence::removeFence(int id)$/;"	f	class:PolygonFence
+removeFence	fenceunit.cpp	/^void RectrangeFence::removeFence(int id)$/;"	f	class:RectrangeFence
+removeallcirclefence	fencemanager.cpp	/^void FenceManager::removeallcirclefence()$/;"	f	class:FenceManager
+removeallpathfence	fencemanager.cpp	/^void FenceManager::removeallpathfence()$/;"	f	class:FenceManager
+removeallpolygonfence	fencemanager.cpp	/^void FenceManager::removeallpolygonfence()$/;"	f	class:FenceManager
+removeallrectfence	fencemanager.cpp	/^void FenceManager::removeallrectfence()$/;"	f	class:FenceManager
+removeonecirclefence	fencemanager.cpp	/^void FenceManager::removeonecirclefence(int id)$/;"	f	class:FenceManager
+removeonepathfence	fencemanager.cpp	/^void FenceManager::removeonepathfence(int id)$/;"	f	class:FenceManager
+removeonepolygonfence	fencemanager.cpp	/^void FenceManager::removeonepolygonfence(int id)$/;"	f	class:FenceManager
+removeonerectfence	fencemanager.cpp	/^void FenceManager::removeonerectfence(int id)$/;"	f	class:FenceManager
+updateallFence	fencemanager.cpp	/^void FenceManager::updateallFence(int type)$/;"	f	class:FenceManager
+yearsecond	fenceunit.cpp	/^const int yearsecond = 365 * monthsecond * 1000;$/;"	v
+~CircleFence	fenceunit.cpp	/^CircleFence::~CircleFence()$/;"	f	class:CircleFence
+~Fence	fenceunit.cpp	/^Fence::~Fence()$/;"	f	class:Fence
+~FenceManager	fencemanager.cpp	/^FenceManager::~FenceManager(void)$/;"	f	class:FenceManager
+~PathFence	fenceunit.cpp	/^PathFence::~PathFence()$/;"	f	class:PathFence
+~PolygonFence	fenceunit.cpp	/^PolygonFence::~PolygonFence()$/;"	f	class:PolygonFence
+~RectrangeFence	fenceunit.cpp	/^RectrangeFence::~RectrangeFence()$/;"	f	class:RectrangeFence

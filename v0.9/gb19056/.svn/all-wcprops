@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/tcc892x_common/!svn/ver/916/trunk/innovbox/v0.9/gb19056
+END
+GB19056Base.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/664/trunk/innovbox/v0.9/gb19056/GB19056Base.cpp
+END
+gb19056.pro
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tcc892x_common/!svn/ver/414/trunk/innovbox/v0.9/gb19056/gb19056.pro
+END
+GB19056Base.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tcc892x_common/!svn/ver/916/trunk/innovbox/v0.9/gb19056/GB19056Base.h
+END
+GB19056CallBackInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/gb19056/GB19056CallBackInterface.h
+END
+GB19056_2012.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tcc892x_common/!svn/ver/916/trunk/innovbox/v0.9/gb19056/GB19056_2012.cpp
+END
+GB19056Proxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/664/trunk/innovbox/v0.9/gb19056/GB19056Proxy.h
+END
+GB19056_2012.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/916/trunk/innovbox/v0.9/gb19056/GB19056_2012.h
+END

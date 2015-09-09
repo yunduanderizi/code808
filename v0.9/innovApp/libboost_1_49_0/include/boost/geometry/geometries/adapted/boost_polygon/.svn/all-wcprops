@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/geometries/adapted/boost_polygon
+END
+box.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/geometries/adapted/boost_polygon/box.hpp
+END
+point.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/geometries/adapted/boost_polygon/point.hpp
+END
+holes_proxy.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/geometries/adapted/boost_polygon/holes_proxy.hpp
+END
+ring.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/geometries/adapted/boost_polygon/ring.hpp
+END
+hole_iterator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/geometries/adapted/boost_polygon/hole_iterator.hpp
+END
+ring_proxy.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/geometries/adapted/boost_polygon/ring_proxy.hpp
+END
+polygon.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/libboost_1_49_0/include/boost/geometry/geometries/adapted/boost_polygon/polygon.hpp
+END

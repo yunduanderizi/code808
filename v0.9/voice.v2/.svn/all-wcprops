@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2
+END
+InputControl.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/InputControl.h
+END
+AiTalk.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/AiTalk.cpp
+END
+myDbus.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/myDbus.h
+END
+voice.v2.pro
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/voice.v2.pro
+END
+voice_main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/voice_main.cpp
+END
+AiTalk.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/AiTalk.h
+END
+KeyWordsMgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/KeyWordsMgr.cpp
+END
+Record.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/Record.cpp
+END
+AiPlay.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/AiPlay.cpp
+END
+KeyWordsMgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/KeyWordsMgr.h
+END
+Record.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/Record.h
+END
+AiPlay.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/AiPlay.h
+END
+voiceDefine.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/voiceDefine.h
+END
+AiBsTalk.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/AiBsTalk.cpp
+END
+AiBsTalk.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/AiBsTalk.h
+END
+InputControl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/InputControl.cpp
+END
+myDbus.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/voice.v2/myDbus.cpp
+END

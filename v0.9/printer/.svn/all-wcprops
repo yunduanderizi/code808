@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/tcc892x_common/!svn/ver/414/trunk/innovbox/v0.9/printer
+END
+innov_printer_interface.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tcc892x_common/!svn/ver/387/trunk/innovbox/v0.9/printer/innov_printer_interface.cpp
+END
+innov_printer_interface.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/printer/innov_printer_interface.h
+END
+printer.pro
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tcc892x_common/!svn/ver/414/trunk/innovbox/v0.9/printer/printer.pro
+END

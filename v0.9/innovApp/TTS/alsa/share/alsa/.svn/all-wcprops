@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa
+END
+alsa.conf
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/alsa.conf
+END
+smixer.conf
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/smixer.conf
+END
+sndo-mixer.alisp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tcc892x_common/!svn/ver/446/trunk/innovbox/v0.9/innovApp/TTS/alsa/share/alsa/sndo-mixer.alisp
+END

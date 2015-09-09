@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/recoveryDefaultData
+END
+data_backup.sh_emmc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/recoveryDefaultData/data_backup.sh_emmc
+END
+file_list
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/recoveryDefaultData/file_list
+END
+recoveryDefaultData.pro
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/recoveryDefaultData/recoveryDefaultData.pro
+END
+recoveryDefaultData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/recoveryDefaultData/recoveryDefaultData.cpp
+END
+map_activation.sh_ddt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/recoveryDefaultData/map_activation.sh_ddt
+END
+recoveryDefaultData.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/recoveryDefaultData/recoveryDefaultData.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/recoveryDefaultData/main.cpp
+END
+data_backup.sh_nand
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tcc892x_common/!svn/ver/162/trunk/innovbox/v0.9/recoveryDefaultData/data_backup.sh_nand
+END

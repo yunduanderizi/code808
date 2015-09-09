@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SearchMenu</class>
+ <widget class="QWidget" name="SearchMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>504</width>
+    <height>387</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="UIPicture" name="pic_bg">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>504</width>
+     <height>387</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>big_bg.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_bar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>504</width>
+     <height>54</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>head-bg.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_title">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>168</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>搜索</string>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>h1_bg.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>5</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>160</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_back">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>10</y>
+     <width>51</width>
+     <height>44</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>back.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>back_hover.png</string>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_map">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>10</y>
+     <width>70</width>
+     <height>43</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>map_text_deful.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>map_text_hover.png</string>
+   </property>
+  </widget>
+  <widget class="UIPicture" name="pic_line">
+   <property name="geometry">
+    <rect>
+     <x>425</x>
+     <y>6</y>
+     <width>2</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="imgname" stdset="0">
+    <string>xian.png</string>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_keyword">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>80</y>
+     <width>135</width>
+     <height>135</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>关键字</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>bg_search.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>bg_zhou_hover.png</string>
+   </property>
+   <property name="disablebackimage" stdset="0">
+    <string>bg_zhou_disable.png</string>
+   </property>
+   <property name="normaliconimage" stdset="0">
+    <string>guan_deful.png</string>
+   </property>
+   <property name="disableiconimage" stdset="0">
+    <string>guan_disable.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>41</x>
+     <y>20</y>
+     <width>55</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>135</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_around">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>80</y>
+     <width>135</width>
+     <height>135</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>周边搜索</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>bg_search.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>bg_zhou_hover.png</string>
+   </property>
+   <property name="disablebackimage" stdset="0">
+    <string>bg_zhou_disable.png</string>
+   </property>
+   <property name="normaliconimage" stdset="0">
+    <string>zhou_deful.png</string>
+   </property>
+   <property name="disableiconimage" stdset="0">
+    <string>zhou_disable.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>41</x>
+     <y>20</y>
+     <width>55</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>135</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_cross">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>230</y>
+     <width>135</width>
+     <height>135</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>路口查找</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>bg_search.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>bg_zhou_hover.png</string>
+   </property>
+   <property name="disablebackimage" stdset="0">
+    <string>bg_zhou_disable.png</string>
+   </property>
+   <property name="normaliconimage" stdset="0">
+    <string>likou_deful.png</string>
+   </property>
+   <property name="disableiconimage" stdset="0">
+    <string>likou_disable.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>41</x>
+     <y>20</y>
+     <width>55</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>135</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="UIButton" name="btn_category">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>230</y>
+     <width>135</width>
+     <height>135</height>
+    </rect>
+   </property>
+   <property name="visible" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>类别</string>
+   </property>
+   <property name="normalbackimage" stdset="0">
+    <string>bg_search.png</string>
+   </property>
+   <property name="pressbackimage" stdset="0">
+    <string>bg_zhou_hover.png</string>
+   </property>
+   <property name="disablebackimage" stdset="0">
+    <string>bg_zhou_disable.png</string>
+   </property>
+   <property name="normaliconimage" stdset="0">
+    <string>leibie_deful.png</string>
+   </property>
+   <property name="disableiconimage" stdset="0">
+    <string>leibie_disable.png</string>
+   </property>
+   <property name="iconrect" stdset="0">
+    <rect>
+     <x>41</x>
+     <y>20</y>
+     <width>55</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="textrect" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>135</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="color">
+    <color>
+     <red>51</red>
+     <green>51</green>
+     <blue>51</blue>
+    </color>
+   </property>
+   <property name="textalign" stdset="0">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>UIButton</class>
+   <extends>QWidget</extends>
+   <header>uibutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>UIPicture</class>
+   <extends>QWidget</extends>
+   <header>uipicture.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
