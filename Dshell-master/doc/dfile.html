@@ -1,0 +1,138 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module dfile</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>dfile</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/xiexianghui/Dshell-master/lib/dfile.py">/home/xiexianghui/Dshell-master/lib/dfile.py</a></font></td></tr></table>
+    <p><tt>Dshell&nbsp;external&nbsp;file&nbsp;class/utils<br>
+for&nbsp;use&nbsp;in&nbsp;rippers,&nbsp;dumpers,&nbsp;etc.<br>
+&nbsp;<br>
+@author:&nbsp;amm</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="os.html">os</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="dshell.html#Blob">dshell.Blob</a>(<a href="dshell.html#Data">dshell.Data</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="dfile.html#dfile">dfile</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="dfile">class <strong>dfile</strong></a>(<a href="dshell.html#Blob">dshell.Blob</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="dfile.html#dfile">dfile</a></dd>
+<dd><a href="dshell.html#Blob">dshell.Blob</a></dd>
+<dd><a href="dshell.html#Data">dshell.Data</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="dfile-__init__"><strong>__init__</strong></a>(self, mode<font color="#909090">=2</font>, name<font color="#909090">=None</font>, data<font color="#909090">=None</font>, **kwargs)</dt></dl>
+
+<dl><dt><a name="dfile-__iter__"><strong>__iter__</strong></a>(self)</dt><dd><tt>Undefined</tt></dd></dl>
+
+<dl><dt><a name="dfile-__repr__"><strong>__repr__</strong></a>(self)</dt><dd><tt>Returns&nbsp;filename&nbsp;(string)</tt></dd></dl>
+
+<dl><dt><a name="dfile-__str__"><strong>__str__</strong></a>(self)</dt><dd><tt>Returns&nbsp;filename&nbsp;(string)</tt></dd></dl>
+
+<dl><dt><a name="dfile-load"><strong>load</strong></a>(self)</dt><dd><tt>Load&nbsp;file&nbsp;from&nbsp;disk.&nbsp;&nbsp;Converts&nbsp;object&nbsp;to&nbsp;mode&nbsp;FILEINMEMORY</tt></dd></dl>
+
+<dl><dt><a name="dfile-md5"><strong>md5</strong></a>(self)</dt><dd><tt>Returns&nbsp;md5&nbsp;of&nbsp;file<br>
+&nbsp;&nbsp;Calculate&nbsp;based&nbsp;on&nbsp;reassembly&nbsp;from&nbsp;FILEINMEMORY<br>
+&nbsp;&nbsp;or&nbsp;loads&nbsp;from&nbsp;FILEONDISK</tt></dd></dl>
+
+<dl><dt><a name="dfile-update"><strong>update</strong></a>(self, data, offset<font color="#909090">=None</font>)</dt></dl>
+
+<dl><dt><a name="dfile-write"><strong>write</strong></a>(self, path<font color="#909090">='.'</font>, name<font color="#909090">=None</font>, clobber<font color="#909090">=False</font>, errorHandler<font color="#909090">=None</font>, padding<font color="#909090">=None</font>, overlap<font color="#909090">=True</font>)</dt><dd><tt>Write&nbsp;file&nbsp;contents&nbsp;at&nbsp;location&nbsp;relative&nbsp;to&nbsp;path.<br>
+Name&nbsp;on&nbsp;disk&nbsp;will&nbsp;be&nbsp;based&nbsp;on&nbsp;internal&nbsp;name&nbsp;unless&nbsp;one&nbsp;is&nbsp;provided.<br>
+&nbsp;<br>
+For&nbsp;mode&nbsp;FILEINMEMORY,&nbsp;file&nbsp;will&nbsp;<a href="#dfile-data">data</a>()&nbsp;will&nbsp;be&nbsp;called&nbsp;for&nbsp;reconstruction.<br>
+&nbsp;&nbsp;After&nbsp;writing&nbsp;to&nbsp;disk,&nbsp;mode&nbsp;will&nbsp;be&nbsp;changed&nbsp;to&nbsp;FILEONDISK.<br>
+If&nbsp;mode&nbsp;is&nbsp;already&nbsp;FILEONDISK,&nbsp;file&nbsp;will&nbsp;be&nbsp;moved&nbsp;to&nbsp;new&nbsp;location.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="dshell.html#Blob">dshell.Blob</a>:<br>
+<dl><dt><a name="dfile-data"><strong>data</strong></a>(self, errorHandler<font color="#909090">=None</font>, padding<font color="#909090">=None</font>, overlap<font color="#909090">=True</font>, caller<font color="#909090">=None</font>, dup<font color="#909090">=-1</font>)</dt><dd><tt>returns&nbsp;segments&nbsp;of&nbsp;blob&nbsp;reassembled&nbsp;into&nbsp;a&nbsp;string<br>
+if&nbsp;next&nbsp;segment&nbsp;offset&nbsp;is&nbsp;not&nbsp;the&nbsp;expected&nbsp;offset<br>
+errorHandler(blob,expected,offset)&nbsp;will&nbsp;be&nbsp;called<br>
+&nbsp;blob&nbsp;is&nbsp;a&nbsp;reference&nbsp;to&nbsp;the&nbsp;blob<br>
+&nbsp;if&nbsp;expected&lt;offset,&nbsp;data&nbsp;is&nbsp;missing<br>
+&nbsp;if&nbsp;expected&gt;offset,&nbsp;data&nbsp;is&nbsp;overlapping<br>
+else&nbsp;a&nbsp;KeyError&nbsp;will&nbsp;be&nbsp;raised.<br>
+&nbsp;if&nbsp;the&nbsp;exception&nbsp;is&nbsp;passed&nbsp;and&nbsp;data&nbsp;is&nbsp;missing<br>
+&nbsp;&nbsp;if&nbsp;padding&nbsp;!=&nbsp;None&nbsp;it&nbsp;will&nbsp;be&nbsp;used&nbsp;to&nbsp;fill&nbsp;the&nbsp;gap<br>
+&nbsp;if&nbsp;segment&nbsp;overlaps&nbsp;existing&nbsp;data<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;new&nbsp;data&nbsp;is&nbsp;kept&nbsp;if&nbsp;overlap=True<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;existing&nbsp;data&nbsp;is&nbsp;kept&nbsp;if&nbsp;overlap=False<br>
+&nbsp;caller:&nbsp;a&nbsp;ref&nbsp;to&nbsp;the&nbsp;calling&nbsp;object,&nbsp;passed&nbsp;to&nbsp;errorhandler<br>
+&nbsp;dup:&nbsp;how&nbsp;to&nbsp;handle&nbsp;duplicate&nbsp;segments:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0:&nbsp;use&nbsp;first&nbsp;segment&nbsp;seen<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-1&nbsp;(default):&nbsp;use&nbsp;last&nbsp;segment&nbsp;seen</tt></dd></dl>
+
+<hr>
+Data and other attributes inherited from <a href="dshell.html#Blob">dshell.Blob</a>:<br>
+<dl><dt><strong>MAX_OFFSET</strong> = 4294967295L</dl>
+
+<hr>
+Methods inherited from <a href="dshell.html#Data">dshell.Data</a>:<br>
+<dl><dt><a name="dfile-__getitem__"><strong>__getitem__</strong></a>(self, k)</dt></dl>
+
+<dl><dt><a name="dfile-__setitem__"><strong>__setitem__</strong></a>(self, k, v)</dt></dl>
+
+<dl><dt><a name="dfile-info"><strong>info</strong></a>(self, *args, **kwargs)</dt><dd><tt>update/return&nbsp;info&nbsp;stored&nbsp;in&nbsp;this&nbsp;object<br>
+data&nbsp;can&nbsp;be&nbsp;passwd&nbsp;as&nbsp;dict(s)&nbsp;or&nbsp;keyword&nbsp;args</tt></dd></dl>
+
+<dl><dt><a name="dfile-pack"><strong>pack</strong></a>(self, fmt, *args)</dt><dd><tt>packs&nbsp;info&nbsp;keys&nbsp;in&nbsp;args&nbsp;using&nbsp;fmt</tt></dd></dl>
+
+<dl><dt><a name="dfile-unpack"><strong>unpack</strong></a>(self, fmt, data, *args)</dt><dd><tt>unpacks&nbsp;data&nbsp;using&nbsp;fmt&nbsp;to&nbsp;keys&nbsp;listed&nbsp;in&nbsp;args</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="dshell.html#Data">dshell.Data</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-md5"><strong>md5</strong></a> = openssl_md5(...)</dt><dd><tt>Returns&nbsp;a&nbsp;md5&nbsp;hash&nbsp;object;&nbsp;optionally&nbsp;initialized&nbsp;with&nbsp;a&nbsp;string</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>FILEINMEMORY</strong> = 2<br>
+<strong>FILEONDISK</strong> = 1</td></tr></table>
+</body></html>

@@ -1,0 +1,521 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module smbdecoder</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>smbdecoder</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/xiexianghui/Dshell-master/lib/smbdecoder.py">/home/xiexianghui/Dshell-master/lib/smbdecoder.py</a></font></td></tr></table>
+    <p><tt>2015&nbsp;Feb&nbsp;13<br>
+&nbsp;<br>
+Extend&nbsp;dshell.<a href="dshell.html#TCPDecoder">TCPDecoder</a>&nbsp;to&nbsp;handle&nbsp;<a href="#SMB">SMB</a>&nbsp;Message&nbsp;Requests/Responses<br>
+&nbsp;<br>
+Will&nbsp;call&nbsp;SMBHandler(<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;conn&nbsp;=&nbsp;Connection(),<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;request=dshell.smb.smbdecoder.<a href="#SMB">SMB</a>(),<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;response=dshell.smb.smbdecoder.<a href="#SMB">SMB</a>(),<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;requesttime=timestamp,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;responsetime=timestamp,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cmd=&nbsp;&lt;type&nbsp;'int'&gt;&nbsp;&nbsp;[3]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;status=&nbsp;&lt;type&nbsp;'int'&gt;&nbsp;&nbsp;[2]&nbsp;&nbsp;A&nbsp;32-bit&nbsp;field&nbsp;used&nbsp;to&nbsp;communicate&nbsp;error<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;messages&nbsp;from&nbsp;the&nbsp;server&nbsp;to&nbsp;the&nbsp;client<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)<br>
+&nbsp;<br>
+Requests&nbsp;are&nbsp;tracked&nbsp;by&nbsp;MID&nbsp;<br>
+&nbsp;<br>
+It&nbsp;will&nbsp;be&nbsp;up&nbsp;to&nbsp;the&nbsp;decoder&nbsp;to&nbsp;handle&nbsp;each&nbsp;<a href="#SMB">SMB</a>&nbsp;Command.<br>
+&nbsp;<br>
+Several&nbsp;functions&nbsp;create&nbsp;throw-away&nbsp;variables&nbsp;when&nbsp;unpacking&nbsp;data.&nbsp;Because&nbsp;of<br>
+this,&nbsp;pylint&nbsp;checks&nbsp;were&nbsp;run&nbsp;with&nbsp;"-d&nbsp;unused-variables"<br>
+&nbsp;<br>
+References:<br>
+[1]&nbsp;<a href="http://anonsvn.wireshark.org/viewvc/trunk/epan/dissectors/packet-smb.c?revision=32650&amp;view=co&amp;pathrev=32650">http://anonsvn.wireshark.org/viewvc/trunk/epan/dissectors/packet-smb.c?revision=32650&amp;view=co&amp;pathrev=32650</a><br>
+[2]&nbsp;<a href="http://msdn.microsoft.com/en-us/library/ee441774%28v=prot.13%29.aspx">http://msdn.microsoft.com/en-us/library/ee441774%28v=prot.13%29.aspx</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#SMB">SMB</a>&nbsp;Header&nbsp;Protocol&nbsp;Definition<br>
+[3]&nbsp;<a href="http://msdn.microsoft.com/en-us/library/ee441616(v=prot.13).aspx">http://msdn.microsoft.com/en-us/library/ee441616(v=prot.13).aspx</a></tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="dshell.html">dshell</a><br>
+</td><td width="25%" valign=top><a href="struct.html">struct</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="dshell.html#Decoder">dshell.Decoder</a>(<a href="__builtin__.html#object">__builtin__.object</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="smbdecoder.html#displaystub">displaystub</a>
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="dshell.html#TCPDecoder">dshell.TCPDecoder</a>(<a href="dshell.html#UDPDecoder">dshell.UDPDecoder</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="smbdecoder.html#SMBDecoder">SMBDecoder</a>
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="exceptions.html#Exception">exceptions.Exception</a>(<a href="exceptions.html#BaseException">exceptions.BaseException</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="smbdecoder.html#InsufficientData">InsufficientData</a>
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="smbdecoder.html#NTLMSSP_AUTH_RECORD">NTLMSSP_AUTH_RECORD</a>
+</font></dt><dt><font face="helvetica, arial"><a href="smbdecoder.html#NTLMSSP_CHALLENGE_RECORD">NTLMSSP_CHALLENGE_RECORD</a>
+</font></dt><dt><font face="helvetica, arial"><a href="smbdecoder.html#SMB">SMB</a>
+</font></dt></dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="InsufficientData">class <strong>InsufficientData</strong></a>(<a href="exceptions.html#Exception">exceptions.Exception</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="smbdecoder.html#InsufficientData">InsufficientData</a></dd>
+<dd><a href="exceptions.html#Exception">exceptions.Exception</a></dd>
+<dd><a href="exceptions.html#BaseException">exceptions.BaseException</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Methods inherited from <a href="exceptions.html#Exception">exceptions.Exception</a>:<br>
+<dl><dt><a name="InsufficientData-__init__"><strong>__init__</strong></a>(...)</dt><dd><tt>x.<a href="#InsufficientData-__init__">__init__</a>(...)&nbsp;initializes&nbsp;x;&nbsp;see&nbsp;help(type(x))&nbsp;for&nbsp;signature</tt></dd></dl>
+
+<hr>
+Data and other attributes inherited from <a href="exceptions.html#Exception">exceptions.Exception</a>:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#InsufficientData-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;object&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<hr>
+Methods inherited from <a href="exceptions.html#BaseException">exceptions.BaseException</a>:<br>
+<dl><dt><a name="InsufficientData-__delattr__"><strong>__delattr__</strong></a>(...)</dt><dd><tt>x.<a href="#InsufficientData-__delattr__">__delattr__</a>('name')&nbsp;&lt;==&gt;&nbsp;del&nbsp;x.name</tt></dd></dl>
+
+<dl><dt><a name="InsufficientData-__getattribute__"><strong>__getattribute__</strong></a>(...)</dt><dd><tt>x.<a href="#InsufficientData-__getattribute__">__getattribute__</a>('name')&nbsp;&lt;==&gt;&nbsp;x.name</tt></dd></dl>
+
+<dl><dt><a name="InsufficientData-__getitem__"><strong>__getitem__</strong></a>(...)</dt><dd><tt>x.<a href="#InsufficientData-__getitem__">__getitem__</a>(y)&nbsp;&lt;==&gt;&nbsp;x[y]</tt></dd></dl>
+
+<dl><dt><a name="InsufficientData-__getslice__"><strong>__getslice__</strong></a>(...)</dt><dd><tt>x.<a href="#InsufficientData-__getslice__">__getslice__</a>(i,&nbsp;j)&nbsp;&lt;==&gt;&nbsp;x[i:j]<br>
+&nbsp;<br>
+Use&nbsp;of&nbsp;negative&nbsp;indices&nbsp;is&nbsp;not&nbsp;supported.</tt></dd></dl>
+
+<dl><dt><a name="InsufficientData-__reduce__"><strong>__reduce__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="InsufficientData-__repr__"><strong>__repr__</strong></a>(...)</dt><dd><tt>x.<a href="#InsufficientData-__repr__">__repr__</a>()&nbsp;&lt;==&gt;&nbsp;repr(x)</tt></dd></dl>
+
+<dl><dt><a name="InsufficientData-__setattr__"><strong>__setattr__</strong></a>(...)</dt><dd><tt>x.<a href="#InsufficientData-__setattr__">__setattr__</a>('name',&nbsp;value)&nbsp;&lt;==&gt;&nbsp;x.name&nbsp;=&nbsp;value</tt></dd></dl>
+
+<dl><dt><a name="InsufficientData-__setstate__"><strong>__setstate__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="InsufficientData-__str__"><strong>__str__</strong></a>(...)</dt><dd><tt>x.<a href="#InsufficientData-__str__">__str__</a>()&nbsp;&lt;==&gt;&nbsp;str(x)</tt></dd></dl>
+
+<dl><dt><a name="InsufficientData-__unicode__"><strong>__unicode__</strong></a>(...)</dt></dl>
+
+<hr>
+Data descriptors inherited from <a href="exceptions.html#BaseException">exceptions.BaseException</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>args</strong></dt>
+</dl>
+<dl><dt><strong>message</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="NTLMSSP_AUTH_RECORD">class <strong>NTLMSSP_AUTH_RECORD</strong></a></font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>self.<strong>messagetype</strong><br>
+self.<strong>lanman_response</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#<br>
+self.<strong>ntlm_response</strong>&nbsp;&nbsp;#<br>
+self.<strong>domain_name</strong>&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;Domain&nbsp;the&nbsp;client&nbsp;is&nbsp;attempting&nbsp;to&nbsp;autheticate&nbsp;too<br>
+self.<strong>user_name</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;Username&nbsp;of&nbsp;the&nbsp;account&nbsp;your&nbsp;attempting&nbsp;to&nbsp;authenticate&nbsp;too<br>
+self.<strong>host_name</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;Hostname&nbsp;of&nbsp;the&nbsp;machine&nbsp;your&nbsp;attempting&nbsp;to&nbsp;connect&nbsp;too<br>
+self.<strong>sessionkey</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;Will&nbsp;be&nbsp;0x0000000000&nbsp;by&nbsp;default&nbsp;for&nbsp;the&nbsp;client<br>
+self.<strong>nativeos</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;String&nbsp;representation&nbsp;of&nbsp;the&nbsp;client's&nbsp;Native&nbsp;Operating&nbsp;System&nbsp;(unicode)<br>
+self.<strong>nativelanman</strong>&nbsp;&nbsp;&nbsp;#&nbsp;String&nbsp;representation&nbsp;of&nbsp;the&nbsp;client's&nbsp;LAN&nbsp;manager&nbsp;type&nbsp;(unicode)<br>
+self.<strong>primary_domain</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;representation&nbsp;of&nbsp;the&nbsp;client's&nbsp;DOMAIN&nbsp;(int)<br>
+self.<strong>valid</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;Is&nbsp;it&nbsp;a&nbsp;valid&nbsp;NTLMSSP_AUTH&nbsp;request<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="NTLMSSP_AUTH_RECORD-__init__"><strong>__init__</strong></a>(self, secblob)</dt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="NTLMSSP_CHALLENGE_RECORD">class <strong>NTLMSSP_CHALLENGE_RECORD</strong></a></font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>self.<strong>target_name</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;Domain&nbsp;name&nbsp;of&nbsp;server<br>
+self.<strong>server_challenge</strong>&nbsp;#&nbsp;NTLM&nbsp;Server&nbsp;Challenge,&nbsp;a&nbsp;64-bit&nbsp;nonce.<br>
+...<br>
+Other&nbsp;values&nbsp;not&nbsp;implemented&nbsp;yet<br>
+...<br>
+self.<strong>valid</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;Is&nbsp;it&nbsp;a&nbsp;valid&nbsp;NTLMSSP_CHALLENGE&nbsp;request<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="NTLMSSP_CHALLENGE_RECORD-__init__"><strong>__init__</strong></a>(self, secblob)</dt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="SMB">class <strong>SMB</strong></a></font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="SMB-PARSE_COM_CLOSE"><strong>PARSE_COM_CLOSE</strong></a>(self, data)</dt><dd><tt>return&nbsp;the&nbsp;FID&nbsp;associated&nbsp;with&nbsp;the&nbsp;CLOSE&nbsp;request</tt></dd></dl>
+
+<dl><dt><a name="SMB-PARSE_NT_CREATE_ANDX_REQUEST"><strong>PARSE_NT_CREATE_ANDX_REQUEST</strong></a>(self, data)</dt><dd><tt>return&nbsp;the&nbsp;filename&nbsp;associated&nbsp;with&nbsp;the&nbsp;request&nbsp;(return&nbsp;None&nbsp;if&nbsp;err)</tt></dd></dl>
+
+<dl><dt><a name="SMB-PARSE_NT_CREATE_ANDX_RESPONSE"><strong>PARSE_NT_CREATE_ANDX_RESPONSE</strong></a>(self, data)</dt><dd><tt>return&nbsp;the&nbsp;FID&nbsp;associated&nbsp;with&nbsp;the&nbsp;requested&nbsp;filename</tt></dd></dl>
+
+<dl><dt><a name="SMB-PARSE_READ_ANDX_Request"><strong>PARSE_READ_ANDX_Request</strong></a>(self, data)</dt><dd><tt>parse&nbsp;READ_ANDX&nbsp;request&nbsp;message&nbsp;to&nbsp;extract&nbsp;the&nbsp;FID<br>
+return&nbsp;fid&nbsp;(file&nbsp;handle&nbsp;to&nbsp;be&nbsp;written)<br>
+-1&nbsp;if&nbsp;err</tt></dd></dl>
+
+<dl><dt><a name="SMB-PARSE_READ_ANDX_Response"><strong>PARSE_READ_ANDX_Response</strong></a>(self, data)</dt><dd><tt>parse&nbsp;READ_ANDX&nbsp;response&nbsp;message&nbsp;to&nbsp;extract&nbsp;the&nbsp;raw&nbsp;bytes<br>
+return&nbsp;the&nbsp;raw&nbsp;bytes:&nbsp;return&nbsp;rawbytes<br>
+''&nbsp;if&nbsp;err</tt></dd></dl>
+
+<dl><dt><a name="SMB-PARSE_SESSION_SETUP_ANDX_REQUEST"><strong>PARSE_SESSION_SETUP_ANDX_REQUEST</strong></a>(self, data)</dt><dd><tt>only&nbsp;currently&nbsp;supports&nbsp;NTLMSSP&nbsp;Authentication&nbsp;Requests/Responses</tt></dd></dl>
+
+<dl><dt><a name="SMB-PARSE_WRITE_ANDX"><strong>PARSE_WRITE_ANDX</strong></a>(self, data)</dt><dd><tt>parse&nbsp;WRITE_ANDX&nbsp;message&nbsp;to&nbsp;extract&nbsp;the&nbsp;FID&nbsp;and&nbsp;raw&nbsp;bytes<br>
+return&nbsp;fid&nbsp;(file&nbsp;handle&nbsp;to&nbsp;be&nbsp;written)&nbsp;and&nbsp;the&nbsp;raw&nbsp;bytes:&nbsp;return&nbsp;fid,rawbytes)<br>
+-1&nbsp;and&nbsp;''&nbsp;if&nbsp;err</tt></dd></dl>
+
+<dl><dt><a name="SMB-SMB_COM_TREE_CONNECT_ANDX_Request"><strong>SMB_COM_TREE_CONNECT_ANDX_Request</strong></a>(self, data)</dt><dd><tt>parse&nbsp;TREE_CONNECT&nbsp;request&nbsp;message&nbsp;to&nbsp;extract&nbsp;the&nbsp;Request_Path</tt></dd></dl>
+
+<dl><dt><a name="SMB-__init__"><strong>__init__</strong></a>(self, pktdata)</dt><dd><tt>Generic&nbsp;<a href="#SMB">SMB</a>&nbsp;class.&nbsp;&nbsp;Handles&nbsp;parsing&nbsp;of&nbsp;<a href="#SMB">SMB</a>&nbsp;Header&nbsp;Messages&nbsp;and&nbsp;some&nbsp;specific&nbsp;<a href="#SMB">SMB</a>&nbsp;Command&nbsp;Objects<br>
+&nbsp;<br>
+Reference:<br>
+[1]&nbsp;<a href="http://msdn.microsoft.com/en-us/library/ee441774%28v=prot.13%29.aspx">http://msdn.microsoft.com/en-us/library/ee441774%28v=prot.13%29.aspx</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#SMB">SMB</a>&nbsp;Header&nbsp;Protocol&nbsp;Definition<br>
+[2]&nbsp;<a href="http://msdn.microsoft.com/en-us/library/ee441616(v=prot.13).aspx">http://msdn.microsoft.com/en-us/library/ee441616(v=prot.13).aspx</a><br>
+&nbsp;<br>
+&nbsp;<br>
+proto&nbsp;=&nbsp;4&nbsp;bytes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4-byte&nbsp;literal&nbsp;string&nbsp;'ÿ',&nbsp;'S',&nbsp;'M',&nbsp;'B'<br>
+cmd&nbsp;=&nbsp;1&nbsp;byte&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;one-byte&nbsp;command&nbsp;code,&nbsp;commands&nbsp;listed&nbsp;at&nbsp;[2]<br>
+status&nbsp;=&nbsp;4&nbsp;bytes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;32-bit&nbsp;field&nbsp;used&nbsp;to&nbsp;communicate&nbsp;error&nbsp;messages&nbsp;from&nbsp;the&nbsp;server&nbsp;to&nbsp;the&nbsp;client&nbsp;[SUCCESS&nbsp;=&nbsp;0x0000<br>
+flags1&nbsp;=&nbsp;1&nbsp;byte&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B<br>
+flags2&nbsp;=&nbsp;2&nbsp;bytes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H<br>
+pidhigh&nbsp;=&nbsp;2&nbsp;bytes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H<br>
+security&nbsp;=&nbsp;8&nbsp;bytes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8s<br>
+reserved&nbsp;=&nbsp;2&nbsp;bytes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H<br>
+tid&nbsp;=&nbsp;2&nbsp;bytes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H<br>
+pidlow&nbsp;=&nbsp;2&nbsp;bytes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H<br>
+uid&nbsp;=&nbsp;2&nbsp;bytes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Associate&nbsp;a&nbsp;session&nbsp;with&nbsp;a&nbsp;specific&nbsp;user<br>
+mid&nbsp;=&nbsp;2&nbsp;bytes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Multiplexer&nbsp;identifier</tt></dd></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="SMBDecoder">class <strong>SMBDecoder</strong></a>(<a href="dshell.html#TCPDecoder">dshell.TCPDecoder</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="smbdecoder.html#SMBDecoder">SMBDecoder</a></dd>
+<dd><a href="dshell.html#TCPDecoder">dshell.TCPDecoder</a></dd>
+<dd><a href="dshell.html#UDPDecoder">dshell.UDPDecoder</a></dd>
+<dd><a href="dshell.html#IPDecoder">dshell.IPDecoder</a></dd>
+<dd><a href="dshell.html#Decoder">dshell.Decoder</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="SMBDecoder-SMBHandler"><strong>SMBHandler</strong></a>(self, conn, request<font color="#909090">=None</font>, response<font color="#909090">=None</font>, requesttime<font color="#909090">=None</font>, responsetime<font color="#909090">=None</font>, cmd<font color="#909090">=None</font>, status<font color="#909090">=None</font>)</dt><dd><tt>Placeholder.&nbsp;Overwrite&nbsp;in&nbsp;separate&nbsp;decoders.</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-__init__"><strong>__init__</strong></a>(self, **kwargs)</dt></dl>
+
+<dl><dt><a name="SMBDecoder-blobHandler"><strong>blobHandler</strong></a>(self, conn, blob)</dt></dl>
+
+<dl><dt><a name="SMBDecoder-connectionHandler"><strong>connectionHandler</strong></a>(self, conn)</dt><dd><tt>clean&nbsp;up&nbsp;all&nbsp;requests&nbsp;associated&nbsp;with&nbsp;this&nbsp;connection</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-connectionInitHandler"><strong>connectionInitHandler</strong></a>(self, conn)</dt></dl>
+
+<dl><dt><a name="SMBDecoder-parseNetBIOSSessionService"><strong>parseNetBIOSSessionService</strong></a>(self, data)</dt><dd><tt>parse&nbsp;the&nbsp;NetBIOS&nbsp;Session&nbsp;Service&nbsp;header&nbsp;[2]</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-postModule"><strong>postModule</strong></a>(self)</dt><dd><tt>clean&nbsp;up&nbsp;self.<strong>requests</strong>&nbsp;to&nbsp;process&nbsp;all&nbsp;<a href="#SMB">SMB</a>&nbsp;messages&nbsp;that&nbsp;only&nbsp;have&nbsp;a&nbsp;single&nbsp;request&nbsp;and&nbsp;no&nbsp;response</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-smbFactory"><strong>smbFactory</strong></a>(self, conn, blob, data)</dt><dd><tt>#&nbsp;Returns&nbsp;number&nbsp;of&nbsp;bytes&nbsp;used&nbsp;by&nbsp;NetBIOS+<a href="#SMB">SMB</a><br>
+#&nbsp;e.g.&nbsp;mlength+4</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="dshell.html#TCPDecoder">dshell.TCPDecoder</a>:<br>
+<dl><dt><a name="SMBDecoder-IPHandler"><strong>IPHandler</strong></a>(self, addr, pkt, ts, **kwargs)</dt><dd><tt>IPv4&nbsp;dispatch</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-TCP"><strong>TCP</strong></a>(self, addr, tcp, ts, **kwargs)</dt><dd><tt>TCP&nbsp;dispatch</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="dshell.html#UDPDecoder">dshell.UDPDecoder</a>:<br>
+<dl><dt><a name="SMBDecoder-UDP"><strong>UDP</strong></a>(self, addr, data, pkt, ts<font color="#909090">=None</font>, **kwargs)</dt><dd><tt>will&nbsp;call&nbsp;packetHandler(udp=Packet(),data=data)<br>
+(see&nbsp;Packet()&nbsp;for&nbsp;Packet&nbsp;object&nbsp;common&nbsp;attributes)<br>
+udp.pkt&nbsp;will&nbsp;contain&nbsp;the&nbsp;raw&nbsp;IP&nbsp;data<br>
+data&nbsp;will&nbsp;contain&nbsp;the&nbsp;decoded&nbsp;UDP&nbsp;payload<br>
+&nbsp;<br>
+State&nbsp;tracking:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;only&nbsp;if&nbsp;connectionHandler&nbsp;or&nbsp;blobHandler&nbsp;is&nbsp;present<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and&nbsp;packetHandler&nbsp;is&nbsp;not&nbsp;present<br>
+&nbsp;<br>
+UDPDecoder&nbsp;will&nbsp;call:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#SMBDecoder-connectionInitHandler">connectionInitHandler</a>(conn=Connection())<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when&nbsp;UDP&nbsp;state&nbsp;is&nbsp;established<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(see&nbsp;Connection()&nbsp;for&nbsp;Connection&nbsp;object&nbsp;attributes)<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#SMBDecoder-blobHandler">blobHandler</a>(conn=Connection(),blob=Blob())<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when&nbsp;stream&nbsp;direction&nbsp;switches&nbsp;(if&nbsp;following&nbsp;stream)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;blob=(see&nbsp;Blob()&nbsp;objects)<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#SMBDecoder-connectionHandler">connectionHandler</a>(conn=Connection())<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when&nbsp;UDP&nbsp;state&nbsp;is&nbsp;flushed&nbsp;(if&nbsp;following&nbsp;stream)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state&nbsp;is&nbsp;flushed&nbsp;when&nbsp;stale&nbsp;or&nbsp;when&nbsp;maxblobs&nbsp;is&nbsp;exceeded<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;maxblobs&nbsp;exceeded,&nbsp;current&nbsp;data&nbsp;will&nbsp;go&nbsp;into&nbsp;new&nbsp;connection<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;connectionCloseHandler(conn=Connection())<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when&nbsp;state&nbsp;is&nbsp;discarded&nbsp;(always)</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="dshell.html#IPDecoder">dshell.IPDecoder</a>:<br>
+<dl><dt><a name="SMBDecoder-ipdefrag"><strong>ipdefrag</strong></a>(self, pkt)</dt><dd><tt>ip&nbsp;fragment&nbsp;reassembly</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-rawHandler"><strong>rawHandler</strong></a>(self, pktlen, pkt, ts, **kwargs)</dt><dd><tt>takes&nbsp;ethernet&nbsp;data&nbsp;and&nbsp;determines&nbsp;if&nbsp;it&nbsp;contains&nbsp;IP&nbsp;or&nbsp;IP6.<br>
+defragments&nbsp;IPv4<br>
+if&nbsp;6to4,&nbsp;unencaps&nbsp;the&nbsp;IPv6<br>
+If&nbsp;IP/IP6,&nbsp;hands&nbsp;off&nbsp;to&nbsp;IPDecoder&nbsp;via&nbsp;<a href="#SMBDecoder-IPHandler">IPHandler</a>()</tt></dd></dl>
+
+<hr>
+Data and other attributes inherited from <a href="dshell.html#IPDecoder">dshell.IPDecoder</a>:<br>
+<dl><dt><strong>IP_PROTO_MAP</strong> = {0: 'IP', 1: 'ICMP', 6: 'TCP', 17: 'UDP', 41: 'IP6', 58: 'ICMP6'}</dl>
+
+<hr>
+Methods inherited from <a href="dshell.html#Decoder">dshell.Decoder</a>:<br>
+<dl><dt><a name="SMBDecoder-__repr__"><strong>__repr__</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="SMBDecoder-__super__"><strong>__super__</strong></a>(self)</dt><dd><tt>convenience&nbsp;function&nbsp;to&nbsp;get&nbsp;bound&nbsp;instance&nbsp;of&nbsp;superclass</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-alert"><strong>alert</strong></a>(self, *args, **kw)</dt><dd><tt>sends&nbsp;alert&nbsp;to&nbsp;output&nbsp;handler<br>
+typically&nbsp;self.<strong>alert</strong>&nbsp;will&nbsp;be&nbsp;called&nbsp;with&nbsp;the&nbsp;decoded&nbsp;data&nbsp;and&nbsp;the&nbsp;packet/connection&nbsp;info&nbsp;dict&nbsp;last,&nbsp;as&nbsp;follows:<br>
+&nbsp;<br>
+<a href="#SMBDecoder-alert">alert</a>(alert_arg,alert_arg2...,alert_data=value,alert_data2=value2....,**conn/pkt.info())<br>
+&nbsp;<br>
+example:&nbsp;<a href="#SMBDecoder-alert">alert</a>(decoded_data,conn.info(),blob.info())&nbsp;[blob&nbsp;info&nbsp;overrides&nbsp;conn&nbsp;info]<br>
+&nbsp;<br>
+this&nbsp;will&nbsp;pass&nbsp;all&nbsp;information&nbsp;about&nbsp;the&nbsp;decoder,&nbsp;the&nbsp;connection,&nbsp;and&nbsp;the&nbsp;specific&nbsp;event&nbsp;up&nbsp;to&nbsp;the&nbsp;output&nbsp;module<br>
+&nbsp;<br>
+if&nbsp;a&nbsp;positional&nbsp;arg&nbsp;is&nbsp;a&nbsp;dict,&nbsp;it&nbsp;updates&nbsp;the&nbsp;kwargs<br>
+if&nbsp;an&nbsp;arg&nbsp;is&nbsp;a&nbsp;list,&nbsp;it&nbsp;extends&nbsp;the&nbsp;arg&nbsp;list<br>
+else&nbsp;it&nbsp;is&nbsp;appended&nbsp;to&nbsp;the&nbsp;arg&nbsp;list<br>
+&nbsp;<br>
+all&nbsp;arguments&nbsp;are&nbsp;optional,&nbsp;at&nbsp;the&nbsp;very&nbsp;least&nbsp;you&nbsp;want&nbsp;to&nbsp;pass&nbsp;the&nbsp;**pkt/conn.info()&nbsp;so&nbsp;all&nbsp;traffic&nbsp;info&nbsp;is&nbsp;available.<br>
+&nbsp;<br>
+output&nbsp;modules&nbsp;handle&nbsp;this&nbsp;data&nbsp;as&nbsp;follows:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;the&nbsp;name&nbsp;of&nbsp;the&nbsp;alerting&nbsp;decoder&nbsp;is&nbsp;available&nbsp;in&nbsp;the&nbsp;"decoder"&nbsp;field<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;all&nbsp;non-keyword&nbsp;arguments&nbsp;will&nbsp;be&nbsp;concatenated&nbsp;into&nbsp;the&nbsp;"data"&nbsp;field<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;keyword&nbsp;arguments,&nbsp;including&nbsp;all&nbsp;provided&nbsp;by&nbsp;.info()&nbsp;will&nbsp;be&nbsp;used&nbsp;to&nbsp;populate&nbsp;matching&nbsp;fields<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;remaining&nbsp;keyword&nbsp;arguments&nbsp;that&nbsp;do&nbsp;not&nbsp;match&nbsp;fields&nbsp;will&nbsp;be&nbsp;represented&nbsp;by&nbsp;"key=value"&nbsp;strings<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;concatenated&nbsp;together&nbsp;into&nbsp;the&nbsp;"extra"&nbsp;field</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-cleanConnectionStore"><strong>cleanConnectionStore</strong></a>(self)</dt><dd><tt>cleans&nbsp;connection&nbsp;store&nbsp;of&nbsp;all&nbsp;information,&nbsp;flushing&nbsp;out&nbsp;data</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-cleanup"><strong>cleanup</strong></a>(self, ts)</dt><dd><tt>if&nbsp;cleanup&nbsp;interval&nbsp;expired,&nbsp;close&nbsp;connections&nbsp;not&nbsp;updated&nbsp;in&nbsp;last&nbsp;interval</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-close"><strong>close</strong></a>(self, conn, ts<font color="#909090">=None</font>)</dt><dd><tt>for&nbsp;connection&nbsp;based&nbsp;decoders<br>
+close&nbsp;and&nbsp;discard&nbsp;the&nbsp;connection&nbsp;object</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-debug"><strong>debug</strong></a>(self, msg)</dt><dd><tt>logs&nbsp;msg&nbsp;at&nbsp;debug&nbsp;level</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-decode"><strong>decode</strong></a>(self, *args, **kw)</dt><dd><tt>#&nbsp;we&nbsp;get&nbsp;the&nbsp;raw&nbsp;output&nbsp;from&nbsp;pcapy&nbsp;as&nbsp;header,&nbsp;data</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-dump"><strong>dump</strong></a>(self, *args, **kw)</dt><dd><tt>write&nbsp;packet&nbsp;data&nbsp;(probably&nbsp;to&nbsp;the&nbsp;PCAP&nbsp;writer&nbsp;if&nbsp;present)</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-error"><strong>error</strong></a>(self, msg)</dt><dd><tt>logs&nbsp;msg&nbsp;at&nbsp;error&nbsp;level</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-find"><strong>find</strong></a>(self, addr, state<font color="#909090">=None</font>)</dt></dl>
+
+<dl><dt><a name="SMBDecoder-getASN"><strong>getASN</strong></a>(self, ip, db<font color="#909090">=[]</font>, notfound<font color="#909090">='--'</font>)</dt><dd><tt>Get&nbsp;record&nbsp;associated&nbsp;with&nbsp;an&nbsp;IP<br>
+requires&nbsp;GeoIP</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-getGeoIP"><strong>getGeoIP</strong></a>(self, ip, db<font color="#909090">=[]</font>, notfound<font color="#909090">='--'</font>)</dt><dd><tt>Get&nbsp;record&nbsp;associated&nbsp;with&nbsp;an&nbsp;IP<br>
+requires&nbsp;GeoIP</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-log"><strong>log</strong></a>(self, msg, level<font color="#909090">=20</font>)</dt><dd><tt>logs&nbsp;msg&nbsp;at&nbsp;specified&nbsp;level&nbsp;(default&nbsp;of&nbsp;INFO&nbsp;is&nbsp;for&nbsp;-v/--verbose&nbsp;output)</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-parseArgs"><strong>parseArgs</strong></a>(self, args, options<font color="#909090">={}</font>)</dt><dd><tt>called&nbsp;to&nbsp;parse&nbsp;command-line&nbsp;arguments&nbsp;and&nbsp;cli/config&nbsp;file&nbsp;options<br>
+if&nbsp;options&nbsp;dict&nbsp;contains&nbsp;'all'&nbsp;or&nbsp;the&nbsp;decoder&nbsp;name&nbsp;as&nbsp;a&nbsp;key<br>
+class&nbsp;members&nbsp;will&nbsp;be&nbsp;updated&nbsp;from&nbsp;value</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-parseOptions"><strong>parseOptions</strong></a>(self, options<font color="#909090">={}</font>)</dt><dd><tt>option&nbsp;keys:values&nbsp;will&nbsp;set&nbsp;class&nbsp;members&nbsp;(self.<strong>key</strong>=value)<br>
+if&nbsp;key&nbsp;is&nbsp;in&nbsp;optiondict</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-postFile"><strong>postFile</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="SMBDecoder-preFile"><strong>preFile</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="SMBDecoder-preModule"><strong>preModule</strong></a>(self)</dt><dd><tt>preModule&nbsp;is&nbsp;called&nbsp;before&nbsp;capture&nbsp;starts<br>
+default&nbsp;preModule,&nbsp;dumps&nbsp;object&nbsp;data&nbsp;to&nbsp;debug</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-stop"><strong>stop</strong></a>(self, conn)</dt><dd><tt>stop&nbsp;following&nbsp;connection<br>
+handlers&nbsp;will&nbsp;not&nbsp;be&nbsp;called,&nbsp;except&nbsp;for&nbsp;connectionCloseHandler</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-track"><strong>track</strong></a>(self, addr, data<font color="#909090">=None</font>, ts<font color="#909090">=None</font>, offset<font color="#909090">=None</font>, **kwargs)</dt><dd><tt>connection&nbsp;tracking&nbsp;for&nbsp;TCP&nbsp;and&nbsp;UDP<br>
+finds&nbsp;or&nbsp;creates&nbsp;connection&nbsp;based&nbsp;on&nbsp;addr<br>
+updates&nbsp;connection&nbsp;with&nbsp;data&nbsp;if&nbsp;provided&nbsp;(using&nbsp;offset&nbsp;to&nbsp;reorder)<br>
+tracks&nbsp;timestamps&nbsp;if&nbsp;ts&nbsp;provided<br>
+extra&nbsp;args&nbsp;get&nbsp;passed&nbsp;to&nbsp;new&nbsp;connection&nbsp;objects</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-warn"><strong>warn</strong></a>(self, msg)</dt><dd><tt>logs&nbsp;msg&nbsp;at&nbsp;warning&nbsp;level</tt></dd></dl>
+
+<dl><dt><a name="SMBDecoder-write"><strong>write</strong></a>(self, obj, **kw)</dt><dd><tt>write&nbsp;session&nbsp;data</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="dshell.html#Decoder">dshell.Decoder</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="displaystub">class <strong>displaystub</strong></a>(<a href="dshell.html#Decoder">dshell.Decoder</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="smbdecoder.html#displaystub">displaystub</a></dd>
+<dd><a href="dshell.html#Decoder">dshell.Decoder</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="displaystub-__init__"><strong>__init__</strong></a>(self)</dt></dl>
+
+<hr>
+Methods inherited from <a href="dshell.html#Decoder">dshell.Decoder</a>:<br>
+<dl><dt><a name="displaystub-__repr__"><strong>__repr__</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="displaystub-__super__"><strong>__super__</strong></a>(self)</dt><dd><tt>convenience&nbsp;function&nbsp;to&nbsp;get&nbsp;bound&nbsp;instance&nbsp;of&nbsp;superclass</tt></dd></dl>
+
+<dl><dt><a name="displaystub-alert"><strong>alert</strong></a>(self, *args, **kw)</dt><dd><tt>sends&nbsp;alert&nbsp;to&nbsp;output&nbsp;handler<br>
+typically&nbsp;self.<strong>alert</strong>&nbsp;will&nbsp;be&nbsp;called&nbsp;with&nbsp;the&nbsp;decoded&nbsp;data&nbsp;and&nbsp;the&nbsp;packet/connection&nbsp;info&nbsp;dict&nbsp;last,&nbsp;as&nbsp;follows:<br>
+&nbsp;<br>
+<a href="#displaystub-alert">alert</a>(alert_arg,alert_arg2...,alert_data=value,alert_data2=value2....,**conn/pkt.info())<br>
+&nbsp;<br>
+example:&nbsp;<a href="#displaystub-alert">alert</a>(decoded_data,conn.info(),blob.info())&nbsp;[blob&nbsp;info&nbsp;overrides&nbsp;conn&nbsp;info]<br>
+&nbsp;<br>
+this&nbsp;will&nbsp;pass&nbsp;all&nbsp;information&nbsp;about&nbsp;the&nbsp;decoder,&nbsp;the&nbsp;connection,&nbsp;and&nbsp;the&nbsp;specific&nbsp;event&nbsp;up&nbsp;to&nbsp;the&nbsp;output&nbsp;module<br>
+&nbsp;<br>
+if&nbsp;a&nbsp;positional&nbsp;arg&nbsp;is&nbsp;a&nbsp;dict,&nbsp;it&nbsp;updates&nbsp;the&nbsp;kwargs<br>
+if&nbsp;an&nbsp;arg&nbsp;is&nbsp;a&nbsp;list,&nbsp;it&nbsp;extends&nbsp;the&nbsp;arg&nbsp;list<br>
+else&nbsp;it&nbsp;is&nbsp;appended&nbsp;to&nbsp;the&nbsp;arg&nbsp;list<br>
+&nbsp;<br>
+all&nbsp;arguments&nbsp;are&nbsp;optional,&nbsp;at&nbsp;the&nbsp;very&nbsp;least&nbsp;you&nbsp;want&nbsp;to&nbsp;pass&nbsp;the&nbsp;**pkt/conn.info()&nbsp;so&nbsp;all&nbsp;traffic&nbsp;info&nbsp;is&nbsp;available.<br>
+&nbsp;<br>
+output&nbsp;modules&nbsp;handle&nbsp;this&nbsp;data&nbsp;as&nbsp;follows:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;the&nbsp;name&nbsp;of&nbsp;the&nbsp;alerting&nbsp;decoder&nbsp;is&nbsp;available&nbsp;in&nbsp;the&nbsp;"decoder"&nbsp;field<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;all&nbsp;non-keyword&nbsp;arguments&nbsp;will&nbsp;be&nbsp;concatenated&nbsp;into&nbsp;the&nbsp;"data"&nbsp;field<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;keyword&nbsp;arguments,&nbsp;including&nbsp;all&nbsp;provided&nbsp;by&nbsp;.info()&nbsp;will&nbsp;be&nbsp;used&nbsp;to&nbsp;populate&nbsp;matching&nbsp;fields<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;remaining&nbsp;keyword&nbsp;arguments&nbsp;that&nbsp;do&nbsp;not&nbsp;match&nbsp;fields&nbsp;will&nbsp;be&nbsp;represented&nbsp;by&nbsp;"key=value"&nbsp;strings<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;concatenated&nbsp;together&nbsp;into&nbsp;the&nbsp;"extra"&nbsp;field</tt></dd></dl>
+
+<dl><dt><a name="displaystub-cleanConnectionStore"><strong>cleanConnectionStore</strong></a>(self)</dt><dd><tt>cleans&nbsp;connection&nbsp;store&nbsp;of&nbsp;all&nbsp;information,&nbsp;flushing&nbsp;out&nbsp;data</tt></dd></dl>
+
+<dl><dt><a name="displaystub-cleanup"><strong>cleanup</strong></a>(self, ts)</dt><dd><tt>if&nbsp;cleanup&nbsp;interval&nbsp;expired,&nbsp;close&nbsp;connections&nbsp;not&nbsp;updated&nbsp;in&nbsp;last&nbsp;interval</tt></dd></dl>
+
+<dl><dt><a name="displaystub-close"><strong>close</strong></a>(self, conn, ts<font color="#909090">=None</font>)</dt><dd><tt>for&nbsp;connection&nbsp;based&nbsp;decoders<br>
+close&nbsp;and&nbsp;discard&nbsp;the&nbsp;connection&nbsp;object</tt></dd></dl>
+
+<dl><dt><a name="displaystub-debug"><strong>debug</strong></a>(self, msg)</dt><dd><tt>logs&nbsp;msg&nbsp;at&nbsp;debug&nbsp;level</tt></dd></dl>
+
+<dl><dt><a name="displaystub-decode"><strong>decode</strong></a>(self, *args, **kw)</dt><dd><tt>#&nbsp;we&nbsp;get&nbsp;the&nbsp;raw&nbsp;output&nbsp;from&nbsp;pcapy&nbsp;as&nbsp;header,&nbsp;data</tt></dd></dl>
+
+<dl><dt><a name="displaystub-dump"><strong>dump</strong></a>(self, *args, **kw)</dt><dd><tt>write&nbsp;packet&nbsp;data&nbsp;(probably&nbsp;to&nbsp;the&nbsp;PCAP&nbsp;writer&nbsp;if&nbsp;present)</tt></dd></dl>
+
+<dl><dt><a name="displaystub-error"><strong>error</strong></a>(self, msg)</dt><dd><tt>logs&nbsp;msg&nbsp;at&nbsp;error&nbsp;level</tt></dd></dl>
+
+<dl><dt><a name="displaystub-find"><strong>find</strong></a>(self, addr, state<font color="#909090">=None</font>)</dt></dl>
+
+<dl><dt><a name="displaystub-getASN"><strong>getASN</strong></a>(self, ip, db<font color="#909090">=[]</font>, notfound<font color="#909090">='--'</font>)</dt><dd><tt>Get&nbsp;record&nbsp;associated&nbsp;with&nbsp;an&nbsp;IP<br>
+requires&nbsp;GeoIP</tt></dd></dl>
+
+<dl><dt><a name="displaystub-getGeoIP"><strong>getGeoIP</strong></a>(self, ip, db<font color="#909090">=[]</font>, notfound<font color="#909090">='--'</font>)</dt><dd><tt>Get&nbsp;record&nbsp;associated&nbsp;with&nbsp;an&nbsp;IP<br>
+requires&nbsp;GeoIP</tt></dd></dl>
+
+<dl><dt><a name="displaystub-log"><strong>log</strong></a>(self, msg, level<font color="#909090">=20</font>)</dt><dd><tt>logs&nbsp;msg&nbsp;at&nbsp;specified&nbsp;level&nbsp;(default&nbsp;of&nbsp;INFO&nbsp;is&nbsp;for&nbsp;-v/--verbose&nbsp;output)</tt></dd></dl>
+
+<dl><dt><a name="displaystub-parseArgs"><strong>parseArgs</strong></a>(self, args, options<font color="#909090">={}</font>)</dt><dd><tt>called&nbsp;to&nbsp;parse&nbsp;command-line&nbsp;arguments&nbsp;and&nbsp;cli/config&nbsp;file&nbsp;options<br>
+if&nbsp;options&nbsp;dict&nbsp;contains&nbsp;'all'&nbsp;or&nbsp;the&nbsp;decoder&nbsp;name&nbsp;as&nbsp;a&nbsp;key<br>
+class&nbsp;members&nbsp;will&nbsp;be&nbsp;updated&nbsp;from&nbsp;value</tt></dd></dl>
+
+<dl><dt><a name="displaystub-parseOptions"><strong>parseOptions</strong></a>(self, options<font color="#909090">={}</font>)</dt><dd><tt>option&nbsp;keys:values&nbsp;will&nbsp;set&nbsp;class&nbsp;members&nbsp;(self.<strong>key</strong>=value)<br>
+if&nbsp;key&nbsp;is&nbsp;in&nbsp;optiondict</tt></dd></dl>
+
+<dl><dt><a name="displaystub-postFile"><strong>postFile</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="displaystub-postModule"><strong>postModule</strong></a>(self)</dt><dd><tt>postModule&nbsp;is&nbsp;called&nbsp;after&nbsp;capture&nbsp;stops<br>
+default&nbsp;postModule,&nbsp;prints&nbsp;basic&nbsp;decoding&nbsp;stats</tt></dd></dl>
+
+<dl><dt><a name="displaystub-preFile"><strong>preFile</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="displaystub-preModule"><strong>preModule</strong></a>(self)</dt><dd><tt>preModule&nbsp;is&nbsp;called&nbsp;before&nbsp;capture&nbsp;starts<br>
+default&nbsp;preModule,&nbsp;dumps&nbsp;object&nbsp;data&nbsp;to&nbsp;debug</tt></dd></dl>
+
+<dl><dt><a name="displaystub-stop"><strong>stop</strong></a>(self, conn)</dt><dd><tt>stop&nbsp;following&nbsp;connection<br>
+handlers&nbsp;will&nbsp;not&nbsp;be&nbsp;called,&nbsp;except&nbsp;for&nbsp;connectionCloseHandler</tt></dd></dl>
+
+<dl><dt><a name="displaystub-track"><strong>track</strong></a>(self, addr, data<font color="#909090">=None</font>, ts<font color="#909090">=None</font>, offset<font color="#909090">=None</font>, **kwargs)</dt><dd><tt>connection&nbsp;tracking&nbsp;for&nbsp;TCP&nbsp;and&nbsp;UDP<br>
+finds&nbsp;or&nbsp;creates&nbsp;connection&nbsp;based&nbsp;on&nbsp;addr<br>
+updates&nbsp;connection&nbsp;with&nbsp;data&nbsp;if&nbsp;provided&nbsp;(using&nbsp;offset&nbsp;to&nbsp;reorder)<br>
+tracks&nbsp;timestamps&nbsp;if&nbsp;ts&nbsp;provided<br>
+extra&nbsp;args&nbsp;get&nbsp;passed&nbsp;to&nbsp;new&nbsp;connection&nbsp;objects</tt></dd></dl>
+
+<dl><dt><a name="displaystub-warn"><strong>warn</strong></a>(self, msg)</dt><dd><tt>logs&nbsp;msg&nbsp;at&nbsp;warning&nbsp;level</tt></dd></dl>
+
+<dl><dt><a name="displaystub-write"><strong>write</strong></a>(self, obj, **kw)</dt><dd><tt>write&nbsp;session&nbsp;data</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="dshell.html#Decoder">dshell.Decoder</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-UTF16LEtoUTF8"><strong>UTF16LEtoUTF8</strong></a>(inbytes)</dt></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>NTLMSSP_AUTH</strong> = 3<br>
+<strong>NTLMSSP_CHALLENGE</strong> = 2<br>
+<strong>NTLMSSP_IDENT</strong> = 'NTLMSSP<font color="#c040c0">\x00</font>'<br>
+<strong>SMB_PROTOCOL</strong> = '<font color="#c040c0">\xff</font>SMB'<br>
+<strong>SMB_STATUS_SUCCESS</strong> = 0<br>
+<strong>dObj</strong> = smbdecoder  </td></tr></table>
+</body></html>

@@ -1,0 +1,267 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module colorout</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>colorout</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/xiexianghui/Dshell-master/lib/output/colorout.py">/home/xiexianghui/Dshell-master/lib/output/colorout.py</a></font></td></tr></table>
+    <p><tt>@author:&nbsp;amm</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="cgi.html">cgi</a><br>
+<a href="datetime.html">datetime</a><br>
+</td><td width="25%" valign=top><a href="dshell.html">dshell</a><br>
+<a href="output.html">output</a><br>
+</td><td width="25%" valign=top><a href="string.html">string</a><br>
+<a href="sys.html">sys</a><br>
+</td><td width="25%" valign=top><a href="util.html">util</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="output.html#TextOutput">output.TextOutput</a>(<a href="output.html#FileOutput">output.FileOutput</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="colorout.html#ColorOutput">ColorOutput</a>
+</font></dt><dt><font face="helvetica, arial"><a href="colorout.html#ColorOutput">ColorOutput</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="ColorOutput">class <strong>ColorOutput</strong></a>(<a href="output.html#TextOutput">output.TextOutput</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Color-coded&nbsp;Output&nbsp;module<br>
+use&nbsp;with&nbsp;--output=colorout<br>
+Output&nbsp;to&nbsp;STDOUT&nbsp;will&nbsp;use&nbsp;XTERM&nbsp;color&nbsp;tags,&nbsp;if&nbsp;possible.<br>
+Output&nbsp;to&nbsp;FILE&nbsp;will&nbsp;use&nbsp;HTML<br>
+&nbsp;<br>
+Decoders&nbsp;should&nbsp;call&nbsp;self.<strong>out</strong>.<a href="#ColorOutput-write">write</a>()&nbsp;with&nbsp;string&nbsp;data&nbsp;and&nbsp;the&nbsp;following&nbsp;kwargs:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;formatTag:&nbsp;&nbsp;H1&nbsp;and&nbsp;H2&nbsp;are&nbsp;currently&nbsp;implemented<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;direction:&nbsp;&nbsp;cs&nbsp;/&nbsp;sc<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;timestamp:&nbsp;&nbsp;specify&nbsp;unix&nbsp;timestamp&nbsp;for&nbsp;current&nbsp;object&nbsp;being&nbsp;written<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(bool)&nbsp;to&nbsp;display&nbsp;timestamp<br>
+&nbsp;<br>
+Note&nbsp;Regarding&nbsp;Timestamps:<br>
+-------------------------<br>
+Decoders&nbsp;should&nbsp;*always*&nbsp;specify&nbsp;timestamp&nbsp;information&nbsp;if&nbsp;available&nbsp;in&nbsp;their<br>
+calls&nbsp;to&nbsp;write.&nbsp;&nbsp;(If&nbsp;passing&nbsp;a&nbsp;full&nbsp;blob&nbsp;or&nbsp;connection,&nbsp;colorout&nbsp;will&nbsp;extract<br>
+this&nbsp;information&nbsp;from&nbsp;those&nbsp;objects.)&nbsp;&nbsp;In&nbsp;HTML&nbsp;output&nbsp;mode,&nbsp;the&nbsp;timestamps&nbsp;will<br>
+always&nbsp;be&nbsp;embedded&nbsp;in&nbsp;the&nbsp;HTML&nbsp;with&nbsp;a&nbsp;javascript&nbsp;option&nbsp;to&nbsp;show/hide&nbsp;them.<br>
+Initial&nbsp;display&nbsp;is&nbsp;govered&nbsp;by&nbsp;the&nbsp;boolean&nbsp;kwarg&nbsp;'time'&nbsp;specified&nbsp;in&nbsp;calls<br>
+to&nbsp;<a href="#ColorOutput-write">write</a>().&nbsp;&nbsp;(Defaults&nbsp;to&nbsp;hidden&nbsp;unless&nbsp;a&nbsp;single&nbsp;'true'&nbsp;value&nbsp;is&nbsp;passed.)<br>
+&nbsp;<br>
+Instantiation&nbsp;options<br>
+---------------------<br>
+keyword&nbsp;title:&nbsp;specify&nbsp;HTML&nbsp;title<br>
+keyword&nbsp;force:&nbsp;specify&nbsp;force=true&nbsp;color&nbsp;output&nbsp;(e.g&nbsp;for&nbsp;piping&nbsp;to&nbsp;less&nbsp;-R)<br>
+keyword&nbsp;html:&nbsp;&nbsp;specify&nbsp;html=true&nbsp;for&nbsp;HTML&nbsp;output,&nbsp;even&nbsp;when&nbsp;writing&nbsp;to&nbsp;STDOUT<br>
+&nbsp;<br>
+HTML&nbsp;Generator&nbsp;Mode:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This&nbsp;mode&nbsp;makes&nbsp;the&nbsp;HTML&nbsp;generation/formatting&nbsp;available<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;as&nbsp;a&nbsp;utility&nbsp;to&nbsp;other&nbsp;code:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)&nbsp;Instantiate&nbsp;with&nbsp;keyword&nbsp;htmlgenerator=True:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;colorout.<a href="#ColorOutput">ColorOutput</a>(htmlgenerator=True,&nbsp;title="test")<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2)&nbsp;After&nbsp;one&nbsp;or&nbsp;more&nbsp;calls&nbsp;to&nbsp;<a href="#ColorOutput-write">write</a>(),&nbsp;call&nbsp;<a href="#ColorOutput-close">close</a>()<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3)&nbsp;Dump&nbsp;HTML&nbsp;with&nbsp;<a href="#ColorOutput-htmldump">htmldump</a>()<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="colorout.html#ColorOutput">ColorOutput</a></dd>
+<dd><a href="output.html#TextOutput">output.TextOutput</a></dd>
+<dd><a href="output.html#FileOutput">output.FileOutput</a></dd>
+<dd><a href="output.html#Output">output.Output</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="ColorOutput-__init__"><strong>__init__</strong></a>(self, *args, **kwargs)</dt></dl>
+
+<dl><dt><a name="ColorOutput-close"><strong>close</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="ColorOutput-errorH"><strong>errorH</strong></a>(self, **x)</dt><dd><tt>#&nbsp;Custom&nbsp;error&nbsp;handler&nbsp;for&nbsp;data&nbsp;reassembly&nbsp;---&nbsp;ignores&nbsp;all&nbsp;errors</tt></dd></dl>
+
+<dl><dt><a name="ColorOutput-htmldump"><strong>htmldump</strong></a>(self)</dt><dd><tt>For&nbsp;use&nbsp;in&nbsp;HTML&nbsp;Generator&nbsp;Mode:<br>
+In&nbsp;this&nbsp;mode,&nbsp;HTML&nbsp;generated&nbsp;by&nbsp;calls&nbsp;to&nbsp;<a href="#ColorOutput-write">write</a>()&nbsp;is&nbsp;buffered.&nbsp;&nbsp;This<br>
+&nbsp;&nbsp;function&nbsp;returns&nbsp;the&nbsp;contents&nbsp;of&nbsp;and&nbsp;clears&nbsp;the&nbsp;buffer.</tt></dd></dl>
+
+<dl><dt><a name="ColorOutput-setColorMode"><strong>setColorMode</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="ColorOutput-write"><strong>write</strong></a>(self, *args, **kw)</dt></dl>
+
+<hr>
+Methods inherited from <a href="output.html#TextOutput">output.TextOutput</a>:<br>
+<dl><dt><a name="ColorOutput-alert"><strong>alert</strong></a>(self, *args, **kw)</dt><dd><tt>write&nbsp;an&nbsp;alert&nbsp;record<br>
+we&nbsp;pass&nbsp;in&nbsp;the&nbsp;decoder&nbsp;object&nbsp;and&nbsp;args/dict</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="output.html#Output">output.Output</a>:<br>
+<dl><dt><a name="ColorOutput-dispatch"><strong>dispatch</strong></a>(self, m, *args, **kwargs)</dt><dd><tt>dispatch&nbsp;from&nbsp;Q&nbsp;pop</tt></dd></dl>
+
+<dl><dt><a name="ColorOutput-dump"><strong>dump</strong></a>(self, pkt<font color="#909090">=None</font>, **kw)</dt><dd><tt>dump&nbsp;raw&nbsp;packet&nbsp;data&nbsp;to&nbsp;an&nbsp;output<br>
+override&nbsp;this&nbsp;if&nbsp;you&nbsp;want&nbsp;a&nbsp;format&nbsp;other&nbsp;than&nbsp;pcap</tt></dd></dl>
+
+<dl><dt><a name="ColorOutput-log"><strong>log</strong></a>(self, msg, level<font color="#909090">=20</font>, *args, **kw)</dt><dd><tt>write&nbsp;a&nbsp;message&nbsp;to&nbsp;the&nbsp;log<br>
+passes&nbsp;all&nbsp;args&nbsp;and&nbsp;kwargs&nbsp;thru&nbsp;to&nbsp;logging<br>
+except&nbsp;for&nbsp;level=&nbsp;is&nbsp;used&nbsp;to&nbsp;set&nbsp;logging&nbsp;level</tt></dd></dl>
+
+<dl><dt><a name="ColorOutput-parse"><strong>parse</strong></a>(self, *args, **kw)</dt><dd><tt>parse&nbsp;the&nbsp;input&nbsp;args/kwargs&nbsp;into&nbsp;a&nbsp;record&nbsp;dict&nbsp;according&nbsp;to&nbsp;format&nbsp;string<br>
+-&nbsp;timestamps&nbsp;are&nbsp;formatted&nbsp;to&nbsp;date/time&nbsp;strings<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;fields&nbsp;not&nbsp;in&nbsp;the&nbsp;input&nbsp;will&nbsp;be&nbsp;defined&nbsp;but&nbsp;blank<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;extra&nbsp;fields&nbsp;in&nbsp;the&nbsp;record&nbsp;will&nbsp;be&nbsp;formatted&nbsp;into&nbsp;a<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name=value&nbsp;name2=value2..."&nbsp;string&nbsp;and&nbsp;put&nbsp;in&nbsp;'extra'<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;args&nbsp;will&nbsp;go&nbsp;into&nbsp;'data'<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;format&nbsp;keyword&nbsp;can&nbsp;contain&nbsp;a&nbsp;new&nbsp;format&nbsp;string&nbsp;to&nbsp;use&nbsp;(this&nbsp;also&nbsp;sets&nbsp;format&nbsp;for&nbsp;future&nbsp;output)</tt></dd></dl>
+
+<dl><dt><a name="ColorOutput-setformat"><strong>setformat</strong></a>(self, formatstr<font color="#909090">=None</font>, typemap<font color="#909090">=None</font>)</dt><dd><tt>parse&nbsp;a&nbsp;format&nbsp;string&nbsp;and&nbsp;extract&nbsp;the&nbsp;field&nbsp;info<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;no&nbsp;string&nbsp;given,&nbsp;reverts&nbsp;to&nbsp;default&nbsp;for&nbsp;class<br>
+&nbsp;&nbsp;&nbsp;will&nbsp;set&nbsp;self.<strong>fields</strong>&nbsp;to&nbsp;be&nbsp;a&nbsp;list&nbsp;of&nbsp;(name,type,spec)&nbsp;tuples<br>
+&nbsp;&nbsp;&nbsp;self.<strong>fieldnames</strong>&nbsp;to&nbsp;a&nbsp;list&nbsp;of&nbsp;fieldnames<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and&nbsp;self.<strong>fieldmap</strong>&nbsp;to&nbsp;a&nbsp;list&nbsp;of&nbsp;key=in&nbsp;value=out&nbsp;mappings<br>
+format&nbsp;string&nbsp;can&nbsp;also&nbsp;map&nbsp;in&nbsp;field&nbsp;to&nbsp;out&nbsp;field&nbsp;with&nbsp;%(in:out)spectype<br>
+&nbsp;or&nbsp;specify&nbsp;an&nbsp;explicit&nbsp;out&nbsp;type&nbsp;with&nbsp;%(in:out)specintype:outtype<br>
+(note&nbsp;this&nbsp;breaks&nbsp;compatibility&nbsp;with&nbsp;text&nbsp;formatting,<br>
+&nbsp;&nbsp;but&nbsp;useful&nbsp;for&nbsp;db&nbsp;or&nbsp;other&nbsp;output&nbsp;modules)<br>
+&nbsp;&nbsp;a&nbsp;typemap&nbsp;of&nbsp;[intype]=outtype&nbsp;(or&nbsp;[in]=(newintype,outtype)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;can&nbsp;be&nbsp;used&nbsp;to&nbsp;map&nbsp;and&nbsp;replace&nbsp;types</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="output.html#Output">output.Output</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><strong>obj</strong> = <a name="obj">class ColorOutput</a>(<a href="output.html#TextOutput">output.TextOutput</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Color-coded&nbsp;Output&nbsp;module<br>
+use&nbsp;with&nbsp;--output=colorout<br>
+Output&nbsp;to&nbsp;STDOUT&nbsp;will&nbsp;use&nbsp;XTERM&nbsp;color&nbsp;tags,&nbsp;if&nbsp;possible.<br>
+Output&nbsp;to&nbsp;FILE&nbsp;will&nbsp;use&nbsp;HTML<br>
+&nbsp;<br>
+Decoders&nbsp;should&nbsp;call&nbsp;self.<strong>out</strong>.<a href="#obj-write">write</a>()&nbsp;with&nbsp;string&nbsp;data&nbsp;and&nbsp;the&nbsp;following&nbsp;kwargs:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;formatTag:&nbsp;&nbsp;H1&nbsp;and&nbsp;H2&nbsp;are&nbsp;currently&nbsp;implemented<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;direction:&nbsp;&nbsp;cs&nbsp;/&nbsp;sc<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;timestamp:&nbsp;&nbsp;specify&nbsp;unix&nbsp;timestamp&nbsp;for&nbsp;current&nbsp;object&nbsp;being&nbsp;written<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(bool)&nbsp;to&nbsp;display&nbsp;timestamp<br>
+&nbsp;<br>
+Note&nbsp;Regarding&nbsp;Timestamps:<br>
+-------------------------<br>
+Decoders&nbsp;should&nbsp;*always*&nbsp;specify&nbsp;timestamp&nbsp;information&nbsp;if&nbsp;available&nbsp;in&nbsp;their<br>
+calls&nbsp;to&nbsp;write.&nbsp;&nbsp;(If&nbsp;passing&nbsp;a&nbsp;full&nbsp;blob&nbsp;or&nbsp;connection,&nbsp;colorout&nbsp;will&nbsp;extract<br>
+this&nbsp;information&nbsp;from&nbsp;those&nbsp;objects.)&nbsp;&nbsp;In&nbsp;HTML&nbsp;output&nbsp;mode,&nbsp;the&nbsp;timestamps&nbsp;will<br>
+always&nbsp;be&nbsp;embedded&nbsp;in&nbsp;the&nbsp;HTML&nbsp;with&nbsp;a&nbsp;javascript&nbsp;option&nbsp;to&nbsp;show/hide&nbsp;them.<br>
+Initial&nbsp;display&nbsp;is&nbsp;govered&nbsp;by&nbsp;the&nbsp;boolean&nbsp;kwarg&nbsp;'time'&nbsp;specified&nbsp;in&nbsp;calls<br>
+to&nbsp;<a href="#obj-write">write</a>().&nbsp;&nbsp;(Defaults&nbsp;to&nbsp;hidden&nbsp;unless&nbsp;a&nbsp;single&nbsp;'true'&nbsp;value&nbsp;is&nbsp;passed.)<br>
+&nbsp;<br>
+Instantiation&nbsp;options<br>
+---------------------<br>
+keyword&nbsp;title:&nbsp;specify&nbsp;HTML&nbsp;title<br>
+keyword&nbsp;force:&nbsp;specify&nbsp;force=true&nbsp;color&nbsp;output&nbsp;(e.g&nbsp;for&nbsp;piping&nbsp;to&nbsp;less&nbsp;-R)<br>
+keyword&nbsp;html:&nbsp;&nbsp;specify&nbsp;html=true&nbsp;for&nbsp;HTML&nbsp;output,&nbsp;even&nbsp;when&nbsp;writing&nbsp;to&nbsp;STDOUT<br>
+&nbsp;<br>
+HTML&nbsp;Generator&nbsp;Mode:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This&nbsp;mode&nbsp;makes&nbsp;the&nbsp;HTML&nbsp;generation/formatting&nbsp;available<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;as&nbsp;a&nbsp;utility&nbsp;to&nbsp;other&nbsp;code:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)&nbsp;Instantiate&nbsp;with&nbsp;keyword&nbsp;htmlgenerator=True:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;colorout.<a href="#ColorOutput">ColorOutput</a>(htmlgenerator=True,&nbsp;title="test")<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2)&nbsp;After&nbsp;one&nbsp;or&nbsp;more&nbsp;calls&nbsp;to&nbsp;<a href="#obj-write">write</a>(),&nbsp;call&nbsp;<a href="#obj-close">close</a>()<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3)&nbsp;Dump&nbsp;HTML&nbsp;with&nbsp;<a href="#obj-htmldump">htmldump</a>()<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="colorout.html#ColorOutput">ColorOutput</a></dd>
+<dd><a href="output.html#TextOutput">output.TextOutput</a></dd>
+<dd><a href="output.html#FileOutput">output.FileOutput</a></dd>
+<dd><a href="output.html#Output">output.Output</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="ColorOutput-__init__"><strong>__init__</strong></a>(self, *args, **kwargs)</dt></dl>
+
+<dl><dt><a name="ColorOutput-close"><strong>close</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="ColorOutput-errorH"><strong>errorH</strong></a>(self, **x)</dt><dd><tt>#&nbsp;Custom&nbsp;error&nbsp;handler&nbsp;for&nbsp;data&nbsp;reassembly&nbsp;---&nbsp;ignores&nbsp;all&nbsp;errors</tt></dd></dl>
+
+<dl><dt><a name="ColorOutput-htmldump"><strong>htmldump</strong></a>(self)</dt><dd><tt>For&nbsp;use&nbsp;in&nbsp;HTML&nbsp;Generator&nbsp;Mode:<br>
+In&nbsp;this&nbsp;mode,&nbsp;HTML&nbsp;generated&nbsp;by&nbsp;calls&nbsp;to&nbsp;<a href="#obj-write">write</a>()&nbsp;is&nbsp;buffered.&nbsp;&nbsp;This<br>
+&nbsp;&nbsp;function&nbsp;returns&nbsp;the&nbsp;contents&nbsp;of&nbsp;and&nbsp;clears&nbsp;the&nbsp;buffer.</tt></dd></dl>
+
+<dl><dt><a name="ColorOutput-setColorMode"><strong>setColorMode</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="ColorOutput-write"><strong>write</strong></a>(self, *args, **kw)</dt></dl>
+
+<hr>
+Methods inherited from <a href="output.html#TextOutput">output.TextOutput</a>:<br>
+<dl><dt><a name="ColorOutput-alert"><strong>alert</strong></a>(self, *args, **kw)</dt><dd><tt>write&nbsp;an&nbsp;alert&nbsp;record<br>
+we&nbsp;pass&nbsp;in&nbsp;the&nbsp;decoder&nbsp;object&nbsp;and&nbsp;args/dict</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="output.html#Output">output.Output</a>:<br>
+<dl><dt><a name="ColorOutput-dispatch"><strong>dispatch</strong></a>(self, m, *args, **kwargs)</dt><dd><tt>dispatch&nbsp;from&nbsp;Q&nbsp;pop</tt></dd></dl>
+
+<dl><dt><a name="ColorOutput-dump"><strong>dump</strong></a>(self, pkt<font color="#909090">=None</font>, **kw)</dt><dd><tt>dump&nbsp;raw&nbsp;packet&nbsp;data&nbsp;to&nbsp;an&nbsp;output<br>
+override&nbsp;this&nbsp;if&nbsp;you&nbsp;want&nbsp;a&nbsp;format&nbsp;other&nbsp;than&nbsp;pcap</tt></dd></dl>
+
+<dl><dt><a name="ColorOutput-log"><strong>log</strong></a>(self, msg, level<font color="#909090">=20</font>, *args, **kw)</dt><dd><tt>write&nbsp;a&nbsp;message&nbsp;to&nbsp;the&nbsp;log<br>
+passes&nbsp;all&nbsp;args&nbsp;and&nbsp;kwargs&nbsp;thru&nbsp;to&nbsp;logging<br>
+except&nbsp;for&nbsp;level=&nbsp;is&nbsp;used&nbsp;to&nbsp;set&nbsp;logging&nbsp;level</tt></dd></dl>
+
+<dl><dt><a name="ColorOutput-parse"><strong>parse</strong></a>(self, *args, **kw)</dt><dd><tt>parse&nbsp;the&nbsp;input&nbsp;args/kwargs&nbsp;into&nbsp;a&nbsp;record&nbsp;dict&nbsp;according&nbsp;to&nbsp;format&nbsp;string<br>
+-&nbsp;timestamps&nbsp;are&nbsp;formatted&nbsp;to&nbsp;date/time&nbsp;strings<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;fields&nbsp;not&nbsp;in&nbsp;the&nbsp;input&nbsp;will&nbsp;be&nbsp;defined&nbsp;but&nbsp;blank<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;extra&nbsp;fields&nbsp;in&nbsp;the&nbsp;record&nbsp;will&nbsp;be&nbsp;formatted&nbsp;into&nbsp;a<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name=value&nbsp;name2=value2..."&nbsp;string&nbsp;and&nbsp;put&nbsp;in&nbsp;'extra'<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;args&nbsp;will&nbsp;go&nbsp;into&nbsp;'data'<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;format&nbsp;keyword&nbsp;can&nbsp;contain&nbsp;a&nbsp;new&nbsp;format&nbsp;string&nbsp;to&nbsp;use&nbsp;(this&nbsp;also&nbsp;sets&nbsp;format&nbsp;for&nbsp;future&nbsp;output)</tt></dd></dl>
+
+<dl><dt><a name="ColorOutput-setformat"><strong>setformat</strong></a>(self, formatstr<font color="#909090">=None</font>, typemap<font color="#909090">=None</font>)</dt><dd><tt>parse&nbsp;a&nbsp;format&nbsp;string&nbsp;and&nbsp;extract&nbsp;the&nbsp;field&nbsp;info<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;no&nbsp;string&nbsp;given,&nbsp;reverts&nbsp;to&nbsp;default&nbsp;for&nbsp;class<br>
+&nbsp;&nbsp;&nbsp;will&nbsp;set&nbsp;self.<strong>fields</strong>&nbsp;to&nbsp;be&nbsp;a&nbsp;list&nbsp;of&nbsp;(name,type,spec)&nbsp;tuples<br>
+&nbsp;&nbsp;&nbsp;self.<strong>fieldnames</strong>&nbsp;to&nbsp;a&nbsp;list&nbsp;of&nbsp;fieldnames<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and&nbsp;self.<strong>fieldmap</strong>&nbsp;to&nbsp;a&nbsp;list&nbsp;of&nbsp;key=in&nbsp;value=out&nbsp;mappings<br>
+format&nbsp;string&nbsp;can&nbsp;also&nbsp;map&nbsp;in&nbsp;field&nbsp;to&nbsp;out&nbsp;field&nbsp;with&nbsp;%(in:out)spectype<br>
+&nbsp;or&nbsp;specify&nbsp;an&nbsp;explicit&nbsp;out&nbsp;type&nbsp;with&nbsp;%(in:out)specintype:outtype<br>
+(note&nbsp;this&nbsp;breaks&nbsp;compatibility&nbsp;with&nbsp;text&nbsp;formatting,<br>
+&nbsp;&nbsp;but&nbsp;useful&nbsp;for&nbsp;db&nbsp;or&nbsp;other&nbsp;output&nbsp;modules)<br>
+&nbsp;&nbsp;a&nbsp;typemap&nbsp;of&nbsp;[intype]=outtype&nbsp;(or&nbsp;[in]=(newintype,outtype)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;can&nbsp;be&nbsp;used&nbsp;to&nbsp;map&nbsp;and&nbsp;replace&nbsp;types</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="output.html#Output">output.Output</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>__warningregistry__</strong> = {("Not importing directory '/home/xiexianghui/Dshell-master/lib/output': missing __init__.py", &lt;type 'exceptions.ImportWarning'&gt;, 5): True}</td></tr></table>
+</body></html>
