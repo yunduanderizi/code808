@@ -2,7 +2,7 @@
  *       Filename:  main.c
  *    Description:  
  *        Version:  1.0
- *        Created:  2015年09月09日 10时38分30秒
+ *        Created:  2015年09月09日 11时39分49秒
  *       Revision:  none
  *       Compiler:  gcc
  *         Author:  YOUR NAME (), 
@@ -15,10 +15,6 @@
 	> File Name: main.c
 	> Author: ma6174
 	> Mail: ma6174@163.com 
-	> Created Time: 2015年09月09日 星期三 10时38分30秒
+	> Created Time: 2015年09月09日 星期三 11时39分49秒
  ************************************************************************/
-#include <stdio.h>
-int main ()
-{
-	printf("11111111\n");
-}
+iiii
